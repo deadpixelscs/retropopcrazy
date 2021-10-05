@@ -14,7 +14,8 @@ body {
 
 /*  headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -33,7 +34,8 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -56,12 +58,19 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image */
+/* hero image and cover box with text */
 
 #hero-outer {
-        height: 600px;
-        width: 100%;
-        overflow: hidden;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text,
+#cover-text h2 {
+    color: #02f7b9;
 }
 
 #hero-image {
@@ -69,6 +78,7 @@ h1, h2 {
     width: 100%;
     background: url(../images/Retro-Pop-Crazy-Hero-Image-MBP.jpg) no-repeat center center;
 
+    /* animates zoom on loading page banner */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -76,9 +86,32 @@ h1, h2 {
 
 /* creates zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
-}   
+    }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 170px;
+    height: 110px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+
+    background-color: #050505;
+
+    bottom: 10px;
+    right: 10px;
+
+    position: absolute;
+}
+
