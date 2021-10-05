@@ -1,38 +1,40 @@
-•{
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
 
 body {
-    font-family: ccbiffbamboom, sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 300;
     color: #3a3a3a;
 }
 
-/* headings and logo */
+/*  headings and logo */
 
 h1, h2 {
-    font-family: ccbiffbamboonoutline, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #00ffff;
+    color: #252525;
 }
 
 #logo {
     float: left;
     font-size: 280%;
-    margin-left: 50px;
 }
 
-/* navigation links */
+/* nav links */
 
 #menu {
-    font-size: 80%;
+    font-size: 110%;
     letter-spacing: 4px;
 }
 
 #menu, #logo {
-    line-height: 30px;
+    line-height: 75px;
 }
 
 #menu li {
@@ -47,18 +49,9 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid red
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .active {
-    border-bottom: 1px solid red
+    border-bottom: 1px solid #3a3a3a;
 }
-
-/* Header Image */
-
-#header-image {
-    height: 1600px;
-    width: 300%;
-    background: url(../images/Header-Banner.png);
-}
-
