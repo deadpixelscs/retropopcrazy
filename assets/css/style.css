@@ -54,4 +54,12 @@ h1, h2 {
     border-bottom: 1px solid red
 }
 
+/* Header Image */
+
+#header-image {
+    height: 1600px;
+    width: 267%;
+    size: 10%;
+    background: url(../images/Header-Banner.png);
+}
 
