@@ -1,4 +1,4 @@
-* {
+•{
     margin: 0;
     padding: 0;
     border: none;
@@ -6,20 +6,52 @@
 
 body {
     font-family: ccbiffbamboom, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 1px;
-    font-style: normal;
-    color: #ccff00;
+    color: #3a3a3a;
 }
 
 /* headings and logo */
 
 h1, h2 {
-    font-family: ccbiffbamboomoutline, Arial;
-    font-size: 70px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    font-style: normal;
+    font-family: ccbiffbamboonoutline, sans-serif;
     text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #00ffff;
 }
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 50px;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 80%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 30px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid red
+}
+
+.active {
+    border-bottom: 1px solid red
+}
+
+
