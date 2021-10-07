@@ -124,6 +124,10 @@ h2 {
     height: 600px;
 }
 
+#about-us h1 {
+    text-align: center;
+}
+
 #left-about {
     padding-top: 30px;
     width: 33%;
@@ -147,4 +151,11 @@ h2 {
     padding-top: 60px;
     width: 100%;
     font-size: 100%;
+}
+
+/* About us Info */
+
+.about-us-info {
+    text-align: center;
+    font-size: large;
 }
