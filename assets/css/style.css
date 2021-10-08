@@ -156,3 +156,10 @@ h2 {
     font-size: 25px;
     letter-spacing: 0.5px;
 }
+
+/* About us Image */
+
+#about-us-image {
+    width: 50%;
+    height: 50%;
+}
