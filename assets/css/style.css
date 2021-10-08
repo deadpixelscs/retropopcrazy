@@ -124,38 +124,32 @@ h2 {
     height: 600px;
 }
 
+
 #about-us h1 {
-    text-align: center;
+    margin-top: 10%;
+    margin-right: 22%;
+    text-align: right;
+    font-size: 100px;
+    line-height: 90px;
+    color: azure;
 }
 
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-    background-color: blue;
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    background-color: silver;
-}
 #center-about {
-    width: 100%;
-    height: 600px;
-    background-color: #91ff00;
-}
-
-#center-about h2 {
-    padding-top: 60px;
-    width: 100%;
-    font-size: 100%;
+    margin: 4%;
+    margin-right: 22%;
+    margin-left: 17%;
+    padding-bottom: 500px;
+    column-width: 40px;
+    height: 50px;
+    background-color: #91ff00
 }
 
 /* About us Info */
 
 .about-us-info {
-    text-align: center;
-    font-size: large;
+    margin-top: -20%;
+    margin-right: 22%;
+    text-align: right;
+    font-size: 25px;
+    letter-spacing: 0.5px;
 }
