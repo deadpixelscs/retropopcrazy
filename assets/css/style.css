@@ -4,10 +4,8 @@
     margin: 0;
     padding: 0;
     border: none;
-
-
-
 }
+
 
 body {
     font-family: 'Permanent Marker', cursive;
@@ -18,7 +16,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    }
+}
 
 
 /*  headings and logo */
@@ -150,7 +148,6 @@ h2 {
 }
 
 
-
 /* About us placeholder box */
 
 #center-about {
@@ -161,6 +158,7 @@ h2 {
     height: 450px;
     background-color: #202020
 }
+
 
 /* about us text */
 
@@ -173,7 +171,6 @@ h2 {
     margin-left: 50%;
     margin-top: -27%;
 }
-
 
 
 /* about us image */
@@ -202,11 +199,7 @@ h2 {
 }
 
 
-
-
-
 /* vault header and placeholder */
-
 
 
 #vault-placeholder {
@@ -242,11 +235,7 @@ h2 {
     position: relative;
     margin-top: 0%;
     background-color: #3a3a3a;
-
-    
 }
-
-
 
 
 /* vault section logo motu */
