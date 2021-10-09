@@ -164,6 +164,22 @@ h2 {
     width: 32%;
     height: 32%;
     margin-right: 52%;
+
+    /* animates zoom on loading about us image */
+    animation-name: about-us-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates zoom for vault centered image */
+@keyframes about-us-image-zoom {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
 }
 
 
@@ -217,7 +233,11 @@ h2 {
     position: relative;
     margin-top: 0%;
     background-color: #3a3a3a;
+
+    
 }
+
+
 
 
 /* vault section logo motu */
@@ -280,9 +300,9 @@ footer {
 }
 
 .social-networks i {
-    font-size: 300%;
+    font-size: 400%;
     margin: 1%;
-    padding: 4%;
+    padding: 6%;
 }
 
 
@@ -292,7 +312,7 @@ footer {
 .fa-facebook {
     text-align: center;
     text-decoration: none;
-    color: #91ff00
+    color: #ffffff
 }
 
 
@@ -302,7 +322,7 @@ footer {
 .fa-instagram {
     text-align: center;
     text-decoration: none;
-    color: #91ff00
+    color: #ffffff
 }
 
 /* twitter */
@@ -311,7 +331,7 @@ footer {
 .fa-twitter {
     text-align: center;
     text-decoration: none;
-    color: #91ff00
+    color: #ffffff
 }
 
 /* youtube */
@@ -320,5 +340,5 @@ footer {
 .fa-youtube {
     text-align: center;
     text-decoration: none;
-    color: #91ff00
+    color: #ffffff
 }
