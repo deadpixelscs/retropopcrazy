@@ -191,48 +191,47 @@ h2 {
 }
 
 
-
-/* vault section image one */
-
-
-#vault-image-motu {
-    margin-top: -2%;
-    margin-right: 65%;
-    width: 25%;
-    height: 25%
-}
-
-
-/* vault section image two */
-
-
-#vault-image-bl {
-    margin-top: -20%;
-    margin-right: 45%;
-    width: 15%;
-    height: 15%
-}
-
-
-/* vault section image three */
-
-
-#vault-image-sw {
-    margin-top: 0%;
-    margin-right: 20%;
-    width: 15%;
-    height: 15%
-}
-
 /* vault background */
 
-
-#vault {
-    margin-bottom: -15%;
-    margin-top: 0%;
-    height: 400px;
+#vault-centered {
+    width:922px;
+    height: 250px;
+    margin:0 auto;
+    text-align:left;
+    position:relative;
     background-color: #91ff00;
 }
+
+
+/* vault section logo motu */
+
+#vault-logo-motu {
+    width: 30%;
+    position:absolute;
+    top:25%;
+    left:3%;
+ }
+
+
+ /* vault section logo bl */
+
+ #vault-logo-bl {
+    width: 20%;
+    position:absolute;
+    top:18%;
+    left:41%;
+}
+
+
+/* vault section logo sw */
+
+#vault-logo-sw {
+    width: 23%;
+    position:absolute;
+    top: 30%;
+    left: 72%;
+}
+
 
 /* social media header */
 
@@ -248,8 +247,8 @@ h2 {
 
 }
 
-/* social media background */
 
+/* social media background */
 
 #follow-us {
     margin-bottom: 10%;
