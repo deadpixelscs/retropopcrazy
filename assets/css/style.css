@@ -93,6 +93,7 @@ h2 {
     /* animates zoom on loading page banner */
     animation-name: hero-zoom;
     animation-duration: 5s;
+    animation-delay: 30ms;
     animation-fill-mode: forwards;
 }
 
@@ -163,20 +164,20 @@ h2 {
 
 #about-us-image {
     margin-top: -27%;
-    width: 32%;
-    height: 32%;
-    margin-right: 52%;
+    width: 33%;
+    height: 33%;
+    margin-right: 53%;
 
     /* animates zoom on loading about us image */
     animation-name: about-us-image-zoom;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-fill-mode: forwards;
 }
 
 /* creates zoom for vault centered image */
 @keyframes about-us-image-zoom {
     from {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 
     to {
