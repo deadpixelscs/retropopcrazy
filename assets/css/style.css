@@ -187,18 +187,10 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 10px;
     color: #91ff00;
-    
+
 }
 
-/* vault section background */
 
-
-#vault {
-    margin-bottom: -15%;
-    margin-top: 0%;
-    height: 400px;
-    background-color: #202020;
-}
 
 /* vault section image one */
 
@@ -226,8 +218,42 @@ h2 {
 
 
 #vault-image-sw {
-    margin-top: -25%;
+    margin-top: 0%;
     margin-right: 20%;
     width: 15%;
     height: 15%
+}
+
+/* vault background */
+
+
+#vault {
+    margin-bottom: -15%;
+    margin-top: 0%;
+    height: 400px;
+    background-color: #91ff00;
+}
+
+/* social media header */
+
+#follow-us-header {
+    margin-top: 10%;
+    margin-bottom: -16%;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 5px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #91ff00;
+
+}
+
+/* social media background */
+
+
+#follow-us {
+    margin-bottom: 10%;
+    margin-top: 10%;
+    height: 600px;
+    background-color: #202020;
 }
