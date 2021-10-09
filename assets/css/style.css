@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Permanent+Marker&display=swap');
 
 * {
     margin: 0;
@@ -21,8 +21,7 @@ body {
 
 /*  headings and logo */
 
-h1,
-h2 {
+h1, h2 {
     font-family: 'Permanent Marker', cursive;
     text-transform: uppercase;
     letter-spacing: 10px;
@@ -30,6 +29,7 @@ h2 {
 }
 
 #logo {
+    font-family: 'Bungee Outline', cursive;
     float: left;
     font-size: 280%;
     margin-left: 30px;
