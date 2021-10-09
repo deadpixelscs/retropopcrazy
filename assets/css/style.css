@@ -177,16 +177,17 @@ h2 {
 }
 
 
-/* vault header */
+/* vault header and placeholder */
+
 
 
 #vault-placeholder {
 
     width: 1300px;
     height: 200px;
-    margin:0 auto;
-    text-align:left;
-    position:relative;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
     margin-top: 15%;
     background-color: #202020;
 }
@@ -199,20 +200,18 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 10px;
     color: #91ff00;
-
 }
-
-
 
 
 /* vault background */
 
+
 #vault-centered {
-    width:1300px;
+    width: 1300px;
     height: 350px;
-    margin:0 auto;
-    text-align:left;
-    position:relative;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
     margin-top: 0%;
     background-color: #3a3a3a;
 }
@@ -220,50 +219,51 @@ h2 {
 
 /* vault section logo motu */
 
+
 #vault-logo-motu {
     width: 30%;
-    position:absolute;
-    top:25%;
-    left:3%;
- }
+    position: absolute;
+    top: 25%;
+    left: 3%;
+}
 
 
- /* vault section logo bl */
+/* vault section logo bl */
 
- #vault-logo-bl {
+
+#vault-logo-bl {
     width: 20%;
-    position:absolute;
-    top:18%;
-    left:41%;
+    position: absolute;
+    top: 18%;
+    left: 41%;
 }
 
 
 /* vault section logo sw */
 
+
 #vault-logo-sw {
     width: 23%;
-    position:absolute;
+    position: absolute;
     top: 30%;
     left: 72%;
 }
-
 
 #follow-us-header h1 {
     text-align: center;
     margin-top: 7%;
     font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
     letter-spacing: 5px;
-    font-size: 30px;
     text-transform: uppercase;
     color: #91ff00;
 }
 
 
-
 /* footer */
 
 
-footer{
+footer {
     height: 500px;
 }
 
@@ -282,7 +282,9 @@ footer{
     padding: 4%;
 }
 
+
 /* facebook */
+
 
 .fa-facebook {
     text-align: center;
@@ -290,7 +292,9 @@ footer{
     color: #91ff00
 }
 
+
 /* instagram */
+
 
 .fa-instagram {
     text-align: center;
@@ -300,6 +304,7 @@ footer{
 
 /* twitter */
 
+
 .fa-twitter {
     text-align: center;
     text-decoration: none;
@@ -307,6 +312,7 @@ footer{
 }
 
 /* youtube */
+
 
 .fa-youtube {
     text-align: center;
