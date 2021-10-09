@@ -13,11 +13,13 @@ body {
     font-family: 'Permanent Marker', cursive;
     text-align: right;
     font-weight: 500;
-    background-size: 100%;
     color: #91ff00;
-    background-color: black;
+    background-image: url("../images/Grunge-2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
 
-}
 
 /*  headings and logo */
 
@@ -148,6 +150,7 @@ h2 {
 }
 
 
+
 /* About us placeholder box */
 
 #center-about {
@@ -158,6 +161,19 @@ h2 {
     height: 450px;
     background-color: #202020
 }
+
+/* about us text */
+
+#center-about-info {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 110%;
+    text-align: right;
+    margin-right: 17%;
+    margin-left: 50%;
+    margin-top: -27%;
+}
+
 
 
 /* about us image */
@@ -186,17 +202,7 @@ h2 {
 }
 
 
-/* about us text */
 
-#center-about-info {
-    font-size: 30px;
-    letter-spacing: 2px;
-    line-height: 110%;
-    text-align: right;
-    margin-right: 17%;
-    margin-left: 50%;
-    margin-top: -27%;
-}
 
 
 /* vault header and placeholder */
