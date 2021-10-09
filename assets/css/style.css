@@ -21,7 +21,8 @@ body {
 
 /*  headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Permanent Marker', cursive;
     text-transform: uppercase;
     letter-spacing: 10px;
@@ -77,7 +78,7 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text,
+
 #cover-text h2 {
     color: #ff00b3;
 }
@@ -110,18 +111,20 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 200px;
-    height: 110px;
+    width: 20%;
 
     padding-top: 10px;
     padding-left: 10px;
 
-    background-color: #050505;
 
-    bottom: 10px;
-    right: 10px;
+    bottom: 74%;
+    left: -5%;
 
     position: absolute;
+}
+
+#nycc-image {
+    width: 70%;
 }
 
 /* about us section */
