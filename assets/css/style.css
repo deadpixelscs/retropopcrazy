@@ -7,6 +7,7 @@
 }
 
 
+
 body {
     font-family: 'Permanent Marker', cursive;
     text-align: right;
@@ -21,14 +22,20 @@ body {
 
 /*  headings and logo */
 
-h1,
-h2 {
+
+h1 {
     font-family: 'Permanent Marker', cursive;
     text-transform: uppercase;
     letter-spacing: 10px;
     color: #91ff00
 }
 
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #202020;
+}
 #logo {
     font-family: 'Bungee Outline', cursive;
     float: left;
@@ -39,7 +46,9 @@ h2 {
 }
 
 
+
 /* nav links */
+
 
 #menu {
     font-size: 110%;
@@ -70,7 +79,10 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+
+
 /* hero image and cover box with text */
+
 
 #hero-outer {
     height: 600px;
@@ -81,9 +93,12 @@ h2 {
 }
 
 
+
 #cover-text h2 {
     color: #ff00b3;
 }
+
+
 
 #hero-image {
     height: 600px;
@@ -97,6 +112,7 @@ h2 {
     animation-fill-mode: forwards;
 }
 
+
 /* creates zoom for hero image */
 @keyframes hero-zoom {
     from {
@@ -107,9 +123,6 @@ h2 {
         transform: scale(1.1);
     }
 }
-
-
-
 
 
 
@@ -135,6 +148,8 @@ h2 {
     width: 70%;
 }
 
+
+
 /* about us section */
 
 #about-us {
@@ -153,6 +168,7 @@ h2 {
 }
 
 
+
 /* About us placeholder box */
 
 #center-about {
@@ -163,6 +179,7 @@ h2 {
     height: 450px;
     background-color: #202020
 }
+
 
 
 /* about us text */
@@ -176,6 +193,7 @@ h2 {
     margin-left: 50%;
     margin-top: -27%;
 }
+
 
 
 /* about us image */
@@ -192,6 +210,7 @@ h2 {
     animation-fill-mode: forwards;
 }
 
+
 /* creates zoom for vault centered image */
 @keyframes about-us-image-zoom {
     from {
@@ -202,6 +221,7 @@ h2 {
         transform: scale(1);
     }
 }
+
 
 
 /* vault header and placeholder */
@@ -229,6 +249,7 @@ h2 {
 }
 
 
+
 /* vault background */
 
 
@@ -244,6 +265,7 @@ h2 {
 }
 
 
+
 /* vault section logo motu */
 
 
@@ -255,6 +277,7 @@ h2 {
 }
 
 
+
 /* vault section logo bl */
 
 
@@ -264,6 +287,7 @@ h2 {
     top: 18%;
     left: 41%;
 }
+
 
 
 /* vault section logo sw */
@@ -287,6 +311,7 @@ h2 {
 }
 
 
+
 /* The Vault Page */
 
 #herotwo-image {
@@ -295,6 +320,8 @@ h2 {
     margin-left: 0%;
     background: url(../images/header-banner-the-vault.png) no-repeat center;
 }
+
+
 
 /* vault page pick your pop image */
 
@@ -311,9 +338,10 @@ h2 {
 }
 
 
+
 /* vault page info header  */
 
-#vault-page-header h1 {
+#vault-page-header-h1 {
     margin-top: 12%;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
@@ -322,6 +350,7 @@ h2 {
     letter-spacing: 10px;
     color: #ffffff;
 }
+
 
 
 /* vault page info placeholder */
@@ -336,6 +365,7 @@ h2 {
 }
 
 
+
 /* vault page background */
 
 #vault-page-centered {
@@ -346,6 +376,7 @@ h2 {
     position: relative;
     margin-top: 0%;
 }
+
 
 
 /* vault page section logo motu */
@@ -359,6 +390,7 @@ h2 {
 }
 
 
+
 /* vault section logo bl */
 
 
@@ -368,6 +400,7 @@ h2 {
     top: 18%;
     left: 21%;
 }
+
 
 
 /* vault section logo sw */
@@ -380,6 +413,8 @@ h2 {
     left: 43%;
 }
 
+
+
 /* vault section logo st */
 
 
@@ -389,6 +424,8 @@ h2 {
     top: 40%;
     left: 67%;
 }
+
+
 
 /* vault section logo for click here */
 
@@ -401,60 +438,69 @@ h2 {
 }
 
 
+
 /* vault about info header  */
 
-#vault-about-info-header-h1 {
-    margin-top: 10%;
-    text-align: left;
-    margin-left: 15%;
-    margin-right: 52%;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 30px;
-    text-transform: uppercase;
-    letter-spacing: 8px;
-    line-height: 40px;
-    color: #ffffff;
-}
+
+
 
 
 /* vault center about placeholder */
 
 #vault-center-about-placeholder {
-    margin-top: -15%;
+    margin-top: 2%;
     margin-right: 30%;
     margin-left: 10%;
     height: 340px;
-    background-color: #202020
-
+    background-color: #91ff00;
 }
+
+
 /* vault center about info */
 
+
+#vault-about-info-header-h2 {
+    margin-top: -13%;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 52%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    line-height: 70px;
+
+}
+
 #vault-center-about-info {
-    font-size: 30px;
+    font-size: 24px;
     letter-spacing: 2px;
     line-height: 110%;
     text-align: left;
     margin-right: 55%;
     margin-left: 15%;
-    margin-top: -18%;
+    margin-top: -20%;
     font-family: 'Russo One', sans-serif;
     color: #ffffff;
 }
 
+
 /* vault about image and animation */
 
+
 #vault-about-image {
-    margin-top: -20%;
-    width: 40%;
-    height:40%;
+    margin-top: -10%;
+    width: 41%;
+    height:41%;
     margin-left: 0;
-    margin-right: 8%;
+    margin-right: 10%;
 
     /* animates zoom on loading vault about image */
     animation-name: vault-about-image-zoom;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 
 /* creates zoom for vault centered image */
 @keyframes vault-about-image-zoom {
@@ -466,6 +512,8 @@ h2 {
         transform: scale(1);
     }
 }
+
+
 
 
 /* footer */
