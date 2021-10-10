@@ -108,6 +108,18 @@ h2 {
     }
 }
 
+
+/* The Vault Page */
+
+#herotwo-image {
+    height: 1510px;
+    width: 100%;
+    margin-left: 0%;
+    background: url(../images/header-banner-the-vault.png) no-repeat center;
+}
+
+
+
 #cover-text {
     font-size: 100%;
     font-family: Arial, sans-serif;
@@ -282,6 +294,7 @@ h2 {
 }
 
 
+
 /* footer */
 
 
@@ -341,3 +354,4 @@ footer {
     text-decoration: none;
     color: #ffffff
 }
+
