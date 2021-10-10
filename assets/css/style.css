@@ -340,9 +340,9 @@ h2 {
 
 
 #vault-page-logo-motu {
-    width: 28%;
+    width: 30%;
     position: absolute;
-    top: 25%;
+    top: 28%;
     left: -10%;
 }
 
@@ -354,7 +354,7 @@ h2 {
     width: 18%;
     position: absolute;
     top: 18%;
-    left: 20%;
+    left: 21%;
 }
 
 
@@ -364,8 +364,8 @@ h2 {
 #vault-page-logo-sw {
     width: 20%;
     position: absolute;
-    top: 32%;
-    left: 42%;
+    top: 35%;
+    left: 43%;
 }
 
 /* vault section logo st */
@@ -374,8 +374,18 @@ h2 {
 #vault-page-logo-st {
     width: 20%;
     position: absolute;
-    top: 35%;
-    left: 66%;
+    top: 40%;
+    left: 67%;
+}
+
+/* vault section logo for click here */
+
+
+#vault-page-logo-click {
+    width: 18%;
+    position: absolute;
+    top: 13%;
+    left: 90%;
 }
 
 /* vault about us text */
