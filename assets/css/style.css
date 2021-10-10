@@ -109,14 +109,7 @@ h2 {
 }
 
 
-/* The Vault Page */
 
-#herotwo-image {
-    height: 1510px;
-    width: 100%;
-    margin-left: 0%;
-    background: url(../images/header-banner-the-vault.png) no-repeat center;
-}
 
 
 
@@ -294,6 +287,108 @@ h2 {
 }
 
 
+/* The Vault Page */
+
+#herotwo-image {
+    height: 1510px;
+    width: 100%;
+    margin-left: 0%;
+    background: url(../images/header-banner-the-vault.png) no-repeat center;
+}
+
+/* vault page header and placeholder */
+
+
+#vault-page-placeholder {
+
+    width: 1300px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    margin-top: -39.2%;
+
+}
+
+#vault-page-header h1 {
+    margin-top: 12%;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 140px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #ffffff;
+}
+
+
+/* vault page background */
+
+
+#vault-page-centered {
+    width: 1300px;
+    height: 350px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    margin-top: 0%;
+
+
+}
+
+
+/* vault page section logo motu */
+
+
+#vault-page-logo-motu {
+    width: 28%;
+    position: absolute;
+    top: 25%;
+    left: -10%;
+}
+
+
+/* vault section logo bl */
+
+
+#vault-page-logo-bl {
+    width: 18%;
+    position: absolute;
+    top: 18%;
+    left: 20%;
+}
+
+
+/* vault section logo sw */
+
+
+#vault-page-logo-sw {
+    width: 20%;
+    position: absolute;
+    top: 32%;
+    left: 42%;
+}
+
+/* vault section logo st */
+
+
+#vault-page-logo-st {
+    width: 20%;
+    position: absolute;
+    top: 35%;
+    left: 66%;
+}
+
+/* vault about us text */
+
+#vault-about-info {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 110%;
+    text-align: left;
+    margin-right: 0%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
 
 /* footer */
 
