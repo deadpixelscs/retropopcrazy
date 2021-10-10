@@ -513,6 +513,48 @@ h2 {
     }
 }
 
+/* Placeholder for motu character set */
+
+#character-placeholder-motu {
+    width: 1000px;
+    height: 350px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-top: -10%;
+    background-color: #ffffff;
+
+}
+
+#character-header-motu-1 {
+    margin-top: 10%;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 52%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    line-height: 70px;
+    color: #202020;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
