@@ -296,7 +296,7 @@ h2 {
     background: url(../images/header-banner-the-vault.png) no-repeat center;
 }
 
-/* vault page header and placeholder */
+/* vault page pick your pop image */
 
 
 #vault-page-placeholder {
@@ -310,6 +310,9 @@ h2 {
 
 }
 
+
+/* vault page info header  */
+
 #vault-page-header h1 {
     margin-top: 12%;
     text-align: center;
@@ -321,8 +324,19 @@ h2 {
 }
 
 
-/* vault page background */
+/* vault page info placeholder */
 
+#vault-center-about {
+    margin-bottom: 1%;
+    margin-top: 10%;
+    margin-right: 14%;
+    margin-left: 20%;
+    height: 450px;
+    background-color: #202020
+}
+
+
+/* vault page background */
 
 #vault-page-centered {
     width: 1300px;
@@ -331,8 +345,6 @@ h2 {
     text-align: left;
     position: relative;
     margin-top: 0%;
-
-
 }
 
 
@@ -388,26 +400,81 @@ h2 {
     left: 90%;
 }
 
-/* vault about us text */
 
-#vault-about-info {
+/* vault about info header  */
+
+#vault-about-info-header-h1 {
+    margin-top: 10%;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 52%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+
+/* vault center about placeholder */
+
+#vault-center-about-placeholder {
+    margin-top: -15%;
+    margin-right: 30%;
+    margin-left: 10%;
+    height: 340px;
+    background-color: #202020
+
+}
+/* vault center about info */
+
+#vault-center-about-info {
     font-size: 30px;
     letter-spacing: 2px;
     line-height: 110%;
     text-align: left;
-    margin-right: 0%;
-    margin-left: 4%;
-    margin-top: 3%;
+    margin-right: 53%;
+    margin-left: 10%;
+    margin-top: -16%;
 }
+
+/* vault about image and animation */
+
+#vault-about-image {
+    margin-top: -20%;
+    width: 40%;
+    height:40%;
+    margin-left: 0;
+    margin-right: 8%;
+
+    /* animates zoom on loading vault about image */
+    animation-name: vault-about-image-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+/* creates zoom for vault centered image */
+@keyframes vault-about-image-zoom {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
 
 /* footer */
 
 
 footer {
-    height: 500px;
+    height: 700px;
 }
 
 .social-networks {
+    margin-top: 10%;
     text-align: center;
 
 }
