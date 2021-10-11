@@ -33,15 +33,29 @@ h1 {
 h2 {
     font-family: 'Permanent Marker', cursive;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #202020;
+    letter-spacing: 10px;
+    color: #91ff00
 }
 
 h3 {
     font-family: 'Permanent Marker', cursive;
     text-transform: uppercase;
     letter-spacing: 0px;
+    color: #202020;
+}
+
+h4, h5 {
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0px;
     color: #91ff00;
+}
+
+h6 {
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #ffffff;
 }
 
 #logo {
@@ -164,7 +178,7 @@ h3 {
 }
 
 
-#about-us h1 {
+#about-us h2 {
     margin-top: 5%;
     margin-bottom: 2030%;
     margin-right: 18%;
@@ -245,7 +259,7 @@ h3 {
     background-color: #202020;
 }
 
-#vault-header h1 {
+#vault-header h3 {
     margin-top: 12%;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
@@ -307,7 +321,7 @@ h3 {
     left: 72%;
 }
 
-#follow-us-header h1 {
+#follow-us-header h4 {
     text-align: center;
     margin-top: 7%;
     font-family: 'Permanent Marker', cursive;
@@ -348,7 +362,7 @@ h3 {
 
 /* vault page info header  */
 
-#vault-page-header-h1 {
+#vault-page-header h2 {
     margin-top: 12%;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
@@ -458,13 +472,13 @@ h3 {
 
 /* vault center about info */
 
-#vault-about-info-header-h2 {
+#vault-about-info-header h3 {
     margin-top: -13%;
     text-align: left;
     margin-left: 13%;
     margin-right: 52%;
     font-family: 'Permanent Marker', cursive;
-    font-size: 55px;
+    font-size: 70px;
     text-transform: uppercase;
     letter-spacing: 8px;
     line-height: 70px;
@@ -530,7 +544,7 @@ h3 {
     margin-left: 50%;
     text-align: left;
     font-family: 'Permanent Marker', cursive;
-    font-size: 60px;
+    font-size: 70px;
     text-transform: uppercase;
     letter-spacing: 5px;
     line-height: 70px;
@@ -567,7 +581,7 @@ h3 {
     color: #ffffff;
 }
 
-#rpc-rating h3 {
+#rpc-rating {
     font-size: 50px;
     line-height: 105%;
     text-align: left;
