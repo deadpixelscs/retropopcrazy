@@ -37,6 +37,13 @@ h2 {
     color: #202020;
 }
 
+h3 {
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #91ff00;
+}
+
 #logo {
     font-family: 'Bungee Outline', cursive;
     float: left;
@@ -507,20 +514,26 @@ h2 {
 
 /* Vault first character MOTU */
 
-#vault-motu-title {
-    margin-top: 10%;
-    width: 60%;
-    height: 50%
-}
+
 
 #vault-motu-box {
-    margin-top: -10%;
+    margin-top: -15%;
     margin-right: 0%;
     margin-left: 0%;
-    height: 340px;
+    height: 600px;
     background-color: #40423e;
 }
 
+#vault-motu-title {
+    margin-top: 7%;
+    margin-left: 40%;
+    text-align: left;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 90px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    line-height: 110px;
+}
 
 
 
