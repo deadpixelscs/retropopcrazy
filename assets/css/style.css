@@ -529,7 +529,6 @@ h6 {
 /* Vault first RPC character MOTU */
 
 
-
 #rpc-motu-box {
     margin-top: -21%;
     margin-right: 0%;
@@ -604,7 +603,6 @@ h6 {
 /* Vault first RPC character BL */
 
 
-
 #rpc-bl-box {
     margin-top: -21%;
     margin-right: 0%;
@@ -676,6 +674,78 @@ h6 {
 }
 
 
+/* Vault first RPC character SW */
+
+
+#rpc-sw-box {
+    margin-top: -21%;
+    margin-right: 0%;
+    margin-left: 5%;
+    width: 90%;
+    height: 900px;
+    background-color: #202020;
+}
+
+#rpc-sw-title h4 {
+    margin-top: 62%;
+    margin-bottom: -20%;
+    margin-left: 0%;
+    text-align: left;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 70px;
+}
+
+#rpc-sw-image-container {
+    width: 600px;
+    height: 600px;
+    margin-top: -42%;
+    margin-left: 12%;
+    box-shadow: -10px 10px 12px #000000;
+
+}
+
+#rpc-sw-info {
+    font-size: 20px;
+    line-height: 130%;
+    text-align: left;
+    margin-right: 10%;
+    margin-left: 50%;
+    margin-top: -20%;
+    font-family: 'Russo One', sans-serif;
+    color: #ffffff;
+}
+
+#rpc-sw-title {
+    font-size: 40px;
+    line-height: 135%;
+    text-align: left;
+    margin-right: 10%;
+    margin-left: 50%;
+    margin-top: 1%;
+    font-family: 'Russo One', sans-serif;
+    color: #ffffff;
+}
+
+#rpc-sw-rating h6 {
+    font-size: 50px;
+    line-height: 100%;
+    text-align: left;
+    margin-right: 0%;
+    margin-left: 75%;
+    margin-top: -6%;
+    font-family: 'Russo One', sans-serif;
+    color: #ffffff;
+}
+
+#rpc-sw-logo-box {
+    width: 6%;
+    position: absolute;
+    margin-top: -33.5%;
+    left: 49.5%;
+}
 
 
 /* footer */
