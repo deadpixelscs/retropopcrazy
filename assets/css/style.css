@@ -179,12 +179,12 @@ h6 {
 
 
 #about-us h2 {
-    margin-top: 5%;
-    margin-bottom: 2030%;
-    margin-right: 18%;
-    text-align: right;
+    margin-top: 6%;
+    margin-bottom: 203%;
+    text-align: center;
     font-size: 100px;
-    line-height: 90px;
+    line-height: 95px;
+    letter-spacing: 2px;
     color: azure;
 }
 
@@ -193,11 +193,11 @@ h6 {
 /* About us placeholder box */
 
 #center-about {
-    margin-bottom: 1%;
+    margin-bottom: -6%;
     margin-top: -18%;
     margin-right: 14%;
     margin-left: 20%;
-    height: 450px;
+    height: 550px;
     background-color: #202020
 }
 
@@ -206,13 +206,13 @@ h6 {
 /* about us text */
 
 #center-about-info {
-    font-size: 30px;
+    font-size: 33px;
     letter-spacing: 2px;
     line-height: 110%;
     text-align: right;
-    margin-right: 17%;
-    margin-left: 50%;
-    margin-top: -27%;
+    margin-right: 19%;
+    margin-left: 52%;
+    margin-top: -29%;
 }
 
 
@@ -220,7 +220,7 @@ h6 {
 /* about us image */
 
 #about-us-image {
-    margin-top: -27%;
+    margin-top: -26%;
     width: 33%;
     height: 33%;
     margin-right: 53%;
