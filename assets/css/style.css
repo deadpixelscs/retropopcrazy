@@ -747,6 +747,43 @@ h6 {
     left: 49.5%;
 }
 
+/* Sign up page */
+
+/* Sign up background image */
+
+#signup-background-image {
+    padding-top: 27.5%;
+    height: 1400px;
+    width: 100%;
+    margin-left: 0%;
+    background: url(../images/sign-up-background.png) no-repeat center;
+}
+
+#signup-page-placeholder {
+    width: 1300px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    margin-top: -39.2%;
+
+}
+
+#signup-page-header {
+    margin-top: 12%;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 140px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #ffffff;
+
+}
+
+
+
+
+
 
 /* footer */
 
