@@ -473,15 +473,15 @@ h6 {
 /* vault center about info */
 
 #vault-about-info-header h3 {
-    margin-top: -13%;
+    margin-top: -15%;
     text-align: left;
     margin-left: 13%;
     margin-right: 52%;
     font-family: 'Permanent Marker', cursive;
-    font-size: 70px;
+    font-size: 90px;
     text-transform: uppercase;
-    letter-spacing: 8px;
-    line-height: 70px;
+    letter-spacing: 4px;
+    line-height: 85px;
 
 }
 
