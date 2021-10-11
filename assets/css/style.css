@@ -520,25 +520,26 @@ h3 {
     margin-top: -15%;
     margin-right: 0%;
     margin-left: 0%;
-    height: 800px;
+    height: 900px;
     background-color: #202020;
 }
 
 #vault-motu-title {
-    margin-top: 10%;
+    margin-top: 20%;
+    margin-bottom: -20%;
     margin-left: 50%;
     text-align: left;
     font-family: 'Permanent Marker', cursive;
-    font-size: 70px;
+    font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    line-height: 80px;
+    line-height: 70px;
 }
 
 #vault-motu-image-container {
     width: 600px;
     height: 600px;
-    margin-top: -38%;
+    margin-top: -42%;
     margin-left: 12%;
     box-shadow: -10px 10px 12px #000000;
 
@@ -550,7 +551,7 @@ h3 {
     text-align: left;
     margin-right: 10%;
     margin-left: 50%;
-    margin-top: -23%;
+    margin-top: -20%;
     font-family: 'Russo One', sans-serif;
     color: #ffffff;
 }
@@ -561,7 +562,7 @@ h3 {
     text-align: left;
     margin-right: 10%;
     margin-left: 50%;
-    margin-top: 4%;
+    margin-top: 1%;
     font-family: 'Russo One', sans-serif;
     color: #ffffff;
 }
@@ -578,6 +579,13 @@ h3 {
     color: #ffffff;
 }
 
+#vault-motu-logo-box {
+    width: 10%;
+    position: absolute;
+    margin-top: -34.5%;
+    left: 49%;
+}
+    
 
 
 
