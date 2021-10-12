@@ -535,7 +535,7 @@ h6 {
     margin-left: 5%;
     width: 90%;
     height: 900px;
-    background-color: #202020;
+    background-color: rgba(20, 20, 20, 0.8);
 }
 
 #rpc-motu-title h4 {
@@ -609,7 +609,7 @@ h6 {
     margin-left: 5%;
     width: 90%;
     height: 900px;
-    background-color: #202020;
+    background-color: rgba(253, 0, 200, 0.4);
 }
 
 #rpc-bl-title h4 {
@@ -683,7 +683,7 @@ h6 {
     margin-left: 5%;
     width: 90%;
     height: 900px;
-    background-color: #202020;
+    background-color: rgba(65, 126, 73, 0.4);
 }
 
 #rpc-sw-title h4 {
@@ -749,54 +749,66 @@ h6 {
 
 /* Sign up page */
 
-/* Sign up background image */
 
-#signup-background-image {
-    padding-top: 37.5%;
-    margin-bottom: 20%;
+/* Newsletter form */
+
+.form-section {
+    clear: left;
+    background: url(../images/formbg.png);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: rgb(0, 255, 42);
+    background-color: rgba(0, 0, 0, 0.9);
+    max-width: 1000px;
+    position: absolute;
+    left: 20%;
+    padding: 30px;
+}
+
+.signup-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
     width: 100%;
-    margin-left: 0%;
-    background: url(../images/sign-up-background-small.png) no-repeat center;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
 }
 
 
-/* Container holding the image and the text */
 
 
 
 
-.container {
-    position: relative;
-  }
-  
-  /* Header in text container */
-
-
-
-  .text-block {
-    position: absolute;
-    top: 15%;
-    right: 25%;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  
-  .text-block h2 {
-      font-size: 42px;
-      line-height: 45px;
-
-  }
-
-
-
-
-
-
-/* footer */
-
-/* footer */
 
 /* footer */
 
@@ -828,7 +840,7 @@ footer {
 .fa-facebook {
     text-align: center;
     text-decoration: none;
-    color: #ffffff
+    color: rgba(255, 255, 255, 0.2);
 }
 
 
@@ -838,7 +850,7 @@ footer {
 .fa-instagram {
     text-align: center;
     text-decoration: none;
-    color: #ffffff
+    color: rgba(255, 255, 255, 0.2);
 }
 
 /* twitter */
@@ -847,7 +859,7 @@ footer {
 .fa-twitter {
     text-align: center;
     text-decoration: none;
-    color: #ffffff
+    color: rgba(255, 255, 255, 0.2);
 }
 
 /* youtube */
@@ -856,5 +868,5 @@ footer {
 .fa-youtube {
     text-align: center;
     text-decoration: none;
-    color: #ffffff
+    color: rgba(255, 255, 255, 0.2);
 }

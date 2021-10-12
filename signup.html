@@ -33,15 +33,40 @@
         </nav>
     </header>
 
-    <section>
-        <div id="signup-background-image"></div>
-    </section>
+    <section class="form-section">
+        <form class="signup-form" method="post" action="https://retropopcrazy.com">
+            
+            <h2>Sign up for our monthly newsletter</h2>
 
-    <section>
-        <section id="signup-page-header">
-        <div class="text-block">
-          <h2>Please sign up for all the<br>latest news and reviews!</h2>
-        </div>
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" name="first_name" type="text" required>
+            
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" name="last_name" type="text" required>
+            
+            <label for="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
+
+            <label for="age">Age</label>
+            <input class="text-input" type="age" id="age" type="number" required>
+            
+            <label for="motu">Motu</label>
+            <input type="checkbox" id="motu" name="favourite_franchise" value="motu" required>
+            <label for="blacklight">Blacklight</label>
+            <input type="checkbox" id="blacklight" name="favourite_franchise" value="" required>
+            <label for="star-wars">Star Wars</label>
+            <input type="checkbox" id="star-wars" name="favourite_franchise" value="both" required>
+            <label for="marvel">Marvel</label>
+            <input type="checkbox" id="marvel" name="favourite_franchise" value="" required>
+            <label for="strangerthings">Stranger Things</label>
+            <input type="checkbox" id="stranger-things" name="favourite_franchise" value="both" required>
+            <label for="tmnt">TMNT</label>
+            <input type="checkbox" id="tmnt" name="favourite_franchise" value="both" required>
+            <label for="other">Other</label>
+            <input type="checkbox" id="other" name="favourite_franchise" value="both" required>
+            
+            <input class="join-button" type="submit" value="Let's get Funko!">
+        </form>
     </section>
 
 
