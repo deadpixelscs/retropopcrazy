@@ -66,7 +66,7 @@ h6 {
     float: left;
     font-size: 170%;
     letter-spacing: 0px;
-    margin-left: 30px;
+    margin-left: 46px;
     color: #ffffff
 }
 
@@ -78,6 +78,7 @@ h6 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    margin-right: 16px;
 }
 
 #menu,
