@@ -1,12 +1,13 @@
 # RETRO POP CRAZY
 
-Retro Pop Crazy is a website for collectors worldwide of Funko Pop figures. This can be used as a resource with detailed information about each Funko Pop in my collection. Take a trip down memory lane with a nostalgic throwback to the 80's and 90's cartoon and Tv shows that we all grew up and loved. Funko gets licensed brands and makes figurines based on their characters. These can range from your standard Pop! figureine to special movie moments, extra large 10" figures and much more. In particular they release Exclusives that quickly become rare and of value due to their low production runs of 2000 or so pieces worldwide. Funko Pop is currently a $700 million market worldwide. Every year brands like Comic Con stage events for rare and exclusive Pops! for the general public to attend.
+Retro Pop Crazy is a website for collectors worldwide of Funko Pop figures. This can be used as a resource with detailed information about each Funko Pop in my collection. Take a trip down memory lane with a nostalgic throwback to the 80's and 90's cartoon and Tv shows that we all grew up and loved. Funko gets licensed brands and makes figurines based on their characters. These can range from your standard Pop! 
+ to special movie moments, extra large 10" figures and much more. In particular they release Exclusives that quickly become rare and of value due to their low production runs of 2000 or so pieces worldwide. Funko Pop is currently a $700 million market worldwide. Every year brands like Comic Con stage events for rare and exclusive Pops! for the general public to attend.
 
-This website will focus on the franchises that I enjoyed most as a child like the Masters of the Universe, Star Wars and Marvel as well as introducing some new franchises like Stranger Things, The Mandalorian and a miscellanous section.
+This website will focus on the franchises that I enjoyed most as a child like the Masters of the Universe, Star Wars and Marvel as well as introducing some new franchises like Stranger Things, The Mandalorian and a miscellaneous section.
 
-Each Pop! will be showcased from my collection with perosnal fan art that I have designed, the franschise or brand, a description about the character, its rare rating, current market value and catalogue number. These will all go in the Vault section of the website where users can select there favourite franchise and it will take them to a section on the page where they can see all this information and imagery.
+Each Pop! will be showcased from my collection with personal fan art that I have designed, the franchise or brand, a description about the character, its rare rating, current market value and catalogue number. These will all go in the Vault section of the website where users can select their favourite franchise and it will take them to a section on the page where they can see all this information and imagery.
 
-There will also be a Radar page added later to the site which is a news feature focusing on specific new releases or rare an dexclusive Pops!, details of upcoming events and links to purchase from global retailers.
+There will also be a Radar page added later to the site which is a news feature focusing on specific new releases or rare and exclusive Pops!, details of upcoming events and links to purchase from global retailers.
 
 I hope you enjoy the website and please sign up to our monthly newsletter for news, information, reviews and competitions.
 
@@ -56,7 +57,7 @@ INSERT IMAGE MOCKUP HERE
 
   - This is the Vault page where all the good things happen. An attractive image header displayed at the top is titled Pick Your POP! Franchise designed in Photoshop.
   - This section then features information about what to expect when a user clicks on one of the iconic brand logos below it. This section also introduces the user to Retro Pop Crazy with an eye catching zoom animation on an image to grab their attention.
-  - This section has 5 logos the user can select. Masters of the Universe, Marvel Black Light, Star Wars, Stranger Things and a final logo showing other Pop! figures in our collection of a miscellanous nature.
+  - This section has 5 logos the user can select. Masters of the Universe, Marvel Black Light, Star Wars, Stranger Things and a final logo showing other Pop! figures in our collection of a miscellaneous nature.
   - Once a user clicks on a brand logo the page will scroll down to that specific section and allow the user to go through each Pop! image and details.
   - This section will focus on Masters of the Universe, Marvel Black Light, Star Wars with Stranger Things and misc to be added later.
 
@@ -64,22 +65,24 @@ INSERT IMAGE MOCKUP HERE
 
 - __Sign Up Page__
 
-  - This page will allow the user to sign up to a monthly newsletter that will be sent to there email address. The user will be able specify if they would like to receive this or not every month, name their favourite franchise, name their favourite figure. The user will also be asked to submit their full name and email address. 
+  - This page will allow the user to sign up to a monthly newsletter that will be sent to their email address. The user will be able specify if they would like to receive this or not every month, name their favourite franchise, name their favourite figure. The user will also be asked to submit their full name and email address. 
 
 INSERT IMAGE MOCKUP HERE
 
+- __Project Progression__
+
+  - This page will allow the user to sign up to a monthly newsletter that will be sent to there email address. The user will be able specify if they would like to receive this or not every month, name their favourite franchise, name their favourite figure. The user will also be asked to submit their full name and email address. 
 
 
 ### Features Left to Implement
 
 **12th October 2021 - Logo links need connecting to correct pages**
 **12th October 2021 - Add text to socials and fix alignment**
-**12th October 2021 - Add text to socials and fix alignment**
-**12th October 2021 - Reduce siz eof landing page logos and put Stranger Things on and other**
+**12th October 2021 - Reduce size of landing page logos and put Stranger Things on and other**
 **12th October 2021 - Contact information to footer**
-**12th October 2021 - Form issues. Check the checklists to not be required.**
+**12th October 2021 - Form issues. Check the checklists to not be on required.**
 **12th October 2021 - Slightly move logo and nav bars in a bit**
-**12th October 2021 - Responsive**
+**12th October 2021 - Make responsive on mobile, desktop and tablet.**
 
 
 ## Testing 
