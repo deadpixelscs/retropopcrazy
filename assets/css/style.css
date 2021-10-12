@@ -825,14 +825,14 @@ input[type='checkbox'] {
     cursor: pointer;
     width: 30px;
     height: 30px;
-    background-color: #202020;
+    background-color: #000;
     border-radius: 0.25em;
     border: 0.125em solid #00ff00;
     position: relative;
   }
   
   input[type='checkbox']:checked {
-    background: #adf;
+    background: #202020;
   }
   
   input[type='checkbox']:checked:after {
@@ -841,7 +841,7 @@ input[type='checkbox'] {
     font-size: 200%;
     left: 0.0625em;
     top: -0.25em;
-    color: #ffffff;
+    color: #00ff00;
   }
 
 
