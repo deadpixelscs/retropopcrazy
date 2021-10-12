@@ -509,6 +509,7 @@ h6 {
     height: 41%;
     margin-left: 0;
     margin-right: 10%;
+    
 
     /* animates zoom on loading vault about image */
     animation-name: vault-about-image-zoom;
