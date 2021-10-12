@@ -74,7 +74,9 @@ INSERT IMAGE MOCKUP HERE
   - This page will allow the user to sign up to a monthly newsletter that will be sent to there email address. The user will be able specify if they would like to receive this or not every month, name their favourite franchise, name their favourite figure. The user will also be asked to submit their full name and email address. 
 
 
-### Features Left to Implement
+# Features Left to Implement
+
+## To do
 
 **12th October 2021 - Logo links need connecting to correct pages**
 **12th October 2021 - Add text to socials and fix alignment**
@@ -83,6 +85,10 @@ INSERT IMAGE MOCKUP HERE
 **12th October 2021 - Form issues. Check the checklists to not be on required.**
 **12th October 2021 - Slightly move logo and nav bars in a bit**
 **12th October 2021 - Make responsive on mobile, desktop and tablet.**
+
+## Completed
+
+12th October 2021 21:56 - Slightly move logo and nav bars in a bit
 
 
 ## Testing 
