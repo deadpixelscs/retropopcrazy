@@ -72,7 +72,15 @@ INSERT IMAGE MOCKUP HERE
 
 ### Features Left to Implement
 
-- Another feature idea
+**12th October 2021 - Logo links need connecting to correct pages**
+**12th October 2021 - Add text to socials and fix alignment**
+**12th October 2021 - Add text to socials and fix alignment**
+**12th October 2021 - Reduce siz eof landing page logos and put Stranger Things on and other**
+**12th October 2021 - Contact information to footer**
+**12th October 2021 - Form issues. Check the checklists to not be required.**
+**12th October 2021 - Slightly move logo and nav bars in a bit**
+**12th October 2021 - Responsive**
+
 
 ## Testing 
 
@@ -124,7 +132,7 @@ You can break the credits section up into Content and Media, depending on what y
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 
-
+#
 
 
 
