@@ -54,8 +54,11 @@ h4, h5 {
 h6 {
     font-family: 'Permanent Marker', cursive;
     text-transform: uppercase;
-    letter-spacing: 10px;
-    color: #ffffff;
+    letter-spacing: 1px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: 30px;
+    color: #ffffff; 
 }
 
 #logo {
@@ -762,7 +765,7 @@ h6 {
 
 .signup-form {
     margin: 150px 10% 0 0;
-    color: rgb(0, 255, 42);
+    color: #91ff00;
     background-color: rgba(0, 0, 0, 0.9);
     max-width: 1000px;
     position: absolute;
@@ -773,6 +776,9 @@ h6 {
 .signup-form h2 {
     color: #fafafa;
     margin-bottom: 20px;
+    font-size: 65px;
+    line-height: 60px;
+    letter-spacing: 1px;
 }
 
 .text-input {
@@ -790,13 +796,14 @@ h6 {
 }
 
 .join-button {
-    margin-top: 20px;
-    border-radius: 2px;
+    margin-top: -57px;
+    border-radius: 50px;
     padding: 15px 32px;
+    font-family: 'Russo One', sans-serif;
     text-align: center;
-    font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
+    font-size: 130%;
+    background-color: #91ff00;
+    color: #000000;
     display: block;
 }
 .join-button:hover {
