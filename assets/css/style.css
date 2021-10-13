@@ -188,7 +188,7 @@ h6 {
     font-size: 100px;
     line-height: 95px;
     letter-spacing: 2px;
-    color: #00ff00;
+    color: #91ff00;
 }
 
 
@@ -865,7 +865,7 @@ h6 {
 
 .join-button:hover {
     background-color: #fafafa;
-    color: #00ff00;
+    color: #91ff00;
 }
 
 input[type='checkbox'] {
@@ -880,7 +880,7 @@ input[type='checkbox'] {
     height: 30px;
     background-color: #000;
     border-radius: 0.25em;
-    border: 0.125em solid #00ff00;
+    border: 0.125em solid #91ff00;
     position: relative;
 }
 
@@ -894,7 +894,7 @@ input[type='checkbox']:checked:after {
     font-size: 200%;
     left: 0.0625em;
     top: -0.25em;
-    color: #00ff00;
+    color: #91ff00;
 }
 
 /* footer */
