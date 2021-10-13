@@ -80,19 +80,23 @@ INSERT IMAGE MOCKUP HERE
   - 12th October 2021 - Logo links need connecting to correct pages
   - 12th October 2021 - Add text to socials and fix alignment
   - 12th October 2021 - Reduce size of landing page logos and put Stranger Things on and other
-  - 12th October 2021 - Contact information to footer
   - 12th October 2021 - Form issues. Check the checklists to not be on required
   - 12th October 2021 - Slightly move logo and nav bars in a bit
-  - 12th October 2021 - Make responsive on mobile, desktop and tablet
   - 13th October 2021 - Change Pure Nostalgia Image
+  - 13th October 2021 - Add animation to images in the vault
+  - 13th October 2021 - Make responsive on mobile, desktop and tablet
   - 13th October 2021 - Check all html code, especially in thevault.html
+  - 13th October 2021 - Contact information to footer
 
 ## Completed
 
   - 12th October 2021 21:56 - Slightly move logo and nav bars in a bit
   - 13th October 2021 00:08 - Form issues. Check the checklists to not be on required
-  - 12th October 2021 01:18 - Add text to socials and fix alignment
+  - 13th October 2021 01:18 - Add text to socials and fix alignment
   - 13th October 2021 01:29 - Change Pure Nostalgia Image
+  - 13th October 2021 01:45 - Reduce size of landing page logos and put Stranger Things on and other
+  - 13th October 2021 02:10 - Logo links need connecting to correct pages
+  - 13th October 2021 02:32 - Add animation to images in the vault
 
 
 ## Testing 
