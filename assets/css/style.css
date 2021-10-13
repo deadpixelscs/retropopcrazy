@@ -580,6 +580,7 @@ h6 {
 
 #rpc-motu-rating h6 {
     font-size: 50px;
+    letter-spacing: 5px;
     line-height: 100%;
     text-align: left;
     margin-right: 0%;
@@ -654,6 +655,7 @@ h6 {
 
 #rpc-bl-rating h6 {
     font-size: 50px;
+    letter-spacing: 5px;
     line-height: 100%;
     text-align: left;
     margin-right: 0%;
@@ -666,7 +668,7 @@ h6 {
 #rpc-bl-logo-box {
     width: 4.5%;
     position: absolute;
-    margin-top: -33.5%;
+    margin-top: -34.9%;
     left: 49.5%;
 }
 
@@ -728,6 +730,7 @@ h6 {
 
 #rpc-sw-rating h6 {
     font-size: 50px;
+    letter-spacing: 5px;
     line-height: 100%;
     text-align: left;
     margin-right: 0%;
@@ -740,7 +743,7 @@ h6 {
 #rpc-sw-logo-box {
     width: 6%;
     position: absolute;
-    margin-top: -33.5%;
+    margin-top: -34.2%;
     left: 49.5%;
 }
 
@@ -846,6 +849,17 @@ footer {
 #follow-us-header h4 {
     text-align: center;
     margin-top: 2%;
+    margin-bottom: 7%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #91ff00;
+}
+
+#follow-us-header-vault h4 {
+    text-align: center;
+    margin-top: 15%;
     margin-bottom: 7%;
     font-family: 'Permanent Marker', cursive;
     font-size: 100px;
