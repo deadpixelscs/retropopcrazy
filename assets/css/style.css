@@ -325,15 +325,7 @@ h6 {
     left: 72%;
 }
 
-#follow-us-header h4 {
-    text-align: center;
-    margin-top: 7%;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 100px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #91ff00;
-}
+
 
 
 
@@ -394,7 +386,7 @@ h6 {
 /* vault page background */
 
 #vault-page-centered {
-    width: 1300px;
+    width: 1000px;
     height: 350px;
     margin: 0 auto;
     text-align: left;
@@ -408,10 +400,10 @@ h6 {
 
 
 #vault-page-logo-motu {
-    width: 30%;
+    width: 27%;
     position: absolute;
-    top: 28%;
-    left: -10%;
+    top: 30%;
+    left: -8%;
 }
 
 
@@ -420,9 +412,9 @@ h6 {
 
 
 #vault-page-logo-bl {
-    width: 18%;
+    width: 16%;
     position: absolute;
-    top: 18%;
+    top: 25%;
     left: 21%;
 }
 
@@ -432,10 +424,10 @@ h6 {
 
 
 #vault-page-logo-sw {
-    width: 20%;
+    width: 18%;
     position: absolute;
-    top: 35%;
-    left: 43%;
+    top: 34%;
+    left: 41%;
 }
 
 
@@ -446,8 +438,8 @@ h6 {
 #vault-page-logo-st {
     width: 20%;
     position: absolute;
-    top: 40%;
-    left: 67%;
+    top: 36%;
+    left: 63%;
 }
 
 
@@ -456,10 +448,10 @@ h6 {
 
 
 #vault-page-logo-click {
-    width: 18%;
+    width: 15%;
     position: absolute;
-    top: 13%;
-    left: 90%;
+    top: 25%;
+    left: 86%;
 }
 
 
@@ -844,12 +836,6 @@ input[type='checkbox'] {
     color: #00ff00;
   }
 
-
-
-
-
-
-
 /* footer */
 
 
@@ -857,8 +843,19 @@ footer {
     height: 700px;
 }
 
+#follow-us-header h4 {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #91ff00;
+}
+
 .social-networks {
-    margin-top: 10%;
+    margin-top: -8%;
     text-align: center;
 
 }
@@ -868,9 +865,10 @@ footer {
 }
 
 .social-networks i {
-    font-size: 400%;
+    font-size: 500%;
     margin: 1%;
     padding: 6%;
+    padding-bottom: 7%;
 }
 
 
@@ -880,7 +878,7 @@ footer {
 .fa-facebook {
     text-align: center;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 1);
 }
 
 
@@ -890,7 +888,7 @@ footer {
 .fa-instagram {
     text-align: center;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 1);
 }
 
 /* twitter */
@@ -899,7 +897,7 @@ footer {
 .fa-twitter {
     text-align: center;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 1);
 }
 
 /* youtube */
@@ -908,5 +906,53 @@ footer {
 .fa-youtube {
     text-align: center;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 1);
+}
+
+#social-info-facebook h4 {
+    text-align: center;
+    margin-top: -5%;
+    margin-left: -56%;
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #91ff00;
+}
+
+#social-info-instagram h4 {
+    text-align: center;
+    margin-top: -5.4%;
+    margin-left: -19.8%;
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#social-info-twitter h4 {
+    text-align: center;
+    margin-top: -5.4%;
+    margin-left: 18%;
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #00ff00;
+}
+
+#social-info-youtube h4 {
+    text-align: center;
+    margin-top: -5.4%;
+    margin-left: 56%;
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
 }

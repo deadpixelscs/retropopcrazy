@@ -77,18 +77,18 @@ INSERT IMAGE MOCKUP HERE
 # Features Left to Implement
 
 ## To do
-
-**12th October 2021 - Logo links need connecting to correct pages**
-**12th October 2021 - Add text to socials and fix alignment**
-**12th October 2021 - Reduce size of landing page logos and put Stranger Things on and other**
-**12th October 2021 - Contact information to footer**
-**12th October 2021 - Form issues. Check the checklists to not be on required.**
-**12th October 2021 - Slightly move logo and nav bars in a bit**
-**12th October 2021 - Make responsive on mobile, desktop and tablet.**
+  - 12th October 2021 - Logo links need connecting to correct pages
+  - 12th October 2021 - Add text to socials and fix alignment
+  - 12th October 2021 - Reduce size of landing page logos and put Stranger Things on and other
+  - 12th October 2021 - Contact information to footer
+  - 12th October 2021 - Form issues. Check the checklists to not be on required.
+  - 12th October 2021 - Slightly move logo and nav bars in a bit
+  - 12th October 2021 - Make responsive on mobile, desktop and tablet.
 
 ## Completed
 
 12th October 2021 21:56 - Slightly move logo and nav bars in a bit
+13th October 2021 00:08 - Form issues. Check the checklists to not be on required.
 
 
 ## Testing 
