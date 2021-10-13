@@ -1001,7 +1001,7 @@ footer {
     letter-spacing: 2px;
     line-height: 32px;
     text-transform: uppercase;
-    color: #91ff00;
+    color: rgba(187, 187, 187, 0.6);
 }
 
 #social-info-instagram h4 {
@@ -1013,7 +1013,7 @@ footer {
     letter-spacing: 2px;
     line-height: 32px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: rgba(187, 187, 187, 0.6);
 }
 
 #social-info-twitter h4 {
@@ -1025,17 +1025,17 @@ footer {
     letter-spacing: 2px;
     line-height: 32px;
     text-transform: uppercase;
-    color: #00ff00;
+    color: rgba(187, 187, 187, 0.6);
 }
 
 #social-info-youtube h4 {
     text-align: center;
-    margin-top: -5.4%;
+    margin-top: -5.5%;
     margin-left: 56%;
     font-family: 'Russo One', sans-serif;
     font-size: 25px;
     letter-spacing: 2px;
     line-height: 32px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: rgba(187, 187, 187, 0.6);
 }
