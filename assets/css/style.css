@@ -758,7 +758,7 @@ h6 {
     background-size: cover;
     background-position: center;
 
-    height: 900px;
+    height: 950px;
 }
 
 .signup-form {
@@ -860,6 +860,17 @@ footer {
 #follow-us-header-vault h4 {
     text-align: center;
     margin-top: 15%;
+    margin-bottom: 7%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #91ff00;
+}
+
+#follow-us-header-signup h4 {
+    text-align: center;
+    margin-top: 6%;
     margin-bottom: 7%;
     font-family: 'Permanent Marker', cursive;
     font-size: 100px;
