@@ -1106,7 +1106,7 @@ footer {
         margin-top: 2%;
         width: 100%;
     }
-    
+
     #vault-header h3 {
 
         font-size: 142px;
@@ -1154,7 +1154,7 @@ footer {
     }
 }
 
-    /* For landing page 16" laptop screen sizes from 2072px wide and down */
+/* For landing page 16" laptop screen sizes from 2072px wide and down */
 @media screen and (max-width: 2072px) {
 
     #logo {
@@ -1234,262 +1234,385 @@ footer {
 
 }
 
-    /* For landing page macbook screen sizes from 1792px wide and down */
-    @media screen and (max-width: 1792px) 
-    
-    {
-    
-            #logo {
-            margin-bottom: 1.7%;
-            font-size: 57px;
-            margin-left: 3.4%;
-            margin-top: 2%;
-        }
-    
-        #menu li {
-            font-size: 25px;
-            text-align: right;
-            margin-top: 2%;
-            margin-right: 3%;
-        }
+/* For landing page macbook screen sizes from 1792px wide and down */
+@media screen and (max-width: 1792px) {
 
-        #hero-image {
-            background: url("../images/Header-Banner-1792.png") no-repeat !important;
-            margin-top: 0%;
-        }
+    #logo {
+        margin-bottom: 1.7%;
+        font-size: 57px;
+        margin-left: 3.4%;
+        margin-top: 2%;
+    }
 
-        #about-us h2 {
-            margin-top: 6%;
-            margin-bottom: 203%;
-            text-align: center;
-            font-size: 152px;
-            line-height: 138px;
-            letter-spacing: 2px;
-            color: #91ff00;
-        }
+    #menu li {
+        font-size: 25px;
+        text-align: right;
+        margin-top: 2%;
+        margin-right: 3%;
+    }
 
-        
+    #hero-image {
+        background: url("../images/Header-Banner-1792.png") no-repeat !important;
+        margin-top: 0%;
+    }
 
-        #center-about {
-            display: block;
-            width: 1161px;
-            height: 980px;
-            margin-left: 29%;
-            margin-top: -10%;
-        }
+    #about-us h2 {
+        margin-top: 6%;
+        margin-bottom: 203%;
+        text-align: center;
+        font-size: 152px;
+        line-height: 138px;
+        letter-spacing: 2px;
+        color: #91ff00;
+    }
 
-        #vault-header h3 {
 
-            font-size: 142px;
-            margin-top: 15%;
-            margin-left: -1%;
-        }
-    
-        #center-about-info {
-            font-size: 42px;
-            margin-left: 57%;
-            margin-right: 12%;
-            margin-top: -43.2%;
-        }
-    
-        #about-us-image {
-            display: block;
-            margin-top: -48.5%;
-            margin-left: 9%;
-        }
 
-        #follow-us-header h4 {
-            font-size: 142px;
-            margin-top: 7%;
-        }
+    #center-about {
+        display: block;
+        width: 1161px;
+        height: 980px;
+        margin-left: 29%;
+        margin-top: -10%;
+    }
 
-        #social-info-facebook h4 {
-            font-size: 25px;
-            line-height: 34px;
-            margin-top: -4.5%;
-            margin-left: -56%;
-        }
-    
-        #social-info-instagram h4 {
-            font-size: 25px;
-            line-height: 34px;
-            margin-top: -5.6%;
-            margin-left: -18%;
-        }
-    
-        #social-info-twitter h4 {
-            font-size: 25px;
-            line-height: 34px;
-            margin-top: -5.8%;
-            margin-left: 17%;
-        }
-    
-        #social-info-youtube h4 {
-            ont-size: 25px;
-            line-height: 34px;
-            margin-top: -5.6%;
-            margin-left: 55%;
-        }
+    #vault-header h3 {
+
+        font-size: 142px;
+        margin-top: 15%;
+        margin-left: -1%;
+    }
+
+    #center-about-info {
+        font-size: 42px;
+        margin-left: 57%;
+        margin-right: 12%;
+        margin-top: -43.2%;
+    }
+
+    #about-us-image {
+        display: block;
+        margin-top: -48.5%;
+        margin-left: 9%;
+    }
+
+    #follow-us-header h4 {
+        font-size: 142px;
+        margin-top: 7%;
+    }
+
+    #social-info-facebook h4 {
+        font-size: 25px;
+        line-height: 34px;
+        margin-top: -4.5%;
+        margin-left: -56%;
+    }
+
+    #social-info-instagram h4 {
+        font-size: 25px;
+        line-height: 34px;
+        margin-top: -5.6%;
+        margin-left: -18%;
+    }
+
+    #social-info-twitter h4 {
+        font-size: 25px;
+        line-height: 34px;
+        margin-top: -5.8%;
+        margin-left: 17%;
+    }
+
+    #social-info-youtube h4 {
+        ont-size: 25px;
+        line-height: 34px;
+        margin-top: -5.6%;
+        margin-left: 55%;
+    }
 
 
 }
 
 
-    /* For landing page ipad screen sizes from 768px wide and down */
-    @media screen and (max-width: 768px) 
-    
-{
-        #logo {
-            font-size: 69px;
-            /* text-align: center; */
-            margin-left: 53px;
-            margin-top: 6%;
-            }
-        
-        
-        
-            #menu li {
-                font-size: 33px;
-                margin-left: 15px;
-                margin-top: -1%;
-                margin-right: 75px;
-                letter-spacing: 1px;
-            }
-        
-        
-            #hero-image {
-                background: url("../images/Header-Banner-tablet.png") no-repeat !important;
-                margin-top: 53px;
-                padding: -9%;
-            }
-        
-        
-            #nycc-image {
-                width: 109%;
-                margin-bottom: 28%;
-                margin-left: 42px;
-            }
-        
-            #about-us h2 {
-                font-size: 72px;
-                margin-top: -29%;
-                line-height: 79px;
-            }
-        
-            #center-about {
-                display: block;
-                height: 320px;
-                margin-top: -51%;
-                margin-right: 46px;
-                margin-bottom: -3%;
-            }
-        
-            #center-about-info {
-                font-size: 18px;
-                margin-left: 54%;
-                margin-right: 8%;
-                margin-top: -43.6%;
-            }
-            
-            #about-us-image {
-                display: block;
-                margin-top: -39%;
-                margin-left: 7%;
-            }
-        
-            #vault-placeholder {
-                margin-top: 0%;
-                height: 0%;
-            }
-            
-            #vault-header h3 {
-                font-size: 72px;
-                margin-left: 0%;
-                margin-top: 22%;
-            }
-        
-            #vault-page-centered {
-                margin-left: 10%;
-                width: 85%;
-                margin-top: -7%;
-            }
-        
-            #vault-page-logo-motu {
-                top: 32%;
-            }
-        
-            #vault-page-logo-bl {
-                top: 29%;
-            }
-        
-            #vault-page-logo-click {
-                top: 29%;
-            }
-        
-            #follow-us-header h4 {
-                font-size: 72px;
-                margin-top: -5%;
-            }
-        
-            .social-networks i {
-                font-size: 250%;
-                margin: 0%;
-                padding: 8%;
-                padding-bottom: 7%;
-            }
-        
-            #social-info-facebook h4 {
-                font-size: 10px;
-                line-height: 15px;
-                margin-top: -3.5%;
-                margin-left: -66%;
-            }
-        
-            #social-info-instagram h4 {
-                font-size: 10px;
-                line-height: 15px;
-                margin-top: -5.9%;
-                margin-left: -22%;
-            }
-        
-            #social-info-twitter h4 {
-                font-size: 10px;
-                line-height: 15px;
-                margin-top: -5.8%;
-                margin-left: 20%;
-            }
-        
-            #social-info-youtube h4 {
-                font-size: 10px;
-                line-height: 15px;
-                margin-top: -5.9%;
-                margin-left: 65%;
-            }
-        
-}
-        
+/* For landing page ipad screen sizes from 768px wide and down */
+@media screen and (max-width: 768px) {
+    #logo {
+        font-size: 69px;
+        margin-left: 53px;
+        margin-top: 6%;
+    }
 
 
 
-
-    
-
-
-
-    
-
-
-
+    #menu li {
+        font-size: 33px;
+        margin-left: 15px;
+        margin-top: -1%;
+        margin-right: 75px;
+        letter-spacing: 1px;
+    }
 
 
+    #hero-image {
+        background: url("../images/Header-Banner-tablet.png") no-repeat !important;
+        margin-top: 53px;
+        padding: -9%;
+    }
 
 
+    #nycc-image {
+        width: 109%;
+        margin-bottom: 28%;
+        margin-left: 42px;
+    }
 
+    #about-us h2 {
+        font-size: 72px;
+        margin-top: -29%;
+        line-height: 79px;
+    }
+
+    #center-about {
+        display: block;
+        height: 320px;
+        margin-top: -51%;
+        margin-right: 46px;
+        margin-bottom: -3%;
+    }
+
+    #center-about-info {
+        font-size: 18px;
+        margin-left: 54%;
+        margin-right: 8%;
+        margin-top: -43.6%;
+    }
+
+    #about-us-image {
+        display: block;
+        margin-top: -39%;
+        margin-left: 7%;
+    }
+
+    #vault-placeholder {
+        margin-top: 0%;
+        height: 0%;
+    }
+
+    #vault-header h3 {
+        font-size: 72px;
+        margin-left: 0%;
+        margin-top: 22%;
+    }
+
+    #vault-page-centered {
+        margin-left: 10%;
+        width: 85%;
+        margin-top: -7%;
+    }
+
+    #vault-page-logo-motu {
+        top: 32%;
+    }
+
+    #vault-page-logo-bl {
+        top: 29%;
+    }
+
+    #vault-page-logo-click {
+        top: 29%;
+    }
+
+    #follow-us-header h4 {
+        font-size: 72px;
+        margin-top: -5%;
+    }
+
+    .social-networks i {
+        font-size: 250%;
+        margin: 0%;
+        padding: 8%;
+        padding-bottom: 7%;
+    }
+
+    #social-info-facebook h4 {
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: -3.5%;
+        margin-left: -66%;
+    }
+
+    #social-info-instagram h4 {
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: -5.9%;
+        margin-left: -22%;
+    }
+
+    #social-info-twitter h4 {
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: -5.8%;
+        margin-left: 20%;
+    }
+
+    #social-info-youtube h4 {
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: -5.9%;
+        margin-left: 65%;
+    }
 
 }
 
 
+/* For landing page iphone X screen sizes from 375px wide and down */
+@media screen and (max-width: 375px) {
+
+    #logo {
+        font-size: 84px;
+        margin-top: 8%;
+        margin-right: 7%;
+        line-height: 75px;
+    }
+
+
+
+    #menu li {
+        font-size: 20px;
+        margin-left: 16px;
+        margin-top: -5%;
+        margin-right: 7px;
+        letter-spacing: 1px;
+    }
+
+
+    #hero-image {
+        background: url("../images/Header-Banner-mobile-2.png") no-repeat !important;
+        margin-top: 53px;
+        padding: -9%;
+    }
+
+
+    #nycc-image {
+        width: 242%;
+        margin-bottom: 33%;
+        margin-left: 176px;
+    }
+
+    #about-us h2 {
+        font-size: 72px;
+        margin-top: -29%;
+        line-height: 79px;
+    }
+
+    #center-about {
+        display: block;
+        height: 320px;
+        margin-top: -51%;
+        margin-right: 46px;
+        margin-bottom: -3%;
+    }
+
+    #center-about-info {
+        font-size: 18px;
+        margin-left: 54%;
+        margin-right: 8%;
+        margin-top: -43.6%;
+    }
+
+    #about-us-image {
+        display: block;
+        margin-top: -39%;
+        margin-left: 7%;
+    }
+
+    #vault-placeholder {
+        margin-top: 0%;
+        height: 0%;
+    }
+
+    #vault-header h3 {
+        font-size: 72px;
+        margin-left: 0%;
+        margin-top: 22%;
+    }
+
+    #vault-page-centered {
+        margin-left: 10%;
+        width: 85%;
+        margin-top: -7%;
+    }
+
+    #vault-page-logo-motu {
+        top: 32%;
+    }
+
+    #vault-page-logo-bl {
+        top: 29%;
+    }
+
+    #vault-page-logo-click {
+        top: 29%;
+    }
+
+    #follow-us-header h4 {
+        font-size: 72px;
+        margin-top: -5%;
+    }
+
+    .social-networks i {
+        font-size: 250%;
+        margin: 0%;
+        padding: 8%;
+        padding-bottom: 7%;
+    }
+
+    #social-info-facebook h4 {
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: -3.5%;
+        margin-left: -66%;
+    }
+
+    #social-info-instagram h4 {
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: -5.9%;
+        margin-left: -22%;
+    }
+
+    #social-info-twitter h4 {
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: -5.8%;
+        margin-left: 20%;
+    }
+
+    #social-info-youtube h4 {
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: -5.9%;
+        margin-left: 65%;
+    }
+
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
