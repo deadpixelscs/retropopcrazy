@@ -120,9 +120,7 @@ h6 {
 
 
 
-#cover-text h2 {
-    color: #ff00b3;
-}
+
 
 
 
@@ -203,7 +201,7 @@ h6 {
     margin-right: 14%;
     margin-left: 20%;
     height: 550px;
-    background-color: #202020
+    background-color: rgba(20, 20, 20, 0.8);
 }
 
 
@@ -263,7 +261,7 @@ h6 {
     text-align: left;
     position: relative;
     margin-top: 15%;
-    background-color: #202020;
+    background-color: rgba(20, 20, 20, 0.8);
 }
 
 #vault-header h3 {
