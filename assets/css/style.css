@@ -1039,3 +1039,146 @@ footer {
     text-transform: uppercase;
     color: #686868
 }
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px){
+    #about-us{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #about-us-info {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+
+    #about-us h2{
+        margin-top: 10%;
+        height:;
+        margin:;
+    }
+
+
+    #center-about{
+        margin-top: -70%;
+        margin-bottom: -7%;
+        clear: both;
+        padding: 0px;
+        margin-right: 5%;
+    }
+
+    #about-us-image {
+        margin-top: -35%;
+        width: 38%;
+        clear: both;
+    }
+
+    #center-about-info{
+        font-size: 30px;
+        margin-top: -38.8%;
+        clear: both;
+        padding: 0px;
+        margin-right: 10%;
+    }
+
+    #vault-placeholder {
+        margin-top: 10%;
+    }
+
+    #vault-page-centered {
+        margin-left: 10%;
+        margin-top: 8%;    
+    }
+
+    #vault-header h3 {
+        margin-left: -8%;
+    }
+
+    #social-info-facebook h4 {
+        font-size: 20px;
+        margin-right: 13%;
+    }
+
+    #social-info-instagram h4 {
+        font-size: 20px;
+        margin-right: 4%;
+        margin-top: -8%;
+    }
+
+    #social-info-twitter h4 {
+        font-size: 20px;
+        margin-right: -4%;
+        margin-top: -8%;
+    }
+
+    #social-info-youtube h4 {
+        font-size: 20px;
+        margin-right: -12%;
+        margin-top: -8%;
+    }
+
+    .social-networks i {
+        font-size: 500%;
+        margin: 0%;
+        padding: 8%;
+        padding-bottom: 7%;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* For medium screens sizes from 950px wide and down */
+
+
+
+
+
+
+
+
+
+index.js (Not used)
+
+/*
+  DO NOT EDIT THIS CODE!
+  
+  This is helper code so that you can examine your site in a
+  new tab using Chrome Developer Tools. If you edit or remove
+  this code, you will not be able to do that. It is not part
+  of the project and you don't need to worry about how it works.
+*/
+
+if (localStorage.openedTab) {
+    // In case the browser or the tab crashes, this way the student will
+    // have to wait until the next day for localStorage to be cleared
+    
+    var openedTab = JSON.parse(localStorage.getItem("openedTab"))
+    var now = new Date();
+    now.setHours(0);
+    now.setMinutes(0);
+    now.setSeconds(0);
+    now.setMilliseconds(0);
+    
+    var then = new Date(openedTab.expiry);
+    
+    if (now >= then) {
+        localStorage.removeItem("openedTab");
+    }
+}
+
+if (window.self != window.top && !localStorage.openedTab) {
+    var now = new Date();
+    var dts = now.getFullYear() + "/" + (now.getMonth() + 1) + "/" + (now.getDate() + 1);
+    openedTab = { opened: true, expiry: dts};
+    localStorage.setItem("openedTab", JSON.stringify(openedTab));
+    window.open(window.location.pathname,'_blank');
+} else {
+    window.addEventListener("unload", function() {
+        localStorage.removeItem("openedTab");
+    });
+}
