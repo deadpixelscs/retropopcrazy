@@ -1001,7 +1001,7 @@ footer {
     letter-spacing: 2px;
     line-height: 32px;
     text-transform: uppercase;
-    color: rgba(187, 187, 187, 0.6);
+    color: #686868
 }
 
 #social-info-instagram h4 {
@@ -1013,7 +1013,7 @@ footer {
     letter-spacing: 2px;
     line-height: 32px;
     text-transform: uppercase;
-    color: rgba(187, 187, 187, 0.6);
+    color: #686868
 }
 
 #social-info-twitter h4 {
@@ -1025,7 +1025,7 @@ footer {
     letter-spacing: 2px;
     line-height: 32px;
     text-transform: uppercase;
-    color: rgba(187, 187, 187, 0.6);
+    color: #686868
 }
 
 #social-info-youtube h4 {
@@ -1037,5 +1037,5 @@ footer {
     letter-spacing: 2px;
     line-height: 32px;
     text-transform: uppercase;
-    color: rgba(187, 187, 187, 0.6);
+    color: #686868
 }
