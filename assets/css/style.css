@@ -44,7 +44,8 @@ h3 {
     color: #202020;
 }
 
-h4, h5 {
+h4,
+h5 {
     font-family: 'Permanent Marker', cursive;
     text-transform: uppercase;
     letter-spacing: 0px;
@@ -58,13 +59,13 @@ h6 {
     margin-top: 1%;
     margin-bottom: 2%;
     font-size: 25px;
-    color:#91ff00; 
+    color: #91ff00;
 }
 
 #logo {
     font-family: 'Bungee Outline', cursive;
     float: left;
-    font-size: 170%;
+    font-size: 225%;
     letter-spacing: 0px;
     margin-left: 46px;
     color: #ffffff
@@ -502,7 +503,7 @@ h6 {
     height: 41%;
     margin-left: 0;
     margin-right: 10%;
-    
+
 
     /* animates zoom on loading vault about image */
     animation-name: vault-about-image-zoom;
@@ -554,6 +555,24 @@ h6 {
     margin-left: 12%;
     box-shadow: -10px 10px 12px #000000;
 
+    /* animates zoom on rpc motu image image */
+    animation-name: rpc-motu-image-zoom;
+    animation-duration: 3s;
+    animation-delay: 5ms;
+    animation-fill-mode: forwards;
+}
+
+
+/* creates zoom for rpc motu image image */
+@keyframes rpc-motu-image-zoom {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1.0);
+    }
+
 }
 
 #rpc-motu-info {
@@ -596,7 +615,7 @@ h6 {
     margin-top: -34.5%;
     left: 49%;
 }
-    
+
 
 /* Vault first RPC character BL */
 
@@ -628,6 +647,26 @@ h6 {
     margin-top: -42%;
     margin-left: 12%;
     box-shadow: -10px 10px 12px #000000;
+
+    /* animates zoom on rpc bl image image */
+    animation-name: rpc-bl-image-zoom;
+    animation-duration: 3s;
+    animation-delay: 5ms;
+    animation-fill-mode: forwards;
+}
+
+
+/* creates zoom for rpc bl image image */
+@keyframes rpc-bl-image-zoom {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1.0);
+    }
+
+
 
 }
 
@@ -703,6 +742,24 @@ h6 {
     margin-top: -42%;
     margin-left: 12%;
     box-shadow: -10px 10px 12px #000000;
+
+            /* animates zoom on rpc sw image image */
+            animation-name: rpc-sw-image-zoom;
+            animation-duration: 3s;
+            animation-delay: 5ms;
+            animation-fill-mode: forwards;
+        }
+        
+        
+        /* creates zoom for rpc sw image image */
+        @keyframes rpc-sw-image-zoom {
+            from {
+                transform: scale(1.2);
+            }
+        
+            to {
+                transform: scale(1.0);
+            }
 
 }
 
@@ -805,6 +862,7 @@ h6 {
     color: #ffffff;
     display: block;
 }
+
 .join-button:hover {
     background-color: #fafafa;
     color: #00ff00;
@@ -824,20 +882,20 @@ input[type='checkbox'] {
     border-radius: 0.25em;
     border: 0.125em solid #00ff00;
     position: relative;
-  }
-  
-  input[type='checkbox']:checked {
+}
+
+input[type='checkbox']:checked {
     background: #202020;
-  }
-  
-  input[type='checkbox']:checked:after {
+}
+
+input[type='checkbox']:checked:after {
     content: "✔";
     position: absolute;
     font-size: 200%;
     left: 0.0625em;
     top: -0.25em;
     color: #00ff00;
-  }
+}
 
 /* footer */
 
