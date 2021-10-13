@@ -184,13 +184,13 @@ h6 {
 
 
 #about-us h2 {
-    margin-top: 6%;
+    margin-top: 5%;
     margin-bottom: 203%;
     text-align: center;
     font-size: 100px;
     line-height: 95px;
     letter-spacing: 2px;
-    color: azure;
+    color: #00ff00;
 }
 
 
@@ -211,13 +211,15 @@ h6 {
 /* about us text */
 
 #center-about-info {
+    font-family: 'Russo One', sans-serif;
+    color:#ffffff;
     font-size: 33px;
     letter-spacing: 2px;
     line-height: 110%;
-    text-align: right;
-    margin-right: 19%;
+    text-align: left;
+    margin-right: 18%;
     margin-left: 52%;
-    margin-top: -29%;
+    margin-top: -28.5%;
 }
 
 
