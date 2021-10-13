@@ -1042,7 +1042,7 @@ footer {
 
 /* Media queries */
 
-/* For tablet screen sizes from 768px wide and down */
+/* For landing page tablet screen sizes from 768px wide and down */
 @media screen and (max-width: 768px) {
 
 
@@ -1165,5 +1165,145 @@ footer {
         margin-top: -5.9%;
         margin-left: 65%;
     }
+
+}
+
+/* For landing page large mobile screen sizes from 425px wide and down */
+@media screen and (max-width: 425px) {
+    
+    
+    #logo {
+        font-size: 37px;
+        margin-left: 10%;
+        margin-top: 4%;
+    }
+
+    #menu li {
+        font-size: 20px;
+        text-align: center;
+        margin-top: -7%;
+        margin-left: 26px;
+        letter-spacing: 3px;
+    }
+
+    #hero-image {
+        background: url(../images/header-banner-425.png) no-repeat !important;
+        height: 37%;
+        margin-top: 1%;
+    }
+
+    #nycc-image {
+        width: 147%;
+        margin-bottom: 100%;
+        margin-left: 32px;
+    }
+
+    #about-us h2 {
+        font-size: 37px;
+        margin-top: -74%;
+        line-height: 45px;
+    }
+
+    #center-about {
+        display: block;
+        height: 332px;
+        width: 85%;
+        margin-top: -17%;
+        margin-left: 32px;
+        margin-bottom: -170%;
+    }
+
+    #center-about-info {
+        font-size: 18px;
+        margin-left: 16%;
+        margin-right: 19%;
+        margin-top: 13%;
+    }
+
+    #about-us-image {
+        display: block;
+        width: 85%;
+        margin-top: -1%;
+        margin-left: 8%;
+    }
+
+    #vault-placeholder {
+        margin-top: -20%;
+        height: 20%;
+        width: 85%;
+    }
+    
+    #vault-header h3 {
+        font-size: 49px;
+        margin-left: 0%;
+        margin-top: 45%;
+        letter-spacing: 2px;
+    }
+
+    #vault-page-centered {
+        margin-left: 10%;
+        width: 85%;
+        margin-top: -5%;
+    }
+
+    #vault-page-logo-motu {
+        top: 17%;
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    #vault-page-logo-bl {
+        top: 68%;
+        width: 72%;
+        margin-left: -9%;
+    }
+
+    #vault-page-logo-sw {
+        top: 148%;
+        width: 77%;
+        margin-left: -32%;
+    }
+
+    #vault-page-logo-st {
+        top: 200%;
+        width: 75%;
+        margin-left: -53%;
+        
+    }
+
+    #vault-page-logo-click {
+        top: 239%;
+        width: 43%;
+        margin-left: -59%;
+        
+    }
+
+    #follow-us-header h4 {
+        font-size: 49px;
+        margin-top: 164%;
+        margin-left: 2%;
+        letter-spacing: 2px;
+    }
+
+    .social-networks i {
+        font-size: 100%;
+        margin: 0%;
+        padding: 8%;
+        padding-bottom: 7%;
+    }
+
+} 
+
+
+/* Hide social media info when below 425px */
+
+@media screen and (min-width: 200px) and (max-width: 425px) {
+
+    #social-info-facebook { display: none; }   /* hide it elsewhere */
+    #social-info-instagram { display: none; }   /* hide it elsewhere */
+    #social-info-twitter { display: none; }   /* hide it elsewhere */
+    #social-info-youtube { display: none; }   /* hide it elsewhere */
+    
+
 
 }
