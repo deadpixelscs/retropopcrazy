@@ -1199,45 +1199,129 @@ footer {
 @media screen and (max-width: 2560px) {
 
 
-        
-        #herotwo-image {
-            background: url(../images/header-banner-the-vault.png) no-repeat center;
-            height: 1605px;
-            width: 98%;
-            margin-left: 0%;
-        }
 
-        #vault-about-info-header h3 {
-            margin-top: 16%;
-            text-align: left;
-            margin-left: 13%;
-            margin-right: 52%;
-            font-family: 'Permanent Marker', cursive;
-            font-size: 90px;
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            line-height: 85px;
-        
-        }
-
-            #vault-page-centered {
-        margin-left: 10%;
-        width: 85%;
-        margin-top: -7%;
+    #herotwo-image {
+        background: url(../images/pick-your-pop-2560.png) no-repeat center;
+        height: 2335px;
+        width: 100%;
+        margin-left: 0%;
     }
 
-        #vault-page-logo-click-screens {
-            width: 13%;
-            position: absolute;
-            top: 111%;
-            left: -2%;
-        }
+    #vault-page-header h2 {
+        margin-top: 16%;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 140px;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        color: #ffffff;
+    }
 
-        
+    #vault-page-logo-motu-screens {
+        width: 17%;
+        position: absolute;
+        top: 97%;
+        left: 12.7%;
+    }
 
+    #vault-page-logo-bl-screens {
+        width: 10%;
+        position: absolute;
+        top: 96%;
+        left: 30.5%;
+    }
 
+    #vault-page-logo-sw-screens {
+        width: 11%;
+        position: absolute;
+        top: 99%;
+        left: 43.5%;
+    }
 
+    #vault-page-logo-st-screens {
+        width: 13%;
+        position: absolute;
+        top: 99%;
+        left: 57%;
+    }
 
+    #vault-page-logo-click-screens {
+        width: 10%;
+        position: absolute;
+        margin-top: 52%;
+        left: 72%;
+    }
+
+    #vault-center-about-placeholder {
+        margin-top: 24%;
+        margin-right: 30%;
+        margin-left: 8%;
+        height: 340px;
+
+    }
+
+    #vault-about-info-header h3 {
+        ont-size: 86px;
+        margin-top: -210px;
+        margin-left: 12%;
+    }
+
+    #vault-about-image {
+        margin-top: -6%;
+        margin-right: 8%;
+    }
+
+    #vault-center-about-info {
+        font-size: 36px;
+        letter-spacing: 2px;
+        line-height: 110%;
+        text-align: left;
+        margin-right: 54%;
+        margin-left: 12%;
+        margin-top: -25%;
+
+    }
+
+    #rpc-motu-box {
+        margin-top: -10%;
+    }
+
+    #rpc-motu-title h4 {
+        margin-top: 41%;
+    }
+
+    #rpc-motu-image-container {
+        width: 600px;
+        height: 600px;
+        margin-top: -42%;
+        margin-left: 12%;
+    }
+
+    #rpc-motu-title h4 {
+        margin-top: 54%;
+    }
+
+    #rpc-motu-info {
+        font-size: 32px;
+        line-height: 130%;
+        text-align: left;
+        margin-right: 10%;
+        margin-left: 50%;
+        margin-top: -12%;
+
+    }
+
+    #rpc-motu-logo-box {
+        width: 10%;
+        position: absolute;
+        margin-top: -30.0%;
+        left: 49%;
+
+    #rpc-motu-rating h6 {
+    margin-right: 0%;
+    margin-left: 75%;
+    margin-top: -6%;
+}   
 
 
 
