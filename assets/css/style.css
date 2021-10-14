@@ -1249,21 +1249,18 @@ footer {
         left: 72%;
     }
 
-
-
-
     #vault-center-about-placeholder {
         margin-top: 24%;
         margin-right: 30%;
-        margin-left: 8%;
+        margin-left: 5%;
         height: 340px;
-
+        width: 90%;
     }
 
     #vault-about-info-header h3 {
-        ont-size: 86px;
+        font-size: 90px;
         margin-top: -210px;
-        margin-left: 12%;
+        margin-left: 10%;
     }
 
     #vault-about-image {
@@ -1310,8 +1307,6 @@ footer {
         margin-top: 42%;
     }
 
-
-
     #rpc-motu-title h4 {
         font-size: 80px;
         margin-top: 41%;
@@ -1332,26 +1327,26 @@ footer {
 
 
 
-    #rpc-bl-box {
-        margin-top: -11%;
-    }
 
-   
+    #rpc-bl-box {
+        width: 90%;
+        margin-top: -13%;
+    }
 
     #rpc-bl-info {
         font-size: 32px;
         line-height: 130%;
         text-align: left;
         margin-right: 10%;
-        margin-left: 50%;
-        margin-top: -4%;
+        margin-left: 49%;
+        margin-top: -2%;
     }
 
     #rpc-bl-logo-box {
-        width: 5%;
+        width: 4%;
         position: absolute;
-        margin-top: -30%;
-        left: 49.7%;
+        margin-top: -31%;
+        left: 48.6%;
     }
 
     #rpc-bl-image {
@@ -1359,24 +1354,30 @@ footer {
         margin-top: 42%;
     }
 
-    #rpc-bl-rating h6 {
-    margin-right: 0%;
-    margin-left: 75%;
-    margin-top: -6%;
+    #rpc-bl-title h4 {
+        font-size: 80px;
+        margin-top: 41%;
+        margin-left: -3%;
     }
 
-    #rpc-bl-title h4 {
-        margin-top: 45%;
+    #rpc-bl-title h5 {
+        font-size: 42px;
+        line-height: 48px;
+        margin-left: -27px;
     }
+
+    #rpc-bl-rating h6 {
+        margin-right: 0%;
+        margin-left: 74%;
+        margin-top: -4%;
+    }
+    
 
 
 
     #rpc-sw-box {
-        margin-top: 10%;
-    }
-
-    #rpc-sw-title h4 {
-        margin-top: 41%;
+        width: 90%;
+        margin-top: -13%;
     }
 
     #rpc-sw-info {
@@ -1384,15 +1385,15 @@ footer {
         line-height: 130%;
         text-align: left;
         margin-right: 10%;
-        margin-left: 50%;
+        margin-left: 49%;
         margin-top: -2%;
     }
-
+    
     #rpc-sw-logo-box {
-        width: 10%;
+        width: 6%;
         position: absolute;
-        margin-top: -32%;
-        left: 49%;
+        margin-top: -31%;
+        left: 48.6%;
     }
 
     #rpc-sw-image {
@@ -1400,12 +1401,57 @@ footer {
         margin-top: 42%;
     }
 
-    #rpc-sw-rating h6 {
-    margin-right: 0%;
-    margin-left: 75%;
-    margin-top: -6%;
+    #rpc-sw-title h4 {
+        font-size: 80px;
+        margin-top: 41%;
+        margin-left: -3%;
     }
 
+    #rpc-sw-title h5 {
+        font-size: 42px;
+        line-height: 48px;
+        margin-left: -27px;
+    }
+
+    #rpc-sw-rating h6 {
+        margin-right: 0%;
+        margin-left: 74%;
+        margin-top: -4%;
+    }
+    #follow-us-header h4 {
+        font-size: 142px;
+        margin-top: 9%;
+    }
+
+    #social-info-facebook h4 {
+        font-size: 32px;
+        line-height: 34px;
+        margin-top: -4.5%;
+        margin-left: -52%;
+    }
+
+
+
+    #social-info-instagram h4 {
+        font-size: 32px;
+        line-height: 34px;
+        margin-top: -4%;
+        margin-left: -18%;
+    }
+
+    #social-info-twitter h4 {
+        font-size: 32px;
+        line-height: 34px;
+        margin-top: -4.1%;
+        margin-left: 16%;
+    }
+
+    #social-info-youtube h4 {
+        font-size: 32px;
+        line-height: 34px;
+        margin-top: -4.0%;
+        margin-left: 52%;
+    }
 
 
 
