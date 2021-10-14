@@ -13,7 +13,9 @@ I hope you enjoy the website and please sign up to our monthly newsletter for ne
 
 INSERT IMAGE MOCKUP HERE
 
-# FEATURES
+# IMPORTANT
+
+Unable to complete in enough time due to personal reasons. Validated what I can but vault.html page needs attention and is unfinished. Readme is unfinished. Responsiveness is optimised for 1972x1920 everything below needs fixing. Issues with dev tools not recognising media queries holding me back. Mock up images not added yet to readme.
 
 ## Existing Features
 
@@ -76,38 +78,21 @@ INSERT IMAGE MOCKUP HERE
 
 # Features Left to Implement
 
-## To do
-  - 12th October 2021 - Logo links need connecting to correct pages
-  - 12th October 2021 - Add text to socials and fix alignment
-  - 12th October 2021 - Reduce size of landing page logos and put Stranger Things on and other
-  - 12th October 2021 - Form issues. Check the checklists to not be on required
-  - 12th October 2021 - Slightly move logo and nav bars in a bit
-  - 13th October 2021 - Change Pure Nostalgia Image
-  - 13th October 2021 - Add animation to images in the vault
-  - 13th October 2021 - Make responsive on mobile, desktop and tablet
-  - 13th October 2021 - Check all html code, especially in thevault.html
-  - 13th October 2021 - Contact information to footer
 
-## Completed
-
-  - 12th October 2021 21:56 - Slightly move logo and nav bars in a bit
-  - 13th October 2021 00:08 - Form issues. Check the checklists to not be on required
-  - 13th October 2021 01:18 - Add text to socials and fix alignment
-  - 13th October 2021 01:29 - Change Pure Nostalgia Image
-  - 13th October 2021 01:45 - Reduce size of landing page logos and put Stranger Things on and other
-  - 13th October 2021 02:10 - Logo links need connecting to correct pages
-  - 13th October 2021 02:32 - Add animation to images in the vault
 
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Problems:
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Lots of issues with responsive editing when working in smaller resolutions. Dev tools unable to frequently find my media queries making it difficult to progress. Crashes galore on Chrome made for a frustrating task.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Bugs:
+
+Logos disappearing in tablet and mobile responsive modes.
+
+
 
 
 ### Validator Testing 
@@ -125,7 +110,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
@@ -144,8 +129,7 @@ You can break the credits section up into Content and Media, depending on what y
 
 - The text description for Terror Claws Skeletor was taken from he-man.org
 - All the images for the website were designed by deadpixelscs. Some elements in these images were pulled from Google. 
-- All images of the characters, is all fan art designed by deadpixelscs.
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- All images of the characters, is fan art designed by deadpixelscs.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 
