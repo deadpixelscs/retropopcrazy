@@ -2422,6 +2422,11 @@ footer {
     }
 }
 
+    /* For sign up page iphone screen sizes from 375px wide and down */
+    @media screen and (max-width: 375px) {
+
+}
+
     /* Hide social media info when below 375px */
 
     @media screen and (min-width: 250px) and (max-width: 375px) {
@@ -2449,8 +2454,9 @@ footer {
 
     }
 
-    /* For vault page iphone X screen sizes from 375px wide and down */
-    @media screen and (max-width: 375px) {
+
+
+
 
 
 
