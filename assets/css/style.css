@@ -1455,8 +1455,6 @@ footer {
     }
 
 
-
-
 }
 
 
@@ -1744,6 +1742,19 @@ footer {
     }
 
 }
+
+
+/* For signup page macbook pro 16 screen sizes from 1792px wide and down */
+@media screen and (max-width: 1792px) {
+
+    .signup-form {
+        margin-left: -9%;
+
+    }
+
+
+}
+
 
 
 /* For landing page macbook screen sizes from 1792px wide and down */
