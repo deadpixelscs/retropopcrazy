@@ -1875,7 +1875,6 @@ footer {
     #hero-image {
         background: url("../images/Header-Banner-tablet.png") no-repeat !important;
         margin-top: 53px;
-        padding: -9%;
     }
 
     #nycc-image {
@@ -2314,7 +2313,6 @@ footer {
     #hero-image {
         background: url("../images/Header-Banner-mobile-2.png") no-repeat !important;
         margin-top: 27px;
-        padding: -9%;
     }
 
 
@@ -2453,33 +2451,3 @@ footer {
         /* hide it elsewhere */
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
