@@ -594,7 +594,6 @@ h6 {
     height: 600px;
     margin-top: -42%;
     margin-left: 12%;
-    box-shadow: -10px 10px 12px #000000;
 
     /* animates zoom on rpc motu image image */
     animation-name: rpc-motu-image-zoom;
@@ -687,7 +686,6 @@ h6 {
     height: 600px;
     margin-top: -42%;
     margin-left: 12%;
-    box-shadow: -10px 10px 12px #000000;
 
     /* animates zoom on rpc bl image image */
     animation-name: rpc-bl-image-zoom;
@@ -782,7 +780,6 @@ h6 {
     height: 600px;
     margin-top: -42%;
     margin-left: 12%;
-    box-shadow: -10px 10px 12px #000000;
 
     /* animates zoom on rpc sw image image */
     animation-name: rpc-sw-image-zoom;
@@ -1252,6 +1249,9 @@ footer {
         left: 72%;
     }
 
+
+
+
     #vault-center-about-placeholder {
         margin-top: 24%;
         margin-right: 30%;
@@ -1279,26 +1279,14 @@ footer {
         margin-right: 54%;
         margin-left: 12%;
         margin-top: -25%;
-
     }
+    
+
+
 
     #rpc-motu-box {
-        margin-top: -10%;
-    }
-
-    #rpc-motu-title h4 {
-        margin-top: 41%;
-    }
-
-    #rpc-motu-image-container {
-        width: 600px;
-        height: 600px;
-        margin-top: -42%;
-        margin-left: 12%;
-    }
-
-    #rpc-motu-title h4 {
-        margin-top: 54%;
+        width: 90%;
+        margin-top: -13%;
     }
 
     #rpc-motu-info {
@@ -1306,22 +1294,118 @@ footer {
         line-height: 130%;
         text-align: left;
         margin-right: 10%;
-        margin-left: 50%;
-        margin-top: -12%;
-
+        margin-left: 49%;
+        margin-top: -2%;
     }
 
     #rpc-motu-logo-box {
-        width: 10%;
+        width: 11%;
         position: absolute;
-        margin-top: -30.0%;
-        left: 49%;
+        margin-top: -32%;
+        left: 48%;
+    }
+    
+    #rpc-motu-image {
+        width: 752px;
+        margin-top: 42%;
+    }
+
+
+
+    #rpc-motu-title h4 {
+        font-size: 80px;
+        margin-top: 41%;
+        margin-left: -3%;
+    }
+
+    #rpc-motu-title h5 {
+        font-size: 42px;
+        line-height: 48px;
+        margin-left: -27px;
+    }
 
     #rpc-motu-rating h6 {
+        margin-right: 0%;
+        margin-left: 74%;
+        margin-top: -4%;
+    }
+
+
+
+    #rpc-bl-box {
+        margin-top: -11%;
+    }
+
+   
+
+    #rpc-bl-info {
+        font-size: 32px;
+        line-height: 130%;
+        text-align: left;
+        margin-right: 10%;
+        margin-left: 50%;
+        margin-top: -4%;
+    }
+
+    #rpc-bl-logo-box {
+        width: 5%;
+        position: absolute;
+        margin-top: -30%;
+        left: 49.7%;
+    }
+
+    #rpc-bl-image {
+        width: 752px;
+        margin-top: 42%;
+    }
+
+    #rpc-bl-rating h6 {
     margin-right: 0%;
     margin-left: 75%;
     margin-top: -6%;
-}   
+    }
+
+    #rpc-bl-title h4 {
+        margin-top: 45%;
+    }
+
+
+
+    #rpc-sw-box {
+        margin-top: 10%;
+    }
+
+    #rpc-sw-title h4 {
+        margin-top: 41%;
+    }
+
+    #rpc-sw-info {
+        font-size: 32px;
+        line-height: 130%;
+        text-align: left;
+        margin-right: 10%;
+        margin-left: 50%;
+        margin-top: -2%;
+    }
+
+    #rpc-sw-logo-box {
+        width: 10%;
+        position: absolute;
+        margin-top: -32%;
+        left: 49%;
+    }
+
+    #rpc-sw-image {
+        width: 752px;
+        margin-top: 42%;
+    }
+
+    #rpc-sw-rating h6 {
+    margin-right: 0%;
+    margin-left: 75%;
+    margin-top: -6%;
+    }
+
 
 
 
