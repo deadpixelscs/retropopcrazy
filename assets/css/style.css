@@ -445,10 +445,46 @@ h6 {
 
 
 
-/* vault section logo for click here */
+/* home page section logo for click here */
 
 
 #vault-page-logo-click {
+    width: 15%;
+    position: absolute;
+    top: 25%;
+    left: 86%;
+}
+
+/* vault section logos for click here */
+
+
+
+
+#vault-page-logo-bl-screens {
+    width: 16%;
+    position: absolute;
+    top: 25%;
+    left: 21%;
+}
+
+
+#vault-page-logo-sw-screens {
+    width: 18%;
+    position: absolute;
+    top: 34%;
+    left: 41%;
+}
+
+
+#vault-page-logo-st-screens {
+    width: 20%;
+    position: absolute;
+    top: 36%;
+    left: 63%;
+}
+
+
+#vault-page-logo-click-screens {
     width: 15%;
     position: absolute;
     top: 25%;
@@ -1164,6 +1200,32 @@ footer {
             height: 1605px;
             width: 98%;
             margin-left: 0%;
+        }
+
+        #vault-about-info-header h3 {
+            margin-top: 16%;
+            text-align: left;
+            margin-left: 13%;
+            margin-right: 52%;
+            font-family: 'Permanent Marker', cursive;
+            font-size: 90px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            line-height: 85px;
+        
+        }
+
+            #vault-page-centered {
+        margin-left: 10%;
+        width: 85%;
+        margin-top: -7%;
+    }
+
+        #vault-page-logo-click-screens {
+            width: 13%;
+            position: absolute;
+            top: 111%;
+            left: -2%;
         }
 
         
