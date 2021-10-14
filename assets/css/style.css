@@ -1965,16 +1965,35 @@ footer {
 
 
 
+
+
+
+
     #herotwo-image {
         background: url("../images/pick-your-pop-768.png") no-repeat !important;
+        margin-top: 34%;
+    }
+
+
+    #menu li {
+        font-size: 33px;
+        margin-left: 15px;
+        margin-top: -1%;
+        margin-right: 75px;
+        letter-spacing: 1px;
+    }
+
+    #logo {
+        margin-top: -27%;
     }
 
     #vault-page-header h2 {
-        margin-top: -135%;
-        margin-left: -40%;
+
         text-align: center;
         font-family: 'Permanent Marker', cursive;
         font-size: 63px;
+        margin-top: -146%;
+        margin-left: -40%;
         text-transform: uppercase;
         letter-spacing: 10px;
         color: #ffffff;
@@ -1985,7 +2004,7 @@ footer {
     #vault-page-logo-motu-screens {
         width: 24%;
         position: absolute;
-        top: 71%;
+        top: 82%;
         left: 3%;
     }
 
@@ -1994,7 +2013,7 @@ footer {
     #vault-page-logo-bl-screens {
         width: 14%;
         position: absolute;
-        top: 70%;
+        top: 82%;
         left: 28%;
     }
 
@@ -2003,7 +2022,7 @@ footer {
     #vault-page-logo-sw-screens {
         width: 16%;
         position: absolute;
-        top: 72%;
+        top: 83%;
         left: 45%;
     }
 
@@ -2012,7 +2031,7 @@ footer {
     #vault-page-logo-st-screens {
         width: 18%;
         position: absolute;
-        top: 72%;
+        top: 83%;
         left: 64%;
     }
 
@@ -2021,12 +2040,12 @@ footer {
     #vault-page-logo-click-screens {
         width: 13%;
         position: absolute;
-        top: 11%;
+        top: 22%;
         left: 84%;
     }
 
     #vault-center-about-placeholder {
-        margin-top: 12%;
+        margin-top: 17%;
         margin-right: 30%;
         margin-left: 5%;
         height: 340px;
@@ -2043,7 +2062,7 @@ footer {
         text-transform: uppercase;
         letter-spacing: 4px;
         line-height: 85px;
-    
+
     }
 
     #vault-about-image {
@@ -2065,7 +2084,7 @@ footer {
     #rpc-motu-logo-box {
         width: 26%;
         position: absolute;
-        margin-top: -265%;
+        margin-top: -176%;
         margin-left: -43%;
         left: 52.5%;
     }
@@ -2107,105 +2126,112 @@ footer {
 
     #rpc-bl-box {
         width: 90%;
-        margin-top: -19%;
+        margin-top: -30%;
     }
 
     #rpc-bl-logo-box {
-        width: 5%;
+        width: 11%;
         position: absolute;
-        margin-top: -41%;
-        left: 53.5%;
+        margin-top: -180%;
+        margin-left: -43%;
+        left: 54.5%;
     }
 
     #rpc-bl-title h4 {
-        font-size: 71px;
-        margin-top: 58%;
-        margin-left: 9%;
+        font-size: 47px;
+        line-height: 49px;
+        margin-top: 62%;
+        margin-left: -96%;
     }
 
     #rpc-bl-image {
-        width: 670px;
-        margin-top: -5%;
-        margin-left: -6%;
+        width: 623px;
+        margin-top: 2%;
+        margin-right: -1%;
     }
 
     #rpc-bl-title h5 {
-        font-size: 42px;
+        font-size: 37px;
         line-height: 48px;
-        margin-left: 10%;
-        margin-top: -1%;
+        margin-left: -101%;
+        margin-top: 238%;
     }
 
     #rpc-bl-rating h6 {
         margin-right: 0%;
-        margin-left: 81%;
-        margin-top: -5.6%;
+        margin-left: 70%;
+        margin-top: -19.6%;
     }
 
     #rpc-bl-info {
         font-size: 24px;
         line-height: 130%;
         text-align: left;
-        margin-right: 10%;
-        margin-left: 54%;
-        margin-top: -22%;
+        margin-right: 11%;
+        margin-left: 12%;
+        margin-top: -120%;
     }
 
     #rpc-sw-box {
         width: 90%;
-        margin-top: -19%;
+        margin-top: -30%;
     }
 
     #rpc-sw-logo-box {
-        width: 8%;
+        width: 17%;
         position: absolute;
-        margin-top: -39.5%;
-        left: 53.5%;
+        margin-top: -167%;
+        margin-left: -43%;
+        left: 54.5%;
     }
 
     #rpc-sw-title h4 {
-        font-size: 71px;
-        margin-top: 58%;
-        margin-left: 9%;
+        font-size: 47px;
+        line-height: 49px;
+        margin-top: 62%;
+        margin-left: -96%;
     }
 
     #rpc-sw-image {
-        width: 670px;
-        margin-top: -5%;
-        margin-left: -6%;
+        width: 623px;
+        margin-top: -2%;
+        margin-right: -1%;
     }
 
     #rpc-sw-title h5 {
-        font-size: 42px;
+        font-size: 37px;
         line-height: 48px;
-        margin-left: 10%;
-        margin-top: 5%;
+        margin-left: -101%;
+        margin-top: 238%;
     }
 
     #rpc-sw-rating h6 {
         margin-right: 0%;
-        margin-left: 81%;
-        margin-top: -5.6%;
+        margin-left: 70%;
+        margin-top: -13.6%;
     }
 
     #rpc-sw-info {
         font-size: 24px;
         line-height: 130%;
         text-align: left;
-        margin-right: 10%;
-        margin-left: 54%;
-        margin-top: -22%;
+        margin-right: 11%;
+        margin-left: 12%;
+        margin-top: -120%;
     }
 
+    #follow-us-header-vault h4 {
+        text-align: center;
+        margin-top: 36%;
+        margin-bottom: 14%;
+        font-size: 72px;
+        letter-spacing: 5px;
+
+    }
+
+
+
 }
-
-
-
-
-}
-
-
-
 
 /* For landing page iphone X screen sizes from 375px wide and down */
 @media screen and (max-width: 375px) {
