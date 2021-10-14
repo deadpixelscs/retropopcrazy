@@ -1586,7 +1586,7 @@ footer {
         margin-left: 5%;
         line-height: 50px;
     }
-    
+
 
     .social-networks i {
         font-size: 180%;
@@ -1597,14 +1597,33 @@ footer {
 
     /* Hide social media info when below 375px */
 
-@media screen and (min-width: 250px) and (max-width: 375px) {
+    @media screen and (min-width: 250px) and (max-width: 375px) {
 
-    #social-info-facebook { display: none; }   /* hide it elsewhere */
-    #social-info-instagram { display: none; }   /* hide it elsewhere */
-    #social-info-twitter { display: none; }   /* hide it elsewhere */
-    #social-info-youtube { display: none; }   /* hide it elsewhere */
+        #social-info-facebook {
+            display: none;
+        }
 
-}
+        /* hide it elsewhere */
+        #social-info-instagram {
+            display: none;
+        }
+
+        /* hide it elsewhere */
+        #social-info-twitter {
+            display: none;
+        }
+
+        /* hide it elsewhere */
+        #social-info-youtube {
+            display: none;
+        }
+
+        /* hide it elsewhere */
+
+    }
+
+
+
 
 
 
