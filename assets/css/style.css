@@ -457,7 +457,12 @@ h6 {
 
 /* vault section logos for click here */
 
-
+#vault-page-logo-motu {
+    width: 27%;
+    position: absolute;
+    top: 30%;
+    left: -8%;
+}
 
 
 #vault-page-logo-bl-screens {
