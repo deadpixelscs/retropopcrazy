@@ -118,12 +118,6 @@ h6 {
     position: relative;
 }
 
-
-
-
-
-
-
 #hero-image {
     height: 600px;
     width: 100%;
@@ -1449,6 +1443,22 @@ footer {
 
 }
 
+/* For signup page 4k screen sizes from 2560px wide and down */
+@media screen and (max-width: 2560px) {
+
+    #logo {
+        margin-bottom: 1%;
+    }
+
+    .signup-form {
+        left: 26%;
+    }
+
+
+
+
+}
+
 
 
 /* For landing page 16" laptop screen sizes from 2072px wide and down */
@@ -2217,8 +2227,6 @@ footer {
     }
 
 }
-
-
 
 
 /* For landing page iphone X screen sizes from 375px wide and down */
