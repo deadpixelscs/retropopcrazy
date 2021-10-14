@@ -2225,10 +2225,8 @@ footer {
 @media screen and (max-width: 375px) {
 
     #logo {
-        font-size: 84px;
-        margin-top: 8%;
-        margin-right: 7%;
-        line-height: 75px;
+        width: 90%;
+        margin-top: 9%;
     }
 
 
@@ -2236,7 +2234,7 @@ footer {
     #menu li {
         font-size: 20px;
         margin-left: 16px;
-        margin-top: -5%;
+        margin-top: -20%;
         margin-right: 7px;
         letter-spacing: 1px;
     }
@@ -2251,7 +2249,7 @@ footer {
 
     #nycc-image {
         width: 242%;
-        margin-bottom: 33%;
+        margin-bottom: 69%;
         margin-left: 176px;
     }
 
@@ -2351,6 +2349,7 @@ footer {
         padding: 7%;
         text-align: center;
     }
+}
 
     /* Hide social media info when below 375px */
 
@@ -2378,6 +2377,11 @@ footer {
         /* hide it elsewhere */
 
     }
+
+    /* For vault page iphone X screen sizes from 375px wide and down */
+    @media screen and (max-width: 375px) {
+
+
 
 
 
