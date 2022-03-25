@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Permanent+Marker&family=Russo+One&display=swap');
 
-body {
+* {
     margin: 0;
     padding: 0;
     border: none;
+}
+
+body {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 500;
+    background-image: url("../images/grunge-3.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .hero {
