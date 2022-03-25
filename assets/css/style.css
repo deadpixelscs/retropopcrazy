@@ -65,12 +65,11 @@ body {
     background: url(../images/hero-image-3-2560x1004.png) no-repeat center center;
 
     /* animates zoom on loading page banner */
-    /*animation-name: hero-zoom;*/
+    animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-delay: 30ms;
+    animation-delay: 50ms;
     animation-fill-mode: forwards;
 }
-
 
 /* creates zoom for hero image */
 @keyframes hero-zoom {
