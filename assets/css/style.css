@@ -111,7 +111,6 @@ body {
 .hero {
     height: 750px;
     width: 100%;
-    background: url(../images/hero-image-3-2560x1004.png) no-repeat center center;
 
     /* animates zoom on loading page banner */
     animation-name: hero-zoom;
@@ -123,17 +122,17 @@ body {
     /* creates zoom for hero image */
     @keyframes hero-zoom {
         from {
-            transform: scale(1);
+            transform: scale(1.1);
         }
 
         to {
-            transform: scale(1.1);
+            transform: scale(1.0);
         }
 }
 
 .about-home-title {
     font-family: 'Permanent Marker', cursive;
-    font-size: 6em;
+    font-size: 4em;
     text-transform: uppercase;
     text-align: left;
     letter-spacing: 2px;
