@@ -14,6 +14,14 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+#logo {
+    font-family: 'Bungee Outline', cursive;
+    float: left;
+    font-size: 2em;
+    margin: 3rem;
+    margin-bottom: 5rem;
+    color: #ffffff
+}
 
 .hero {
     position: relative;
@@ -89,19 +97,6 @@ body {
     }
 }
 
-
-
-
-/*body {
-    font-family: 'Permanent Marker', cursive;
-    text-align: right;
-    font-weight: 500;
-    color: #91ff00;
-    background-image: url("../images/Grunge-2.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}*/
 
 
 /*  headings and logo */
