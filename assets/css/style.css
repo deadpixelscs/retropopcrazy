@@ -14,14 +14,54 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+/* logo */
+
 #logo {
     font-family: 'Bungee Outline', cursive;
     float: left;
     font-size: 2em;
-    margin: 3rem;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
+    margin-left: 3rem;
     color: #ffffff
+
 }
+
+/* nav links */
+
+#menu {
+    color: #91ff00;
+    font-size: 2em;
+    letter-spacing: 4px;
+    margin-right: 3rem;
+    margin-top: 4rem;
+}
+
+#menu,
+#logo {
+    line-height: 1rem;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
+.active {
+    border-bottom: 1px solid #ffffff;
+}
+
+/* hero image */
 
 .hero {
     position: relative;
@@ -152,38 +192,7 @@ h5 {
 
 
 
-/* nav links */
 
-
-/*#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    margin-right: 16px;
-}
-
-#menu,
-#logo {
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
 
 
 
