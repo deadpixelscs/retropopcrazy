@@ -120,22 +120,39 @@ body {
     animation-fill-mode: forwards;
 }
 
-/* creates zoom for hero image */
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
+    /* creates zoom for hero image */
+    @keyframes hero-zoom {
+        from {
+            transform: scale(1);
+        }
 
-    to {
-        transform: scale(1.1);
-    }
+        to {
+            transform: scale(1.1);
+        }
 }
 
-h1 {
+.about-home-title {
     font-family: 'Permanent Marker', cursive;
+    font-size: 6em;
     text-transform: uppercase;
-    letter-spacing: 10px;
-    color: #91ff00
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 1em;
+    margin-left: 10rem;
+    margin-top: 9rem;
+    color: #91ff00;
+}
+
+.about-home-subtitle {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 32px;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    color: #ffffff;
 }
 
 
