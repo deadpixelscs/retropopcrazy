@@ -188,121 +188,25 @@ body {
 }
 
 
+/* iPhone */
 
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait){
 
-
-
-
-/* @media only screen and (max-width: 400px) {
-    section.hero {
-        background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url(../images/hero-image-4-504x744.png) !important;
-        background-size: cover !important;
-    }
-} */
-
-
-
-/*  headings and logo */
-
-
-/*h1 {
-    font-family: 'Permanent Marker', cursive;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    color: #91ff00
+#hero-image {
+    background: url(../image/hero) no-repeat !important;
+    width: 320px;
+    height: 480px;
 }
 
-/*h2 {
-    font-family: 'Permanent Marker', cursive;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    color: #91ff00
+#logo {
+    font-size: 1em
+    line-height: 30px;
+    text-align: center;
 }
 
-/*h3 {
-    font-family: 'Permanent Marker', cursive;
-    text-transform: uppercase;
-    letter-spacing: 0px;
-    color: #202020;
 }
-
-/*h4,
-h5 {
-    font-family: 'Permanent Marker', cursive;
-    text-transform: uppercase;
-    letter-spacing: 0px;
-    color: #91ff00;
-}
-
-/*h6 {
-    font-family: 'Permanent Marker', cursive;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-top: 1%;
-    margin-bottom: 2%;
-    font-size: 25px;
-    color: #91ff00;
-}
-
-/*#logo {
-    font-family: 'Bungee Outline', cursive;
-    float: left;
-    font-size: 225%;
-    letter-spacing: 0px;
-    margin-left: 46px;
-    color: #ffffff
-}
-
-
-
-
-
-
-
-/* hero image and cover box with text */
-
-
-/*#hero-image {
-    height: 600px;
-    width: 100%;
-    background: url(../images/hero-image-1800x600.png) no-repeat center center;
-
-    /* animates zoom on loading page banner */
-    /*animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-delay: 30ms;
-    animation-fill-mode: forwards;
-}
-
-
-/* creates zoom for hero image */
-/*@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
-}
-
-
-
-#cover-text {
-    font-size: 100%;
-    font-family: Arial, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-    width: 20%;
-
-    padding-top: 10px;
-    padding-left: 10px;
-
-
-    bottom: 74%;
-    left: -5%;
-
-    position: absolute;
-}
-
