@@ -384,7 +384,7 @@ body {
 @media (min-width: 2559px) {
     .hero {
         width: 100vw;
-        height: 80vh;
+        height: 60vh;
     }
 
 }
@@ -393,7 +393,7 @@ body {
 @media (min-width: 3479px) {
     .hero {
         width: 100vw;
-        height: 80vh;
+        height: 60vh;
     }
 
 }
