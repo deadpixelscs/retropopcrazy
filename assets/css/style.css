@@ -136,6 +136,27 @@ body {
     animation-name: about-image-zoom;
     animation-duration: 10s;
     animation-fill-mode: forwards;
+
+
+        -webkit-animation: floatBubble 2s infinite;
+            -webkit-animation-direction:alternate;
+          }
+        
+        
+        @-webkit-keyframes floatBubble{
+         from{
+                top:0px;
+                -webkit-animation-timing-function: ease-in;
+        
+           }
+        
+        
+           to {
+              top: 200px;
+              -webkit-animation-timing-function: ease-out;
+           }
+        
+        }
 }
 
 
@@ -150,6 +171,44 @@ body {
     }
 }
 
+/* Small devices (landscape phones, 500px and up) */
+@media (min-width: 500px) {
+
+    #logo {
+        margin-top: 0.5em;
+    
+    }
+
+    #menu {
+        font-size: 1em;
+        margin-top: 12%;
+        margin-right: 1px;
+
+    }
+
+    .hero {
+        width: 100vw;
+        height: 35vh;
+    }
+
+    .about-home-title {
+        font-size: 4em;
+        text-align: center;
+        margin-top: 1em;
+    }
+
+    .about-home-subtitle {
+        margin-top: 1.5em;
+    }
+
+    #about-image {
+        width: 31rem;
+        height: 31rem;
+        margin-top: 2em;
+    }
+
+
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -185,9 +244,21 @@ body {
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
 
+    #logo {
+        font-size: 50px;
+        margin-top: 2px;
+    
+    }
+
+    #menu {
+        font-size: 2em;
+        margin-top: 50px;
+        margin-right: 34px;
+    }
+
     .hero {
         width: 100vw;
-        height: 50vh;
+        height: 70vh;
     }
 
     .about-home-title {
