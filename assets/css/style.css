@@ -6,6 +6,13 @@
     border: none;
 }
 
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
 body {
     font-family: 'Permanent Marker', cursive;
     font-weight: 100;
@@ -179,9 +186,9 @@ body {
 
     
     .hero {
-        width: 100vw;
-        height: 26vh;
-        margin-left: -230px;
+    width: 68vw;
+    height: 69vh;
+    margin-left: -25px;
     }
 
     .about-home-title {
@@ -205,10 +212,17 @@ body {
 
 /* iPhone 320px */
 
-/* Portrait */
+/* Portrait
 @media only screen and (max-device-width: 320px){
 
 
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: fixed;
+      }
+    
     #menu a {
         font-size: 0.5em;
         letter-spacing: 0px;
@@ -223,16 +237,17 @@ body {
     }
 
     #logo {
-        font-size: 1.3em;
-        margin-top: -2rem;
-        margin-left: 2rem;
+        width: 50rem;
+        height: 72rem;
+        margin-left: -0.9em;
     }
 
 
     .hero {
-        width: 21rem;
-        height: 22rem;
-        margin-left: -0.5em;
+        width: 100vw;
+        height: 63vh;
+        margin-top: 1rem;
+        margin-left: 0em;
     }
 
     .about-home-title {
