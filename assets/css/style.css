@@ -191,15 +191,12 @@ body {
 @media (min-width: 426px) {
 
     #logo {
-        margin-top: 0.5em;
-    
+        font-size: 30px;
     }
+
 
     #menu {
         font-size: 1em;
-        margin-top: 12%;
-        margin-right: 1px;
-
     }
 
     .hero {
@@ -232,20 +229,17 @@ body {
 @media (min-width: 500px) {
 
     #logo {
-        margin-top: 0.5em;
+        font-size: 30px;
     
     }
 
     #menu {
         font-size: 1em;
-        margin-top: 12%;
-        margin-right: 1px;
-
     }
 
     .hero {
         width: 100vw;
-        height: 62vh;
+        height: 50vh;
     }
 
     .about-home-title {
@@ -272,10 +266,18 @@ body {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+    #logo {
+        font-size: 30px;
+    
+    }
+
+    #menu {
+        font-size: 1em;
+    }
     
     .hero {
         width: 100vw;
-        height: 40vh;
+        height: 80vh;
     }
 
     .about-home-title {
@@ -303,19 +305,17 @@ body {
 @media (min-width: 1284px) {
 
     #logo {
-        font-size: 50px;
-        margin-top: 2px;
+        font-size: 30px;
     
     }
 
     #menu {
-        font-size: 2em;
-        margin-top: 56px;
+        font-size: 1em;
     }
 
     .hero {
         width: 100vw;
-        height: 41vh;
+        height: 80vh;
     }
 
     .about-home-title {
@@ -335,8 +335,8 @@ body {
     }
 
     #about-image {
-        width: 48rem;
-        height: 48rem;
+        width: 50px;
+        height: 50px;
         margin-top: 3em;
 
     }
@@ -346,20 +346,17 @@ body {
 @media (min-width: 1400px) {
 
     #logo {
-        font-size: 50px;
-        margin-top: 2px;
+        font-size: 30px;
     
     }
 
     #menu {
-        font-size: 2em;
-        margin-top: 50px;
-        margin-right: 34px;
+        font-size: 1em;
     }
 
     .hero {
         width: 100vw;
-        height: 70vh;
+        height: 80vh;
     }
 
     .about-home-title {
