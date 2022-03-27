@@ -155,6 +155,54 @@ body {
 }
 
 
+/* Portrait */
+@media only screen and (max-device-width: 768px){
+
+    #menu a {
+        font-size: 0.4em;
+        letter-spacing: 0px;
+        margin-left: -44em;
+        word-spacing: -2px;
+
+    }
+
+    #menu li {
+        float: right;
+        list-style-type:
+        margin-right: 10px;
+    }
+
+    #logo {
+        font-size: 1.3em;
+        margin-top: -2rem;
+    }
+
+    
+    .hero {
+        width: 100vw;
+        height: 26vh;
+        margin-left: -230px;
+    }
+
+    .about-home-title {
+        font-size: 2em;
+        margin: 1em;
+        margin-top: 2em;
+        margin-left: -13.8em;
+    }
+
+    .about-home-subtitle {
+        font-size: 0.8em;
+        text-align: center;
+        line-height: 15px;
+        margin: 3em;
+        margin-left: -4em;
+        margin-right: 32.5em;
+    }
+
+}
+
+
 /* iPhone 320px */
 
 /* Portrait */
@@ -199,6 +247,8 @@ body {
     }
     
 }
+
+
 
 /* Portrait 
 @media only screen and (max-device-width: 500px){
