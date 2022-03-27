@@ -150,12 +150,44 @@ body {
     }
 }
 
-/* XX-Large devices (larger desktops, 1400px and up)*/
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    
+    .hero {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .about-home-title {
+        font-size: 5em;
+        text-align: center;
+        margin-top: 1em;
+    }
+
+    .about-home-subtitle {
+        font-size: 1.5em;
+        text-align: center;
+        line-height: 24px;
+        margin: 1em;
+        margin-top: 2em;
+    }
+
+    #about-image {
+        width: 48rem;
+        height: 48rem;
+        margin-top: 3em;
+    }
+}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
 
     .hero {
         width: 100vw;
-        height: 80vh;
+        height: 50vh;
     }
 
     .about-home-title {
