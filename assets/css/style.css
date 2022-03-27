@@ -132,10 +132,14 @@ body {
     margin-left: auto;
     margin-right: auto;
 
+    /* animates zoom on image one */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-delay: 50ms;
+    animation-fill-mode: forwards;
 }
 
-
-/* creates zoom for vault centered image */
+/* creates zoom for image one */
 @keyframes about-image-zoom {
     from {
         transform: scale(1.1);
@@ -145,6 +149,80 @@ body {
         transform: scale(1);
     }
 }
+
+
+/* vault header and placeholder */
+
+#vault-placeholder {
+
+    width: 100vw;
+    height: 13vh;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20%;
+    background-color: rgba(30, 30, 30, 0.8);
+}
+
+#vault-header h3 {
+    margin-top: 12%;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 7em;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #91ff00;
+}
+
+
+/* vault background */
+
+
+#vault-centered {
+    width: 100vw;
+    height: 20vh;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    margin-top: 0%;
+    background-color: #3a3a3a;
+
+}
+
+
+
+/* vault section logo motu */
+
+
+#vault-logo-motu {
+    width: 48%;
+    margin-left: 1%;
+    margin-top: 10%;
+}
+
+
+
+/* vault section logo bl */
+
+
+#vault-logo-bl {
+    width: 20%;
+
+}
+
+
+
+/* vault section logo sw */
+
+
+#vault-logo-sw {
+    width: 18%;
+    margin-left: 5%;
+
+}
+
+
+
+
 
 /* Small devices (landscape phones, 390px and up) 
 @media (min-width: 390px) {
