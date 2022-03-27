@@ -191,22 +191,23 @@ body {
     }
 
     .about-home-title {
-        font-size: 5em;
+        font-size: 6em;
         text-align: center;
         margin: 1em;
-        margin-top: 2em;
+        margin-top: 1em;
     }
 
     .about-home-subtitle {
         font-size: 1.5em;
         text-align: center;
         line-height: 22px;
-        margin: 2em;
+        margin: 1em;
     }
 
     #about-image {
         width: 62rem;
         height: 62rem;
+        margin-top: 6em;
     }
 }
 
