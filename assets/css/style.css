@@ -128,35 +128,10 @@ body {
     width: 100rem;
     height: 100rem;
     display: flex;
-    margin-top: 9rem;
+    margin-top: -100%;
     margin-left: auto;
     margin-right: auto;
 
-    /* animates zoom on loading about us image */
-    animation-name: about-image-zoom;
-    animation-duration: 10s;
-    animation-fill-mode: forwards;
-
-
-        -webkit-animation: floatBubble 2s infinite;
-            -webkit-animation-direction:alternate;
-          }
-        
-        
-        @-webkit-keyframes floatBubble{
-         from{
-                top:0px;
-                -webkit-animation-timing-function: ease-in;
-        
-           }
-        
-        
-           to {
-              top: 200px;
-              -webkit-animation-timing-function: ease-out;
-           }
-        
-        }
 }
 
 
@@ -169,6 +144,47 @@ body {
     to {
         transform: scale(1);
     }
+}
+
+/* Small devices (landscape phones, 426px and up) */
+@media (min-width: 426px) {
+
+    #logo {
+        margin-top: 0.5em;
+    
+    }
+
+    #menu {
+        font-size: 1em;
+        margin-top: 12%;
+        margin-right: 1px;
+
+    }
+
+    .hero {
+        width: 120vw;
+        height: 50vh;
+    }
+
+    .about-home-title {
+        font-size: 4em;
+        text-align: center;
+        margin-top: 1em;
+        margin-left: 0.4em;
+    }
+
+    .about-home-subtitle {
+        margin-top: 1.5em;
+        margin-left: 2.5em;
+    }
+
+    #about-image {
+        width: 31rem;
+        height: 31rem;
+        margin-top: 2em;
+    }
+
+
 }
 
 /* Small devices (landscape phones, 500px and up) */
@@ -188,7 +204,7 @@ body {
 
     .hero {
         width: 100vw;
-        height: 35vh;
+        height: 62vh;
     }
 
     .about-home-title {
@@ -240,6 +256,51 @@ body {
     }
 }
 
+/* Large devices (laptops, 1200px and up) */
+@media (min-width: 1200px) {
+
+        #logo {
+        font-size: 50px;
+        margin-top: 2px;
+    
+    }
+
+    #menu {
+        font-size: 2em;
+        margin-top: 56px;
+        margin-right: 102px;
+    }
+
+    .hero {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .about-home-title {
+        font-size: 5em;
+        text-align: center;
+        margin: 0;
+        margin-top: 1em;
+        margin-right: 1em;
+
+    }
+
+    .about-home-subtitle {
+        font-size: 1.5em;
+        text-align: center;
+        line-height: 24px;
+        margin: 1em;
+        margin-top: 2em;
+        margin-right: 2.5em;
+    }
+
+    #about-image {
+        width: 48rem;
+        height: 48rem;
+        margin-top: 3em;
+        margin-left: 11em;
+    }
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
