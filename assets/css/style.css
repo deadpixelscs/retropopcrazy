@@ -15,18 +15,7 @@ body {
     background-size: cover;
 }
 
-/* logo */
 
-#logo {
-    font-family: 'Bungee Outline', cursive;
-    float: left;
-    font-size: 2em;
-    letter-spacing: 0px;
-    margin-bottom: 4rem;
-    margin-left: 3rem;
-    color: #ffffff
-
-}
 
 /* nav links */
 
@@ -64,12 +53,25 @@ body {
 
 }
 
+/* logo */
+
+#logo {
+    font-family: 'Bungee Outline', cursive;
+    float: left;
+    font-size: 2em;
+    letter-spacing: 0px;
+    margin-bottom: 4rem;
+    margin-left: 3rem;
+    color: #ffffff
+
+}
+
 /* hero image */
 
 .hero {
     position: inherit;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     background-repeat: no-repeat;
     background: url(../images/hero-image-3-2560x1004.png);
@@ -158,19 +160,26 @@ body {
 /* Portrait */
 @media only screen and (max-device-width: 320px){
 
+
+    #menu a {
+        font-size: 0.5em;
+        letter-spacing: 0px;
+        margin-top: 10rem;
+        margin-left: -0.9em;
+    }
+
+    #menu li {
+        float: right;
+        list-style-type:
+        margin-right: 10px;
+    }
+
     #logo {
         font-size: 1.3em;
         margin-top: -2rem;
         margin-left: 2rem;
     }
 
-    #menu a {
-        font-size: 0.5em;
-        letter-spacing: 0px;
-        word-spacing: 0.5px
-        margin-top: 4rem;
-        margin-left: -0.9em;
-    }
 
     .hero {
         width: 21rem;
