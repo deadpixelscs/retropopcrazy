@@ -15,8 +15,6 @@ body {
     background-size: cover;
 }
 
-
-
 /* nav links */
 
 #menu {
@@ -49,8 +47,6 @@ body {
 
 .active {
     border-bottom: 1px solid #edd496;
-
-
 }
 
 /* logo */
@@ -118,7 +114,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
-    line-height: 20px;
+    line-height: 25px;
     padding-left: 10%;
     padding-right: 10%;
     margin-left: auto;
@@ -151,6 +147,34 @@ body {
 
     to {
         transform: scale(1);
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+    .hero {
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .about-home-title {
+        font-size: 5em;
+        text-align: center;
+        margin: 1em;
+        margin-top: 2em;
+    }
+
+    .about-home-subtitle {
+        font-size: 1.5em;
+        text-align: center;
+        line-height: 22px;
+        margin: 2em;
+    }
+
+    #about-image {
+        width: 62rem;
+        height: 62rem;
     }
 }
 
