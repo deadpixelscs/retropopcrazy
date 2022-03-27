@@ -146,6 +146,47 @@ body {
     }
 }
 
+/* Small devices (landscape phones, 390px and up) 
+@media (min-width: 390px) {
+
+    #logo {
+        margin-top: 17%;
+    }
+
+    #menu {
+        font-size: 1.2em;
+        line-height: 23px;
+        margin-top: 17%;
+        margin-left: 10%;
+    }
+
+    .hero {
+        width: 129vw;
+        height: 64vh;
+        margin-top: 17%;
+    }
+
+    .about-home-title {
+        font-size: 4em;
+        text-align: center;
+        margin-top: 1em;
+        margin-left: 0.4em;
+    }
+
+    .about-home-subtitle {
+        margin-top: 1.5em;
+        margin-left: 2.5em;
+    }
+
+    #about-image {
+        width: 31rem;
+        height: 31rem;
+        margin-top: 2em;
+    }
+
+
+}*/
+
 /* Small devices (landscape phones, 426px and up) */
 @media (min-width: 426px) {
 
@@ -211,10 +252,12 @@ body {
         font-size: 4em;
         text-align: center;
         margin-top: 1em;
+        margin-left: 0em;
     }
 
     .about-home-subtitle {
         margin-top: 1.5em;
+        margin-left: 0em;
     }
 
     #about-image {
@@ -256,10 +299,10 @@ body {
     }
 }
 
-/* Large devices (laptops, 1200px and up) */
-@media (min-width: 1200px) {
+/* Large devices (laptops, 1284px and up) */
+@media (min-width: 1284px) {
 
-        #logo {
+    #logo {
         font-size: 50px;
         margin-top: 2px;
     
@@ -268,12 +311,11 @@ body {
     #menu {
         font-size: 2em;
         margin-top: 56px;
-        margin-right: 102px;
     }
 
     .hero {
         width: 100vw;
-        height: 40vh;
+        height: 41vh;
     }
 
     .about-home-title {
@@ -281,7 +323,6 @@ body {
         text-align: center;
         margin: 0;
         margin-top: 1em;
-        margin-right: 1em;
 
     }
 
@@ -291,14 +332,13 @@ body {
         line-height: 24px;
         margin: 1em;
         margin-top: 2em;
-        margin-right: 2.5em;
     }
 
     #about-image {
         width: 48rem;
         height: 48rem;
         margin-top: 3em;
-        margin-left: 11em;
+
     }
 }
 
