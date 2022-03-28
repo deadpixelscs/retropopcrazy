@@ -153,24 +153,39 @@ body {
 
 /* vault header and placeholder */
 
-#vault-placeholder {
+/*#vault-placeholder {
 
     width: 100vw;
-    height: 13vh;
+    height: 50vh;
     margin: 0 auto;
     position: relative;
-    margin-top: 20%;
-    background-color: rgba(30, 30, 30, 0.8);
-}
+    margin-top: 2rem;
+    background-color: rgba(30, 30, 30, 0.8); 
+} */
 
-#vault-header h3 {
-    margin-top: 12%;
+#vault-title h3 {
     text-align: center;
     font-family: 'Permanent Marker', cursive;
-    font-size: 7em;
+    font-size: 6em;
     text-transform: uppercase;
     letter-spacing: 10px;
+    margin-top: 5rem;
     color: #91ff00;
+}
+
+#vault-subtitle h4 {
+    font-family: 'Russo One', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    color: #ffffff;
 }
 
 
@@ -183,7 +198,6 @@ body {
     margin: 0 auto;
     text-align: left;
     position: relative;
-    margin-top: 0%;
     background-color: #3a3a3a;
 
 }
@@ -196,7 +210,7 @@ body {
 #vault-logo-motu {
     width: 48%;
     margin-left: 1%;
-    margin-top: 10%;
+    margin-top: 6rem;
 }
 
 
@@ -300,7 +314,6 @@ body {
         margin-top: 2em;
     }
 
-
 }
 
 /* Small devices (landscape phones, 499px and up) */
@@ -373,10 +386,11 @@ body {
     }
 
     #about-image {
-        width: 48rem;
-        height: 48rem;
-        margin-top: 3em;
+        width: 40rem;
+        height: 40rem;
+        margin-top: 2em;
     }
+
 }
 
 /* Large devices (laptops, 1283px and up) */
@@ -413,11 +427,11 @@ body {
     }
 
     #about-image {
-        width: 62rem;
-        height: 62rem;
-        margin-top: 6em;
-
+        width: 40rem;
+        height: 40rem;
+        margin-top: 2em;
     }
+
 }
 
 /* XX-Large devices (larger desktops, 1399px and up) */
@@ -452,9 +466,9 @@ body {
     }
 
     #about-image {
-        width: 62rem;
-        height: 62rem;
-        margin-top: 6em;
+        width: 48rem;
+        height: 48rem;
+        margin-top: 2em;
     }
 }
 
