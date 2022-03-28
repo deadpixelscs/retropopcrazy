@@ -69,6 +69,7 @@ body {
     width: 100vw;
     height: 80vh;
     display: flex;
+
     background-repeat: no-repeat;
     background: url(../images/hero-image-3-2560x1004.png);
     background-size: cover;
@@ -102,9 +103,9 @@ h2 {
     text-align: center;
     letter-spacing: 2px;
     line-height: 1em;
+    padding-top: -3%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 11rem;
     color: #ff00bf;
 }
 
@@ -115,6 +116,7 @@ h3 {
     text-align: center;
     letter-spacing: 2px;
     line-height: 1em;
+    padding-top: -3
     margin-left: auto;
     margin-right: auto;
     margin-top: 3rem;
@@ -128,20 +130,22 @@ p   {
     text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 25px;
-    padding-left: 10%;
+    padding-top: 3%;
     padding-right: 10%;
+    padding-bottom: 5%;
+    padding-left: 10%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 8rem;
     color: #ffffff;
 }
 
-
 #about-image {
     position: relative;
     width: 100rem;
     height: 100rem;
     display: flex;
+    padding-top: 2%;
     margin-top: -100%;
     margin-left: auto;
     margin-right: auto;
@@ -201,7 +205,7 @@ p   {
 #vault-logo-motu {
     width: 48%;
     margin-left: 1%;
-    margin-top: 6rem;
+    margin-top: 5%;
 }
 
 
@@ -321,7 +325,7 @@ p   {
 
     .hero {
         width: 100vw;
-        height: 60vh;
+        height: 70vh;
     }
 
     h2, h3 {
