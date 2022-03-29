@@ -181,14 +181,96 @@ p   {
     }
 }
 
-/* footer */
 
 
-footer {
-    height: 400px;
+
+
+/* vault header and placeholder */
+
+/*#vault-placeholder {
+
+    width: 100vw;
+    height: 50vh;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 2rem;
+    background-color: rgba(30, 30, 30, 0.8); 
+} */
+
+
+
+
+/* vault background */
+
+
+#vault-centered {
+    width: 100vw;
+    height: 20vh;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    background-color: #3a3a3a;
+
 }
 
-#follow-us-header h4 {
+
+
+/* vault section logo motu */
+
+
+#vault-logo-motu {
+    width: 48%;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+
+
+/* vault section logo bl */
+
+
+#vault-logo-bl {
+    width: 20%;
+
+}
+
+
+
+/* vault section logo sw */
+
+
+#vault-logo-sw {
+    width: 18%;
+    margin-left: 5%;
+
+}
+
+
+/* footer */
+
+.footer-placeholder {
+    width:100vw;
+    height: 30vh;
+    margin-top: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.p2 {
+    font-size:8px;
+    text-align: left;
+    line-height: 10px;
+    padding-top: 28%;
+
+}
+
+/*a.menu:hover {
+    background-color:yellow;
+    font-size:20px;
+}*/
+
+}
+
+/* #follow-us-header h4 {
     font-family: 'Permanent Marker', cursive;
     font-size: 2em;
     text-align: center;
@@ -196,7 +278,7 @@ footer {
     letter-spacing: 5px;
     text-transform: uppercase;
     color: #91ff00;
-}
+} */
 
 /*#follow-us-header-vault h4 {
     text-align: center;
@@ -275,67 +357,6 @@ footer {
 }
 
 
-
-
-/* vault header and placeholder */
-
-/*#vault-placeholder {
-
-    width: 100vw;
-    height: 50vh;
-    margin: 0 auto;
-    position: relative;
-    margin-top: 2rem;
-    background-color: rgba(30, 30, 30, 0.8); 
-} */
-
-
-
-
-/* vault background */
-
-
-#vault-centered {
-    width: 100vw;
-    height: 20vh;
-    margin: 0 auto;
-    text-align: left;
-    position: relative;
-    background-color: #3a3a3a;
-
-}
-
-
-
-/* vault section logo motu */
-
-
-#vault-logo-motu {
-    width: 48%;
-    margin-left: 1%;
-    margin-top: 5%;
-}
-
-
-
-/* vault section logo bl */
-
-
-#vault-logo-bl {
-    width: 20%;
-
-}
-
-
-
-/* vault section logo sw */
-
-
-#vault-logo-sw {
-    width: 18%;
-    margin-left: 5%;
-
-}
 
 
 
