@@ -234,8 +234,8 @@ p   {
 
 .footer-placeholder {
     width:100vw;
-    height: 30vh;
-    margin-top: 20%;
+    height: 20vh;
+    margin-top: 15%;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -244,7 +244,7 @@ p   {
     font-size:8px;
     text-align: left;
     line-height: 10px;
-    padding-top: 30%;
+    padding-top: 10%;
     margin-bottom: -10%;
 }
 
