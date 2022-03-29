@@ -56,7 +56,9 @@ body {
     font-size: 0.5em;
     letter-spacing: 0px;
     float: left;
-    margin-top: 0;
+    margin-top: 1px;
+    margin-left: 62px;
+    margin-bottom: 56px;
     color: #ffffff;
 
 }
@@ -355,7 +357,7 @@ p   {
 
 
 
-/* Small devices (landscape phones, 390px and up) 
+Small devices (landscape phones, 390px and up) 
 @media (min-width: 390px) {
 
     #logo {
@@ -394,7 +396,7 @@ p   {
     }
 
 
-}*/
+}
 
 /* Small devices (landscape phones, 425px and up) */
 @media (min-width: 425px) {
@@ -433,11 +435,11 @@ p   {
 
 }
 
-/* Small devices (landscape phones, 499px and up) */
+/* Small devices (landscape phones, 500px and up) */
 @media (min-width: 499px) {
 
     #logo {
-        font-size: 30px;
+        font-size: 25px;
     
     }
 
