@@ -53,12 +53,11 @@ body {
 
 #logo {
     font-family: 'Bungee Outline', cursive;
-    float: left;
-    font-size: 2em;
+    font-size: 0.5em;
     letter-spacing: 0px;
-    margin-left: 3rem;
-    margin-top: 1em;
-    color: #ffffff
+    float: left;
+    margin-top: 0;
+    color: #ffffff;
 
 }
 
@@ -69,6 +68,8 @@ body {
     width: 100vw;
     height: 80vh;
     display: flex;
+    margin-top: 30%;
+
 
     background-repeat: no-repeat;
     background: url(../images/hero-image-3-2560x1004.png);
