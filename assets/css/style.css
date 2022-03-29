@@ -179,25 +179,9 @@ p   {
     to {
         transform: scale(1);
     }
+ 
+    
 }
-
-
-
-
-
-/* vault header and placeholder */
-
-/*#vault-placeholder {
-
-    width: 100vw;
-    height: 50vh;
-    margin: 0 auto;
-    position: relative;
-    margin-top: 2rem;
-    background-color: rgba(30, 30, 30, 0.8); 
-} */
-
-
 
 
 /* vault background */
@@ -251,17 +235,77 @@ p   {
 .footer-placeholder {
     width:100vw;
     height: 30vh;
-    margin-top: 10%;
+    margin-top: 20%;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 
 .p2 {
     font-size:8px;
     text-align: left;
     line-height: 10px;
-    padding-top: 28%;
+    padding-top: 30%;
+    margin-bottom: -10%;
+}
+
+/* social networks */
+
+.social-networks {
+    text-align: right;
+    padding-top: 1.5%;
 
 }
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 100%;
+    padding-right: 8%;
+    letter-spacing: -200px;
+    float: right;
+}
+
+
+/* facebook */
+
+
+.fa-facebook {
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/* instagram */
+
+
+.fa-instagram {
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* twitter */
+
+
+.fa-twitter {
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* youtube */
+
+
+.fa-youtube {
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+
 
 /*a.menu:hover {
     background-color:yellow;
@@ -302,59 +346,7 @@ p   {
     color: #91ff00;
 }*/
 
-.social-networks {
-    text-align: center;
 
-}
-
-.social-networks li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 200%;
-    margin: 1%;
-    padding: 4%;
-    padding-top: 15%;
-}
-
-
-/* facebook */
-
-
-.fa-facebook {
-    text-align: center;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
-}
-
-
-/* instagram */
-
-
-.fa-instagram {
-    text-align: center;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
-}
-
-/* twitter */
-
-
-.fa-twitter {
-    text-align: center;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
-}
-
-/* youtube */
-
-
-.fa-youtube {
-    text-align: center;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
-}
 
 
 
