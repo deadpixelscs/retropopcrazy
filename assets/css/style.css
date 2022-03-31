@@ -309,6 +309,54 @@ p   {
 }
 
 
+/* CSS for thevault.html page */
+
+#herotwo-image {
+    position: inherit;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    margin-top: 30%;
+
+
+    background-repeat: no-repeat;
+    background: url(../images/hero-two-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#herotwo-image {
+
+    /* animates zoom on loading page banner */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-delay: 50ms;
+    animation-fill-mode: forwards;
+}
+
+    /* creates zoom for hero image */
+    @keyframes hero-zoom {
+        from {
+            transform: scale(1.1);
+        }
+
+        to {
+            transform: scale(1.0);
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*a.menu:hover {
     background-color:yellow;
@@ -395,6 +443,11 @@ Small devices (landscape phones, 390px and up)
         margin-top: 2em;
     }
 
+    #herotwo-image {
+        width: 100vw;
+        height: 40vh;
+    }
+
 
 }
 
@@ -433,6 +486,11 @@ Small devices (landscape phones, 390px and up)
         margin-top: 2em;
     }
 
+    #herotwo-image {
+        width: 100vw;
+        height: 40vh;
+    }
+
 }
 
 /* Small devices (landscape phones, 500px and up) */
@@ -468,6 +526,11 @@ Small devices (landscape phones, 390px and up)
         width: 31rem;
         height: 31rem;
         margin-top: 2em;
+    }
+
+    #herotwo-image {
+        width: 100vw;
+        height: 40vh;
     }
 
 
@@ -510,6 +573,11 @@ Small devices (landscape phones, 390px and up)
         margin-top: 2em;
     }
 
+    #herotwo-image {
+        width: 100vw;
+        height: 60vh;
+    }
+
 }
 
 /* Large devices (laptops, 1283px and up) */
@@ -549,6 +617,11 @@ Small devices (landscape phones, 390px and up)
         width: 40rem;
         height: 40rem;
         margin-top: 2em;
+    }
+
+    #herotwo-image {
+        width: 100vw;
+        height: 80vh;
     }
 
 }
@@ -595,7 +668,7 @@ Small devices (landscape phones, 390px and up)
 @media (min-width: 2559px) {
     .hero {
         width: 100vw;
-        height: 60vh;
+        height: 80vh;
     }
 
 }
@@ -604,7 +677,7 @@ Small devices (landscape phones, 390px and up)
 @media (min-width: 3479px) {
     .hero {
         width: 100vw;
-        height: 60vh;
+        height: 80vh;
     }
 
 }
