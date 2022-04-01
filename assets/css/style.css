@@ -187,10 +187,77 @@ p   {
 }
 
 
+/* home section logo motu */
+
+
+#home-logo-motu {
+    width: 48%;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+
+
+/* home section logo bl */
+
+
+#home-logo-bl {
+    width: 20%;
+
+}
+
+
+
+/* home section logo sw */
+
+
+#home-logo-stsw {
+    width: 18%;
+    margin-left: 5%;
+
+}
+
+
+/* CSS for thevault.html page */
+
+#herotwo-image {
+    position: inherit;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    margin-top: 30%;
+
+
+    background-repeat: no-repeat;
+    background: url(../images/herot-two-banner.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#herotwo-image {
+
+    /* animates zoom on loading page banner */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-delay: 50ms;
+    animation-fill-mode: forwards;
+}
+
+    /* creates zoom for hero image */
+    @keyframes hero-zoom {
+        from {
+            transform: scale(1.1);
+        }
+
+        to {
+            transform: scale(1.0);
+        }
+}
+
 /* vault background */
 
 
-#vault-centered {
+#vault-page-centered {
     width: 100vw;
     height: 20vh;
     margin: 0 auto;
@@ -238,7 +305,7 @@ p   {
 .footer-placeholder {
     width:100vw;
     height: 20vh;
-    margin-top: 15%;
+    margin-top: 5%;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -307,45 +374,6 @@ p   {
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
 }
-
-
-/* CSS for thevault.html page */
-
-#herotwo-image {
-    position: inherit;
-    width: 100vw;
-    height: 80vh;
-    display: flex;
-    margin-top: 30%;
-
-
-    background-repeat: no-repeat;
-    background: url(../images/hero-two-banner.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
-#herotwo-image {
-
-    /* animates zoom on loading page banner */
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-delay: 50ms;
-    animation-fill-mode: forwards;
-}
-
-    /* creates zoom for hero image */
-    @keyframes hero-zoom {
-        from {
-            transform: scale(1.1);
-        }
-
-        to {
-            transform: scale(1.0);
-        }
-}
-
-
 
 
 
