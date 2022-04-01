@@ -223,7 +223,7 @@ p   {
 #herotwo-image {
     position: inherit;
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     margin-top: 30%;
     background-repeat: no-repeat;
