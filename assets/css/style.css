@@ -844,6 +844,10 @@ Small devices (landscape phones, 390px and up)
         margin-right: 1em;
     }
 
+    #about-image {
+        padding-top: 105%;
+        margin-top: -100%;
+
 }
 
 /* Portrait */
