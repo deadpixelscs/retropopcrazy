@@ -22,8 +22,6 @@ body {
     font-size: 2em;
     letter-spacing: 2px;
     margin-right: 3rem;
-    margin-top: 2rem;
-    padding: 10%;
 }
 
 #menu,
@@ -38,7 +36,7 @@ body {
 }
 
 #menu a {
-    font-size: 0.4em;
+    font-size: 0.7em;
     padding-right: 49%;
     text-decoration: none;
     color: inherit;
@@ -391,13 +389,14 @@ h4 {
     #logo {
         font-size: 1.7em;
         margin-left: 9%;
-        padding-top: 3%;
+        padding-top: 5%;
         padding-right: 0%;
     }
 
     .hero {
         width: 100vw;
         height: 55vh;
+        margin-top: 19%;
     }
 
     #about-home-title h2  {
@@ -429,10 +428,6 @@ h4 {
         margin-left: 1%;
         margin-top: 5%;
     }
-
-    .p2 {
-
-    }
 } 
 
 /* Portrait */
@@ -441,24 +436,8 @@ h4 {
 @media only screen and (min-device-width: 500px) {
 
     #logo {
-        font-size: 1.4em;
-        padding-right: 13%;
-        margin-left: 17%;
-    }
-
-    .hero {
-        width: 100vw;
-        height: 100vh;
-    }
-
-    #about-home-title h2  {
-        font-size: 2.2em;
-        padding-top: 22%;
-    }
-
-    #about-home-image {
-        width: 95vw;
-        height: 95vh;
+        font-size: 2.5em;
         padding-top: 10%;
+        margin-left: 57px;
     }
 } 
