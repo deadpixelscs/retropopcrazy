@@ -73,7 +73,6 @@ body {
     display: flex;
     margin-top: 30%;
 
-
     background-repeat: no-repeat;
     background: url(../images/hero-image-3-2560x1004.png);
     background-size: cover;
@@ -265,31 +264,22 @@ h4 {
 
 /* vault section logo motu */
 
-
-
 #vault-logo-motu {
     width: 100vw;
     height: auto;
     margin-top: 10%;
 }
 
-
-
 /* vault section logo bl */
-
 
 #vault-logo-bl {
     width: 70vw;
     height: auto;
     padding-top: 5%;
     padding-left: 15%;
-
 }
 
-
-
 /* vault section logo sw */
-
 
 #vault-logo-stsw {
     width: 60vw;
@@ -297,7 +287,6 @@ h4 {
     padding-top: 5%;
     padding-left: 20%;
 }
-
 
 /* footer */
 
@@ -309,16 +298,14 @@ h4 {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-
-.p2 {
+.footer-info {
     font-family: system-ui;
     font-size: 8px;
     line-height: 12px;
     letter-spacing: 0.2px;
     padding: 12%;
-    padding-top: 33%;
-    margin-top: 12%;
-    margin-bottom: -10%;
+    padding-top: 25%;
+    margin-bottom: 0%;
     color: #ffffff;
 }
 
@@ -326,9 +313,8 @@ h4 {
 
 .social-networks {
     text-align: left;
-    margin-left: 12%;
-    padding-top: 2%;
-
+    margin-left: 6%;
+    padding-top: 5%;
 }
 
 .social-networks li {
@@ -340,9 +326,7 @@ h4 {
     margin-right: 2%;
 }
 
-
 /* facebook */
-
 
 .fa-facebook {
     text-align: center;
@@ -350,9 +334,7 @@ h4 {
     color: rgba(255, 255, 255, 1);
 }
 
-
 /* instagram */
-
 
 .fa-instagram {
     text-align: center;
@@ -382,7 +364,6 @@ h4 {
 
 
 /* Portrait */
-
 
 @media only screen and (min-device-width: 320px) {
 
@@ -440,4 +421,17 @@ h4 {
         padding-top: 22%;
         padding-right: 0%;
     }
-} 
+
+    .footer-placeholder {
+        height: 30vh;
+    }
+
+    .footer-info {
+        padding: 6%;
+        padding-top: 15%;
+        margin-bottom: -10%;
+    }
+
+}
+
+
