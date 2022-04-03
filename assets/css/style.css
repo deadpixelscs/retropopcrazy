@@ -106,7 +106,7 @@ h2 {
     text-align: center;
     letter-spacing: 2px;
     line-height: 1em;
-    padding-top: -3%;
+    padding-top: 0;
     margin-left: auto;
     margin-right: auto;
     color: #ff00bf;
@@ -119,7 +119,7 @@ h3 {
     text-align: center;
     letter-spacing: 2px;
     line-height: 1em;
-    padding-top: -3
+    padding-top: 0;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3rem;
@@ -133,26 +133,20 @@ h4 {
     text-align: center;
     letter-spacing: 2px;
     line-height: 1em;
-    padding-top: -3%;
+    padding-top: 0%;
     margin-left: auto;
     margin-right: auto;
     color: #ff00bf;
 }
 
-p   {
+#about-home-info  {
     font-family: 'Russo One', cursive;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    line-height: 25px;
-    padding-top: 3%;
+    padding-top: 5%;
     padding-right: 10%;
-    padding-bottom: 5%;
-    padding-left: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 8rem;
+    padding-left: 5%;
+    margin-top: 10%;
     color: #ffffff;
 }
 
@@ -367,465 +361,13 @@ h4 {
     color: rgba(255, 255, 255, 1);
 }
 
+/* Media Queries */
 
-
-
-
-
-
-
-
-
-
-
-/*a.menu:hover {
-    background-color:yellow;
-    font-size:20px;
-}*/
-
-}
-
-/* #follow-us-header h4 {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 2em;
-    text-align: center;
-    padding-top: 40%;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #91ff00;
-} */
-
-/*#follow-us-header-vault h4 {
-    text-align: center;
-    margin-top: 15%;
-    margin-bottom: 7%;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 100px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #91ff00;
-}
-
-#follow-us-header-signup h4 {
-    text-align: center;
-    margin-top: 6%;
-    margin-bottom: 7%;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 100px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #91ff00;
-}*/
-
-
-
-
-
-
-
-
-
-Small devices (landscape phones, 390px and up) 
-@media (min-width: 390px) {
-
-    #logo {
-        margin-top: 17%;
-    }
-
-    #menu {
-        font-size: 1.2em;
-        line-height: 23px;
-        margin-top: 17%;
-        margin-left: 10%;
-    }
-
-    .hero {
-        width: 129vw;
-        height: 64vh;
-        margin-top: 17%;
-    }
-
-    .about-home-title {
-        font-size: 4em;
-        text-align: center;
-        margin-top: 1em;
-        margin-left: 0.4em;
-    }
-
-    .about-home-subtitle {
-        margin-top: 1.5em;
-        margin-left: 2.5em;
-    }
-
-    #about-image {
-        width: 31rem;
-        height: 31rem;
-        margin-top: 2em;
-    }
-
-    #herotwo-image {
-        width: 100vw;
-        height: 40vh;
-    }
-
-
-}
-
-/* Small devices (landscape phones, 425px and up) */
-@media (min-width: 425px) {
-
-    #logo {
-        font-size: 30px;
-    }
-
-
-    #menu {
-        font-size: 1em;
-    }
-
-    .hero {
-        width: 120vw;
-        height: 50vh;
-    }
-
-    h2, h3 {
-        font-size: 4em;
-        text-align: center;
-        margin-top: 1em;
-        margin-left: 0.4em;
-    }
-
-    p {
-        margin-top: 1.5em;
-        margin-left: 2.5em;
-    }
-
-    #about-image {
-        width: 31rem;
-        height: 31rem;
-        margin-top: 2em;
-    }
-
-    #herotwo-image {
-        width: 100vw;
-        height: 40vh;
-    }
-
-}
-
-/* Small devices (landscape phones, 500px and up) */
-@media (min-width: 499px) {
-
-    #logo {
-        font-size: 25px;
-    
-    }
-
-    #menu {
-        font-size: 1em;
-    }
-
-    .hero {
-        width: 100vw;
-        height: 70vh;
-    }
-
-    h2, h3 {
-        font-size: 4em;
-        text-align: center;
-        margin-top: 1em;
-        margin-left: 0em;
-    }
-
-    p {
-        margin-top: 1.5em;
-        margin-left: 0em;
-    }
-
-    #about-image {
-        width: 31rem;
-        height: 31rem;
-        margin-top: 2em;
-    }
-
-    #herotwo-image {
-        width: 100vw;
-        height: 40vh;
-    }
-
-
-}
-
-/* Medium devices (tablets, 767px and up) */
-@media (min-width: 767px) {
-
-    #logo {
-        font-size: 30px;
-    
-    }
-
-    #menu {
-        font-size: 1em;
-    }
-    
-    .hero {
-        width: 100vw;
-        height: 60vh;
-    }
-
-    h2, h3 {
-        font-size: 5em;
-        text-align: center;
-        margin-top: 1em;
-    }
-
-    p {
-        font-size: 1.5em;
-        text-align: center;
-        line-height: 24px;
-        margin: 1em;
-        margin-top: 2em;
-    }
-
-    #about-image {
-        width: 40rem;
-        height: 40rem;
-        margin-top: 2em;
-    }
-
-    #herotwo-image {
-        width: 100vw;
-        height: 60vh;
-    }
-
-}
-
-/* Large devices (laptops, 1283px and up) */
-@media (min-width: 1283px) {
-
-    #logo {
-        font-size: 30px;
-    
-    }
-
-    #menu {
-        font-size: 1em;
-    }
-
-    .hero {
-        width: 100vw;
-        height: 60vh;
-    }
-
-    h2, h3 {
-        font-size: 5em;
-        text-align: center;
-        margin: 0;
-        margin-top: 1em;
-
-    }
-
-    p {
-        font-size: 1.5em;
-        text-align: center;
-        line-height: 24px;
-        margin: 1em;
-        margin-top: 2em;
-    }
-
-    #about-image {
-        width: 40rem;
-        height: 40rem;
-        margin-top: 2em;
-    }
-
-    #herotwo-image {
-        width: 100vw;
-        height: 80vh;
-    }
-
-}
-
-/* XX-Large devices (larger desktops, 1399px and up) */
-@media (min-width: 1399px) {
-
-    #logo {
-        font-size: 30px;
-    
-    }
-
-    #menu {
-        font-size: 1em;
-    }
-
-    .hero {
-        width: 100vw;
-        height: 60vh;
-    }
-
-    h2, h3 {
-        font-size: 7em;
-        text-align: center;
-        margin: 1em;
-        margin-top: 1em;
-    }
-
-    p {
-        font-size: 1.5em;
-        text-align: center;
-        line-height: 22px;
-        margin: 1em;
-    }
-
-    #about-image {
-        width: 48rem;
-        height: 48rem;
-        margin-top: 2em;
-    }
-}
-
-
-
-/* Super-Large devices (larger desktops, 3479px and up) */
-@media (min-width: 3479px) {
-    .hero {
-        width: 100vw;
-        height: 80vh;
-    }
-
-}
-
-/* XXX-Large devices (larger desktops, 2559px and up) */
-@media (min-width: 2559px) {
-    .hero {
-        width: 100vw;
-        height: 80vh;
-    }
-
-}
-
-
-/* Portrait 
-@media only screen and (max-device-width: 768px){
-
-    #menu a {
-        font-size: 0.4em;
-        letter-spacing: 0px;
-        margin-left: -44em;
-        word-spacing: -2px;
-
-    }
-
-    #menu li {
-        float: right;
-        list-style-type:
-        margin-right: 10px;
-    }
-
-    #logo {
-        font-size: 1.3em;
-        margin-top: -2rem;
-    }
-
-    
-    .hero {
-        width: 100vw;
-        height: 26vh;
-        margin-left: -230px;
-    }
-
-    .about-home-title {
-        font-size: 2em;
-        margin: 1em;
-        margin-top: 2em;
-        margin-left: -13.8em;
-    }
-
-    .about-home-subtitle {
-        font-size: 0.8em;
-        text-align: center;
-        line-height: 15px;
-        margin: 3em;
-        margin-left: -4em;
-        margin-right: 32.5em;
-    }
-
-}
-
-
-/* iPhone 320px */
-
-/* Portrait 
-@media only screen and (max-device-width: 320px){
-
-
-    #menu a {
-        font-size: 0.5em;
-        letter-spacing: 0px;
-        margin-top: 10rem;
-        margin-left: -0.9em;
-    }
-
-    #menu li {
-        float: right;
-        list-style-type:
-        margin-right: 10px;
-    }
-
-    #logo {
-        font-size: 1.3em;
-        margin-top: -2rem;
-        margin-left: 2rem;
-    }
-
-
-    .hero {
-        width: 21rem;
-        height: 22rem;
-        margin-left: -0.5em;
-    }
-
-    .about-home-title {
-        font-size: 2em;
-        margin-top: 2em;
-        margin-left: 1em;
-        margin-right: 1em;
-    }
-
-    .about {
-        margin-top: 2rem;
-    }
-    
-}
-*/
-
-
-
-/* Portrait 
-@media only screen and (max-device-width: 500px){
-
-    #logo {
-        font-size: 1.3em;
-        margin-left: 2rem;
-    }
-
-    .hero {
-        width: 20rem;
-        height: 20rem;
-        margin-left: 0;
-    }
-
-    .about-home-title {
-        font-size: 2em;
-        margin-left: 1em;
-        margin-right: 1em;
-    }
-
-}
-*/
 
 /* Portrait */
-@media only screen and (min-device-width: 500px){
+
+
+@media only screen and (min-device-width: 320px) {
 
     #logo {
         font-size: 1.3em;
@@ -834,53 +376,45 @@ Small devices (landscape phones, 390px and up)
 
     .hero {
         width: 100vw;
-        height: 50vh;
-        margin-left: 0;
+        height: 100vh;
     }
 
-    .about-home-title {
-        font-size: 2em;
-        margin-left: 1em;
-        margin-right: 1em;
+    #about-home-title h2  {
+        font-size: 2.2em;
+        padding-top: 22%;
+        padding-right: 5%;
     }
 
-    #about-image {
-        padding-top: 105%;
-        margin-top: -100%;
-
-}
+    #about-home-image {
+        width: 95vw;
+        height: 61vh;
+        padding-top: 10%;
+    }
+} 
 
 /* Portrait */
-@media only screen and (min-device-width: 1px){
 
+
+@media only screen and (min-device-width: 500px) {
+
+    #logo {
+        font-size: 1.3em;
+        margin-left: 2rem;
+    }
 
     .hero {
-        position: inherit;
         width: 100vw;
-        height: 56vh;
-        display: flex;
+        height: 100vh;
     }
 
-    h2 {
-        font-size: 2.5rem;
-        text-align: center;
-        padding: 5%;
-        margin-top: 15%;
-        margin-left: 0em;
-        margin-right: 0em;
-    
-
-    p {
-        padding-top: 0%;
-        margin-top: 2rem;
+    #about-home-title h2  {
+        font-size: 2.2em;
+        padding-top: 22%;
     }
 
-    #about-image {
-        width: 100vw;
-        height: 36vh;
-        padding-top: 109%;
-        margin-top: -90%;
- }
-
-
-}
+    #about-home-image {
+        width: 95vw;
+        height: 95vh;
+        padding-top: 10%;
+    }
+} 
