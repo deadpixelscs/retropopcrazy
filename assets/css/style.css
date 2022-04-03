@@ -435,9 +435,9 @@ h4 {
 
 @media only screen and (min-device-width: 500px) {
 
-    #logo {
-        font-size: 2.5em;
-        padding-top: 10%;
-        margin-left: 57px;
+    #about-home-title h2  {
+        font-size: 3.2em;
+        padding-top: 22%;
+        padding-right: 0%;
     }
 } 
