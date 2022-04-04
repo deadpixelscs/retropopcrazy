@@ -342,7 +342,6 @@ h4 {
 
 /* twitter */
 
-
 .fa-twitter {
     text-align: center;
     text-decoration: none;
@@ -351,19 +350,18 @@ h4 {
 
 /* youtube */
 
-
 .fa-youtube {
     text-align: center;
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
 }
 
-/* Media Queries */
+/* ++++++++++ Media Queries +++++++++++ */
 
 
 /* Portrait */
 
-@media only screen and (min-device-width: 1px) and (max-device-width: 320px) {
+@media only screen and (min-device-width: 320px) {
 
     #logo {
         font-size: 0.6em;
@@ -424,6 +422,76 @@ h4 {
     }
 } 
 
+@media only screen and (min-device-width: 500px) {
+
+
+    #logo {
+        font-size: 1em;
+        margin-left: 5%;
+        padding-top: 5%;
+        padding-right: 0%;
+    }
+
+    #menu a {
+        font-size: 0.5em;
+    }
+    
+    .hero {
+        width: 100vw;
+        height: 55vh;
+        margin-top: 19%;
+    }
+
+    #about-home-title h2  {
+        font-size: 3.2em;
+        padding-top: 22%;
+        padding-right: 0%;
+    }
+
+    #about-home-info p {
+        font-size: 1.2rem;
+        padding: 5%;
+        padding-top: 2%;
+    }
+
+    #about-home-image {
+        width: 100vw;
+        height: 50vh;
+        padding-top: 15%;
+    }
+
+    #about-home-info-two p {
+        font-size: 1.2rem;
+        padding: 5%;
+        padding-top: 3%;
+        padding-right: 0%;
+    }
+
+    #home-logo-motu {
+        width: 100%;
+        margin-left: 1%;
+        margin-top: 5%;
+    }
+
+    .footer-info {
+        padding: 5%;
+        padding-top: 32%;
+        padding-left: 10%;
+    }
+
+    .social-networks {
+        padding-top: 0%;
+        padding-left: 4%;
+    }
+
+
+
+
+
+
+
+
+}
 /* Portrait
 
 
