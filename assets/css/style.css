@@ -446,7 +446,7 @@ h4 {
 
     #about-home-title h2  {
         font-size: 4em;
-        padding-top: 22%;
+        padding-top: 11%;
         padding-right: 0%;
     }
 
@@ -455,7 +455,24 @@ h4 {
         padding-top: 0%;
         padding-right: 10%;
         padding-left: 10%;
+        margin-top: -7%;
+    }
 
+    #about-home-image {
+        width: 100vw;
+        padding-top: 5%;
+    }
+
+    #vault-home-info p {
+        font-size: 1.2rem;
+        padding: 5%;
+        padding-top: 0%;
+        padding-right: 0%;
+        margin-top: -8%;
+    }
+
+    #home-logo-motu {
+        margin-top: 1%;
     }
 
     .footer-placeholder {
