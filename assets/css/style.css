@@ -481,4 +481,31 @@ h4 {
 
 }
 
+@media only screen and (min-device-width: 828px) {
+
+    #about-home-title h2  {
+        font-size: 5em;
+        padding-top: 11%;
+        padding-right: 0%;
+    }
+    
+    #vault-home-info p {
+        margin-top: -8%;
+    }
+    
+    #home-logo-motu {
+        margin-top: -2%;
+    }
+
+    #home-logo-bl {
+        margin-top: -2%;
+    }
+
+    #home-logo-stsw {
+        margin-top: -2%;
+
+    }
+
+}
+
 
