@@ -139,7 +139,7 @@ h4 {
     color: #ff00bf;
 }
 
-#about-home-info  {
+#about-home-info {
     font-family: 'Russo One', cursive;
     font-size: 1.5rem;
     text-align: center;
@@ -165,7 +165,7 @@ h4 {
     animation-fill-mode: forwards;
 }
 
-#vault-home-info  {
+#about-home-info-two {
     font-family: 'Russo One', cursive;
     font-size: 1.5rem;
     text-align: center;
@@ -185,8 +185,6 @@ h4 {
     to {
         transform: scale(1);
     }
- 
-    
 }
 
 
@@ -365,15 +363,19 @@ h4 {
 
 /* Portrait */
 
-@media only screen and (min-device-width: 320px) {
+@media only screen and (min-device-width: 1px) and (max-device-width: 320px) {
 
     #logo {
-        font-size: 1.7em;
+        font-size: 0.6em;
         margin-left: 9%;
         padding-top: 5%;
         padding-right: 0%;
     }
 
+    #menu a {
+        font-size: 0.3em;
+    }
+    
     .hero {
         width: 100vw;
         height: 55vh;
@@ -397,7 +399,7 @@ h4 {
         padding-top: 15%;
     }
 
-    #vault-home-info p {
+    #about-home-info-two p {
         font-size: 1.2rem;
         padding: 5%;
         padding-top: 3%;
@@ -410,12 +412,19 @@ h4 {
         margin-top: 5%;
     }
 
+    .footer-info {
+        padding: 5%;
+        padding-top: 34%;
+        padding-left: 10%;
+    }
+
     .social-networks {
-        padding-left: 5%;
+        padding-top: 0%;
+        padding-left: 4%;
     }
 } 
 
-/* Portrait */
+/* Portrait
 
 
 @media only screen and (min-device-width: 500px) {
@@ -441,7 +450,7 @@ h4 {
 
 }
 
-@media only screen and (min-device-width: 900px) {
+@media only screen and (min-device-width: 640px) {
 
     #about-home-title h2  {
         font-size: 4em;
@@ -478,6 +487,14 @@ h4 {
         height: 33vh;
     }
 
+    .social-networks {
+        padding-left: 0%;
+    }
+
 }
+
+@media only screen and (min-device-width: 1284px) {
+
+} */
 
 
