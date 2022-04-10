@@ -71,7 +71,7 @@ body {
 .hero {
     position: inherit;
     width: 100vw;
-    height: 60vh;
+    height: 56vh;
     display: flex;
     margin-top: 30%;
 
@@ -109,8 +109,8 @@ h2 {
     letter-spacing: 2px;
     line-height: 1em;
     padding-top: 15%;
-    margin-left: auto;
-    margin-right: auto;
+    padding-right: 5%;
+    padding-left: 5%;
     color: #ff00bf;
 }
 
@@ -355,8 +355,39 @@ h4 {
 
 /* ++++++++++ Media Queries +++++++++++ */
 
+@media only screen and (min-device-width: 1px) and (max-device-width: 320px) {
+
+    .hero {
+        width: 148vw;
+        height: 56vh;
+    }
+
+    h2 {
+        font-size: 2em;
+        padding-top: 27%;
+        margin: -11%;
+        margin-left: 33%;
+    }
+
+    #about-home-info {
+        font-size: 1.1rem;
+        padding-top: 21%;
+        padding-right: 5%;
+        padding-bottom: 57%;
+        padding-left: 5%;
+        margin-left: 33%;
+        margin-right: -16%;
+    }
+    
+
+
+}
+
+
 
 /* Portrait 
+
+
 
 @media only screen and (min-device-width: 320px) {
 
