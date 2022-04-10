@@ -365,22 +365,29 @@ h4 {
     h2 {
         font-size: 2em;
         padding-top: 27%;
-        margin: -11%;
-        margin-left: 33%;
+        margin-right: 5%;
+        margin-left: 5%;
     }
 
     #about-home-info {
         font-size: 1.1rem;
-        padding-top: 21%;
+        padding-top: 20%;
         padding-right: 5%;
-        padding-bottom: 57%;
+        padding-bottom: 20%;
         padding-left: 5%;
-        margin-left: 33%;
-        margin-right: -16%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #about-home-info-two {
+        font-size: 1.1rem;
+        padding-top: 20%;
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     
-
-
 }
 
 
