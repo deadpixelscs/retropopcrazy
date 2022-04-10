@@ -15,29 +15,44 @@ body {
     background-size: cover;
 }
 
+/* logo */
+
+#logo {
+    font-family: 'Bungee Outline', cursive;
+    font-size: 1em;
+    letter-spacing: 1px;
+    float: left;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    margin-left: 5%;
+    color: #ffffff;
+
+}
+
+
 /* nav links */
 
 #menu {
     color: #ff00bf;
-    font-size: 2em;
-    letter-spacing: 2px;
-    margin-right: 3rem;
+    font-size: 1.5em;
+    letter-spacing: 1px;
 }
 
 #menu,
 #logo {
-    line-height: 1rem;
+    line-height: 1em;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 10px;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    margin-right: 5%;
 }
 
 #menu a {
-    font-size: 0.7em;
-    padding-right: 49%;
+    font-size: 0.5em;
     text-decoration: none;
     color: inherit;
 }
@@ -50,26 +65,13 @@ body {
     border-bottom: 1px solid #edd496;
 }
 
-/* logo */
-
-#logo {
-    font-family: 'Bungee Outline', cursive;
-    font-size: 0.5em;
-    letter-spacing: 0px;
-    float: left;
-    margin-top: 1px;
-    margin-left: 62px;
-    margin-bottom: 56px;
-    color: #ffffff;
-
-}
 
 /* hero image */
 
 .hero {
     position: inherit;
     width: 100vw;
-    height: 80vh;
+    height: 60vh;
     display: flex;
     margin-top: 30%;
 
@@ -106,7 +108,7 @@ h2 {
     text-align: center;
     letter-spacing: 2px;
     line-height: 1em;
-    padding-top: 0;
+    padding-top: 15%;
     margin-left: auto;
     margin-right: auto;
     color: #ff00bf;
@@ -143,20 +145,17 @@ h4 {
     font-family: 'Russo One', cursive;
     font-size: 1.5rem;
     text-align: center;
-    padding-top: 5%;
-    margin-top: 10%;
+    padding-top: 8%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    padding-left: 5%;
     color: #ffffff;
 }
 
-#about-image {
+#about-home-image {
     position: relative;
-    width: 100rem;
-    height: 100rem;
+    width: 100vw;
     display: flex;
-    padding-top: 2%;
-    margin-top: -100%;
-    margin-left: auto;
-    margin-right: auto;
 
     /* animates zoom on image one */
     animation-name: hero-zoom;
@@ -169,10 +168,10 @@ h4 {
     font-family: 'Russo One', cursive;
     font-size: 1.5rem;
     text-align: center;
-    padding-top: 5%;
-    padding-right: 10%;
+    padding-top: 10%;
+    padding-right: 5%;
+    padding-bottom: 10%;
     padding-left: 5%;
-    margin-top: 10%;
     color: #ffffff;
 }
 
@@ -186,6 +185,8 @@ h4 {
         transform: scale(1);
     }
 }
+
+
 
 
 /* home section logo motu */
@@ -217,8 +218,8 @@ h4 {
 #home-logo-stsw {
     width: 67%;
     padding: 3%;
+    padding-bottom: 20%;
     padding-left: 16%;
-
 }
 
 
@@ -255,7 +256,6 @@ h4 {
 }
 
 
-
 h4 {
     padding-top: 10%;
 }
@@ -290,20 +290,17 @@ h4 {
 
 .footer-placeholder {
     width: 100vw;
-    height: 40vh;
-    padding-top: 1%;
-    margin-top: 16%;
+    padding-top: 10%;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 .footer-info {
     font-family: system-ui;
-    font-size: 8px;
-    line-height: 12px;
+    font-size: 1em;
+    line-height: 17px;
     letter-spacing: 0.2px;
     padding: 12%;
-    padding-top: 25%;
-    margin-bottom: 0%;
+    margin-bottom: -9%;
     color: #ffffff;
 }
 
@@ -311,8 +308,8 @@ h4 {
 
 .social-networks {
     text-align: left;
-    margin-left: 6%;
-    padding-top: 5%;
+    margin-left: 12%;
+    padding-bottom: 5%;
 }
 
 .social-networks li {
@@ -359,7 +356,7 @@ h4 {
 /* ++++++++++ Media Queries +++++++++++ */
 
 
-/* Portrait */
+/* Portrait 
 
 @media only screen and (min-device-width: 320px) {
 
