@@ -6,6 +6,14 @@
     border: none;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    position: relative
+}
+
 body {
     font-family: 'Permanent Marker', cursive;
     font-weight: 100;
@@ -73,7 +81,7 @@ body {
     width: 100vw;
     height: 56vh;
     display: flex;
-    margin-top: 30%;
+    margin-top: 10%;
 
     background-repeat: no-repeat;
     background: url(../images/hero-image-3-2560x1004.png);
@@ -103,7 +111,7 @@ body {
 
 h2 {
     font-family: 'Permanent Marker', cursive;
-    font-size: 4em;
+    font-size: 3em;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
@@ -143,7 +151,7 @@ h4 {
 
 #about-home-info {
     font-family: 'Russo One', cursive;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     text-align: center;
     padding-top: 8%;
     padding-right: 5%;
@@ -166,7 +174,7 @@ h4 {
 
 #about-home-info-two {
     font-family: 'Russo One', cursive;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     text-align: center;
     padding-top: 10%;
     padding-right: 5%;
@@ -357,21 +365,36 @@ h4 {
 
 @media only screen and (min-device-width: 1px) and (max-device-width: 320px) {
 
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    body {
+        position: relative
+    }
+
+
+    #logo {
+        font-size: 0.7em;
+        padding-top: 6%;
+        padding-bottom: 5%;
+    }
+
     .hero {
-        width: 148vw;
-        height: 56vh;
+        width: 100vw;
+        height: 55vh;
     }
 
     h2 {
-        font-size: 2em;
-        padding-top: 27%;
+        font-size: 2.3em;
+        padding-top: 22%;
         margin-right: 5%;
         margin-left: 5%;
     }
 
     #about-home-info {
-        font-size: 1.1rem;
-        padding-top: 20%;
+        font-size: 1.1em;
+        padding-top: 10%;
         padding-right: 5%;
         padding-bottom: 20%;
         padding-left: 5%;
@@ -380,12 +403,108 @@ h4 {
     }
 
     #about-home-info-two {
-        font-size: 1.1rem;
+        font-size: 1.1em;
         padding-top: 20%;
         padding-right: 5%;
         padding-left: 5%;
         margin-left: 5%;
         margin-right: 5%;
+    }
+    
+}
+
+@media only screen and (min-device-width: 321px) and (max-device-width: 500px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    body {
+        position: relative
+    }
+
+    #logo {
+        font-size: 0.7em;
+        padding-top: 6%;
+        padding-bottom: 5%;
+    }
+
+    #menu li {
+        padding-top: 3%;
+    }
+
+    h2 {
+        font-size: 2em !important;
+        padding-top: 20% !important;
+        margin-right: 5% !important;
+        margin-left: 5% !important;
+    }
+
+    #about-home-info {
+        font-size: 1.2em;
+    }
+
+    #about-home-info-two {
+        font-size: 1.2em;
+    }
+
+}
+
+@media only screen and (min-device-width: 501px) and (max-device-width: 728px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    body {
+        position: relative
+    }
+
+    #logo {
+        font-size: 1em;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    #menu {
+        font-size: 2.5em;
+    }
+
+    #menu li {
+        padding-top: 3%;
+    }
+
+    h2 {
+        font-size: 3em !important;
+        padding-top: 20% !important;
+        margin-right: 5% !important;
+        margin-left: 4% !important;
+    }
+
+    #home-logo-motu {
+        margin-top: -5%;
+    }
+
+    .social-networks {
+        padding-bottom: 6%;
+    }
+
+}
+
+@media only screen and (min-device-width: 729px) and (max-device-width: 1284px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    body {
+        position: relative
+    }
+
+    #logo {
+        font-size: 3em;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
     
 }
