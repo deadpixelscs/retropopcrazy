@@ -363,7 +363,8 @@ h4 {
 
 /* ++++++++++ Media Queries +++++++++++ */
 
-@media only screen and (min-device-width: 1px) and (max-device-width: 320px) {
+@media only screen 
+    and (max-width: 320px) {
 
     html, body {
         overflow-x: hidden;
@@ -413,7 +414,9 @@ h4 {
     
 }
 
-@media only screen and (min-device-width: 321px) and (max-device-width: 500px) {
+@media only screen
+    and (min-width: 321px)
+    and (max-width: 500px) {
 
     html, body {
         overflow-x: hidden;
@@ -450,7 +453,9 @@ h4 {
 
 }
 
-@media only screen and (min-device-width: 501px) and (max-device-width: 599px) {
+@media only screen
+    and (min-width: 501px)
+    and (max-width: 599px) {
 
     html, body {
         overflow-x: hidden;
@@ -491,7 +496,9 @@ h4 {
 
 }
 
-@media only screen and (min-device-width: 600px) and (max-device-width: 639px) {
+@media only screen
+    and (min-width: 600px)
+    and (max-width: 639px) {
 
     html, body {
         overflow-x: hidden;
@@ -521,7 +528,9 @@ h4 {
     
 }
 
-@media only screen and (min-device-width: 640px) and (max-device-width: 750px) {
+@media only screen
+    and (min-width: 640px)
+    and (max-width: 750px) {
 
     html, body {
         overflow-x: hidden;
@@ -556,7 +565,9 @@ h4 {
     
 }
 
-@media only screen and (min-device-width: 751px) and (max-device-width: 828px) {
+@media only screen
+    and (min-width: 751px)
+    and (max-width: 828px) {
 
     html, body {
         overflow-x: hidden;
@@ -595,7 +606,9 @@ h4 {
     
 }
 
-@media only screen and (min-device-width: 829px) and (max-device-width: 900px) {
+@media only screen
+    and (min-width: 829px)
+    and (max-width: 900px) {
 
     html, body {
         overflow-x: hidden;
@@ -634,7 +647,9 @@ h4 {
     
 }
 
-@media only screen and (min-device-width: 901px) and (max-device-width: 1080px) {
+@media only screen
+    and (min-width: 901px)
+    and (max-width: 1080px) {
 
     html, body {
         overflow-x: hidden;
@@ -672,7 +687,9 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 1081px) and (max-device-width: 1170px) {
+@media only screen
+    and (min-width: 1081px)
+    and (max-width: 1170px) {
 
     html, body {
         overflow-x: hidden;
@@ -731,7 +748,9 @@ h4 {
 
 }
 
-@media only screen and (min-device-width: 1171px) and (max-device-width: 1284px) {
+@media only screen 
+    and (min-width: 1171px)
+    and (max-width: 1284px) {
 
     html, body {
         overflow-x: hidden;
@@ -790,7 +809,9 @@ h4 {
 
 }
 
-@media only screen and (min-device-width: 1285px) and (max-device-width: 1600px) {
+@media only screen
+    and (min-width: 1285px)
+    and (max-width: 1600px) {
 
     html, body {
         overflow-x: hidden;
@@ -849,7 +870,9 @@ h4 {
 
 }
 
-@media only screen and (min-device-width: 1601px) and (max-device-width: 1792px) {
+@media only screen
+    and (min-width: 1601px)
+    and (max-width: 1792px) {
 
     html, body {
         overflow-x: hidden;
@@ -908,7 +931,9 @@ h4 {
 
 }
 
-@media only screen and (min-device-width: 1793px) and (max-device-width: 2560px) {
+@media only screen
+    and (min-width: 1793px)
+    and (max-width: 2560px) {
 
     html, body {
         overflow-x: hidden;
