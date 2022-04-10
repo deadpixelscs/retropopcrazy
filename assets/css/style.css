@@ -450,7 +450,7 @@ h4 {
 
 }
 
-@media only screen and (min-device-width: 501px) and (max-device-width: 728px) {
+@media only screen and (min-device-width: 501px) and (max-device-width: 599px) {
 
     html, body {
         overflow-x: hidden;
@@ -461,9 +461,9 @@ h4 {
     }
 
     #logo {
-        font-size: 1em;
-        padding-top: 5%;
-        padding-bottom: 5%;
+        font-size: 1.3em;
+        padding-top: 8%;
+        padding-bottom: 7%;
     }
 
     #menu {
@@ -471,12 +471,12 @@ h4 {
     }
 
     #menu li {
-        padding-top: 3%;
+        padding-top: 4%;
     }
 
     h2 {
         font-size: 3em !important;
-        padding-top: 20% !important;
+        padding-top: 15% !important;
         margin-right: 5% !important;
         margin-left: 4% !important;
     }
@@ -491,7 +491,7 @@ h4 {
 
 }
 
-@media only screen and (min-device-width: 729px) and (max-device-width: 1284px) {
+@media only screen and (min-device-width: 600px) and (max-device-width: 639px) {
 
     html, body {
         overflow-x: hidden;
@@ -502,14 +502,470 @@ h4 {
     }
 
     #logo {
-        font-size: 3em;
-        padding-top: 5%;
-        padding-bottom: 5%;
+        font-size: 1.6em !important;
+        padding-top: 7% !important;
+        padding-bottom: 7% !important;
+    }
+
+    #menu {
+        font-size: 3em !important;
+    }
+
+    #menu li {
+        padding-top: 3% !important;
+    }
+
+    #home-logo-motu {
+        margin-top: 0%;
     }
     
 }
 
+@media only screen and (min-device-width: 640px) and (max-device-width: 750px) {
 
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    body {
+        position: relative
+    }
+
+    #logo {
+        font-size: 1.6em !important;
+        padding-top: 7% !important;
+        padding-bottom: 7% !important;
+    }
+
+    #menu {
+        font-size: 3em !important;
+    }
+
+    #menu li {
+        padding-top: 4% !important;
+    }
+
+    h2 {
+        font-size: 4em;
+        padding-top: 15% !important;
+    }
+
+    #home-logo-motu {
+        margin-top: 0%;
+    }
+    
+}
+
+@media only screen and (min-device-width: 751px) and (max-device-width: 828px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    body {
+        position: relative
+    }
+
+    #logo {
+        font-size: 1.6em !important;
+        padding-top: 7% !important;
+        padding-bottom: 7% !important;
+    }
+
+    #menu {
+        font-size: 3em !important;
+    }
+
+    #menu li {
+        padding-top: 4% !important;
+    }
+
+    h2 {
+        font-size: 4em;
+        padding-top: 15% !important;
+    }
+
+    #home-logo-motu {
+        margin-top: 0%;
+    }
+
+    .social-networks {
+        padding-bottom: 6%;
+    }
+    
+}
+
+@media only screen and (min-device-width: 829px) and (max-device-width: 900px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    body {
+        position: relative
+    }
+
+    #logo {
+        font-size: 1.6em !important;
+        padding-top: 7% !important;
+        padding-bottom: 7% !important;
+    }
+
+    #menu {
+        font-size: 3em !important;
+    }
+
+    #menu li {
+        padding-top: 4% !important;
+    }
+
+    h2 {
+        font-size: 4em;
+        padding-top: 15% !important;
+    }
+
+    #home-logo-motu {
+        margin-top: 0%;
+    }
+
+    .social-networks {
+        padding-bottom: 7%;
+    }
+    
+}
+
+@media only screen and (min-device-width: 901px) and (max-device-width: 1080px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    body {
+        position: relative
+    }
+
+    #logo {
+        font-size: 1.6em !important;
+        padding-top: 7% !important;
+        padding-bottom: 7% !important;
+    }
+
+    #menu {
+        font-size: 3em !important;
+    }
+
+    #menu li {
+        padding-top: 4.5% !important;
+    }
+
+    h2 {
+        font-size: 4em;
+        padding-top: 15% !important;
+    }
+
+    #home-logo-motu {
+        margin-top: 0%;
+    }
+
+    .social-networks {
+        padding-bottom: 7%;
+    }
+}
+
+@media only screen and (min-device-width: 1081px) and (max-device-width: 1170px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    body {
+        position: relative
+    }
+
+    #logo {
+        font-size: 1.6em !important;
+        padding-top: 7% !important;
+        padding-bottom: 7% !important;
+    }
+
+    #menu {
+        font-size: 3em !important;
+    }
+
+    #menu li {
+        padding-top: 5% !important;
+    }
+
+    h2 {
+        font-size: 4em;
+        padding-top: 15% !important;
+    }
+
+    #about-home-info {
+        font-size: 2em;
+    }
+
+    #about-home-info-two {
+        font-size: 2em;
+    }
+
+    #home-logo-motu {
+        margin-top: -5%;
+    }
+
+    .social-networks {
+        padding-bottom: 7%;
+    }
+
+    .social-networks i {
+        font-size: 3em;
+        margin-right: 2%;
+        letter-spacing: 1em;
+    }
+
+    .footer-info {
+        font-size: 2em;
+        line-height: 32px;
+    }
+
+
+}
+
+@media only screen and (min-device-width: 1171px) and (max-device-width: 1284px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    body {
+        position: relative
+    }
+
+    #logo {
+        font-size: 3em !important;
+        padding-top: 7% !important;
+        padding-bottom: 7% !important;
+    }
+
+    #menu {
+        font-size: 4em !important;
+    }
+
+    #menu li {
+        padding-top: 5% !important;
+    }
+
+    h2 {
+        font-size: 4em;
+        padding-top: 15% !important;
+    }
+
+    #about-home-info {
+        font-size: 2em;
+    }
+
+    #about-home-info-two {
+        font-size: 2em;
+    }
+
+    #home-logo-motu {
+        margin-top: -5%;
+    }
+
+    .social-networks {
+        padding-bottom: 7%;
+    }
+
+    .social-networks i {
+        font-size: 3em;
+        margin-right: 2%;
+        letter-spacing: 1em;
+    }
+
+    .footer-info {
+        font-size: 2em;
+        line-height: 32px;
+    }
+
+
+}
+
+@media only screen and (min-device-width: 1285px) and (max-device-width: 1600px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    body {
+        position: relative
+    }
+
+    #logo {
+        font-size: 3em !important;
+        padding-top: 7% !important;
+        padding-bottom: 7% !important;
+    }
+
+    #menu {
+        font-size: 4em !important;
+    }
+
+    #menu li {
+        padding-top: 5% !important;
+    }
+
+    h2 {
+        font-size: 4em;
+        padding-top: 15% !important;
+    }
+
+    #about-home-info {
+        font-size: 2em;
+    }
+
+    #about-home-info-two {
+        font-size: 2em;
+    }
+
+    #home-logo-motu {
+        margin-top: -5%;
+    }
+
+    .social-networks {
+        padding-bottom: 7%;
+    }
+
+    .social-networks i {
+        font-size: 3em;
+        margin-right: 2%;
+        letter-spacing: 1em;
+    }
+
+    .footer-info {
+        font-size: 2em;
+        line-height: 32px;
+    }
+
+
+}
+
+@media only screen and (min-device-width: 1601px) and (max-device-width: 1792px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    body {
+        position: relative
+    }
+
+    #logo {
+        font-size: 3.5em !important;
+        padding-top: 7% !important;
+        padding-bottom: 7% !important;
+    }
+
+    #menu {
+        font-size: 5em !important;
+    }
+
+    #menu li {
+        padding-top: 5% !important;
+    }
+
+    h2 {
+        font-size: 6em;
+        padding-top: 15% !important;
+    }
+
+    #about-home-info {
+        font-size: 3em;
+    }
+
+    #about-home-info-two {
+        font-size: 3em;
+    }
+
+    #home-logo-motu {
+        margin-top: -5%;
+    }
+
+    .social-networks {
+        padding-bottom: 7%;
+    }
+
+    .social-networks i {
+        font-size: 3em;
+        margin-right: 2%;
+        letter-spacing: 1em;
+    }
+
+    .footer-info {
+        font-size: 2em;
+        line-height: 35px;
+    }
+
+
+}
+
+@media only screen and (min-device-width: 1793px) and (max-device-width: 2560px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    body {
+        position: relative
+    }
+
+    #logo {
+        font-size: 4em !important;
+        padding-top: 7% !important;
+        padding-bottom: 7% !important;
+    }
+
+    #menu {
+        font-size: 6em !important;
+    }
+
+    #menu li {
+        padding-top: 5% !important;
+    }
+
+    h2 {
+        font-size: 6em;
+        padding-top: 15% !important;
+    }
+
+    #about-home-info {
+        font-size: 4em;
+    }
+
+    #about-home-info-two {
+        font-size: 4em;
+    }
+
+    #home-logo-motu {
+        margin-top: -5%;
+    }
+
+    .social-networks {
+        padding-bottom: 7%;
+    }
+
+    .social-networks i {
+        font-size: 3.5em;
+        margin-right: 2%;
+        letter-spacing: 1em;
+    }
+
+    .footer-info {
+        font-size: 2.5em;
+        line-height: 40px;
+    }
+
+
+}
 
 /* Portrait 
 
