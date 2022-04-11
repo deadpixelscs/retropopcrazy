@@ -270,12 +270,13 @@ h4 {
 }
 
 #vault-header-one h4{
-    color: #91ff00;
+    color:  #ff00bf;
 }
 
 #vault-header-two h4{
-    font-size: 4em;
+    font-size: 2em;
     padding-bottom: 5%;
+    color: #fffcfe;
 }
 
 /* vault section logo motu */
@@ -381,8 +382,96 @@ h4 {
     color: #ffffff;
 }
 
+/* ---------- Spiderman section ------------ */
 
 
+.funko-boxed-two {
+    position: relative;
+    width: 100%;
+    height: 200%;
+    display: flex;
+    background-image: linear-gradient(to bottom, #181818 , #0e0e0e);
+}
+
+.funko-boxed-header-two h4 {
+    font-family: 'Russo One', cursive;
+    font-size: 3em;
+    text-align: left;
+    padding: 15% 10% 5% 8%;
+    margin-top: 0%;
+    text-transform: uppercase;
+    color: #ff00bf;
+}
+
+.funko-boxed-two p {
+    font-family: 'Russo One', cursive;
+    font-size: 1em;
+    color: #ffffff;
+    padding: 5% 8% 5% 8%;
+}
+
+.pink {
+    color: #ff00bf;
+}
+
+#bl-image {
+    width: 80vw;
+    border: 10px solid #ff00bf;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#bl-image {
+
+    /* animates zoom on motu image */
+    animation-name: bl-image-zoom;
+    animation-duration: 5s;
+    animation-delay: 50ms;
+    animation-fill-mode: forwards;
+}
+
+    /* creates zoom for hero image */
+    @keyframes bl-image-zoom {
+        from {
+            transform: scale(1.1);
+        }
+
+        to {
+            transform: scale(1.0);
+        }
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.bl-cat-number {
+    font-family: 'Russo One', cursive;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 0% 8% 2% 8%;
+    color: #ffffff;
+}
+
+.bl-value {
+    font-family: 'Russo One', cursive;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 0% 8% 2% 8%;
+    color: #ffffff;
+}
+
+.bl-rating {
+    font-family: 'Russo One', cursive;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 0% 8% 20% 8%;
+    color: #ffffff;
+}
 
 /* homepage footer */
 
