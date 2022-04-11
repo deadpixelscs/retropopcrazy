@@ -278,9 +278,7 @@ h4 {
 
 #vault-logo-motu {
     width: 50%;
-    padding: 5%;
     padding-left: 5%;
-    padding-bottom: 12%;
 }
 
 /* vault section logo bl */
@@ -288,33 +286,33 @@ h4 {
 #vault-logo-bl {
     width: 30%;
     padding-top: 10%;
-    padding-bottom: 10%;
 }
 
-
-
-#motu-name h4 {
-    font-size: 1.5em;
-    text-align: left;
-    padding-left: 5%;
-    padding-bottom: 10%;
-    color: #91ff00;
-}
 
 .funko-boxed {
     position: relative;
     width: 100%;
-    height: 50%;
+    height: 100%;
     display: flex;
-    background-color: #ffffff;
-    border: 3px solid #91ff00;
-    padding-top: 10%;
-    padding-bottom: 50%;
-  }
+    background-image: linear-gradient(to bottom, #181818 , #0e0e0e);
+}
+
+.funko-boxed-header h4 {
+    font-size: 1.5em;
+    text-align: left;
+    padding: 15% 10% 5% 10%;
+    margin-top: 0%;
+    color: #91ff00;
+}
 
 .funko-boxed p {
-    font-size: 2em;
+    font-family: 'Russo One', cursive;
+    font-size: 1em;
+    color: #ffffff;
+    padding: 5% 10% 80% 10%;
 }
+
+
 
 
 /* homepage footer */
