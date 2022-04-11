@@ -27,14 +27,11 @@ body {
 
 #logo {
     font-family: 'Bungee Outline', cursive;
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 1px;
     float: left;
-    padding-top: 4%;
-    padding-bottom: 3%;
-    margin-left: 5%;
+    padding: 5%;
     color: #ffffff;
-
 }
 
 
@@ -44,7 +41,7 @@ body {
     color: #ff00bf;
     font-size: 1em;
     letter-spacing: 1px;
-    padding-top: 20px;
+    padding: 5%;
 }
 
 #menu,
@@ -77,9 +74,8 @@ body {
 .hero {
     width: 100vw;
     height: 56vh;
-    position: relative;
     display: flex;
-    margin-top: 10%;
+    position: inherit;
 
     background-repeat: no-repeat;
     background: url(../images/hero-image-3-2560x1004.png);
@@ -136,14 +132,14 @@ h3 {
 
 h4 {
     font-family: 'Permanent Marker', cursive;
-    font-size: 4em;
+    font-size: 3em;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
     line-height: 1em;
-    padding-top: 0%;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 15%;
+    padding-right: 5%;
+    padding-left: 5%;
     color: #ff00bf;
 }
 
@@ -229,14 +225,15 @@ h4 {
 }
 
 
-/* CSS for thevault.html page */
+/* -----------  CSS for thevault.html page. --------------- */
 
 #herotwo-image {
-    position: inherit;
+
     width: 100vw;
-    height: 100vh;
+    height: 40vh;
     display: flex;
-    margin-top: 30%;
+    position: inherit;
+
     background-repeat: no-repeat;
     background: url(../images/herot-two-banner.png);
     background-size: cover;
@@ -269,28 +266,19 @@ h4 {
 /* vault section logo motu */
 
 #vault-logo-motu {
-    width: 100vw;
-    height: auto;
-    margin-top: 10%;
+    width: 50%;
+    padding: 5%;
+    padding-left: 5%;
+    margin-top: 5%;
 }
 
 /* vault section logo bl */
 
 #vault-logo-bl {
-    width: 70vw;
-    height: auto;
+    width: 30%;
     padding-top: 5%;
-    padding-left: 15%;
 }
 
-/* vault section logo sw */
-
-#vault-logo-stsw {
-    width: 60vw;
-    height: auto;
-    padding-top: 5%;
-    padding-left: 20%;
-}
 
 /* footer */
 
@@ -372,18 +360,6 @@ h4 {
         position: relative
     }
 
-
-    #logo {
-        font-size: 0.7em;
-        padding-top: 6%;
-        padding-bottom: 5%;
-    }
-
-    .hero {
-        width: 100vw;
-        height: 55vh;
-    }
-
     h2 {
         font-size: 2.3em;
         padding-top: 22%;
@@ -424,16 +400,6 @@ h4 {
         position: relative
     }
 
-    #logo {
-        font-size: 0.7em;
-        padding-top: 6%;
-        padding-bottom: 5%;
-    }
-
-    #menu li {
-        padding-top: 3%;
-    }
-
     h2 {
         font-size: 2em !important;
         padding-top: 20% !important;
@@ -461,20 +427,6 @@ h4 {
     
     body {
         position: relative
-    }
-
-    #logo {
-        font-size: 1.3em;
-        padding-top: 8%;
-        padding-bottom: 7%;
-    }
-
-    #menu {
-        font-size: 2.5em;
-    }
-
-    #menu li {
-        padding-top: 4%;
     }
 
     h2 {
@@ -506,20 +458,6 @@ h4 {
         position: relative
     }
 
-    #logo {
-        font-size: 1.6em !important;
-        padding-top: 7% !important;
-        padding-bottom: 7% !important;
-    }
-
-    #menu {
-        font-size: 3em !important;
-    }
-
-    #menu li {
-        padding-top: 3% !important;
-    }
-
     #home-logo-motu {
         margin-top: 0%;
     }
@@ -536,20 +474,6 @@ h4 {
     
     body {
         position: relative
-    }
-
-    #logo {
-        font-size: 1.6em !important;
-        padding-top: 7% !important;
-        padding-bottom: 7% !important;
-    }
-
-    #menu {
-        font-size: 3em !important;
-    }
-
-    #menu li {
-        padding-top: 4% !important;
     }
 
     h2 {
@@ -573,20 +497,6 @@ h4 {
     
     body {
         position: relative
-    }
-
-    #logo {
-        font-size: 1.6em !important;
-        padding-top: 7% !important;
-        padding-bottom: 7% !important;
-    }
-
-    #menu {
-        font-size: 3em !important;
-    }
-
-    #menu li {
-        padding-top: 4% !important;
     }
 
     h2 {
@@ -616,20 +526,6 @@ h4 {
         position: relative
     }
 
-    #logo {
-        font-size: 1.6em !important;
-        padding-top: 7% !important;
-        padding-bottom: 7% !important;
-    }
-
-    #menu {
-        font-size: 3em !important;
-    }
-
-    #menu li {
-        padding-top: 4% !important;
-    }
-
     h2 {
         font-size: 4em;
         padding-top: 15% !important;
@@ -657,20 +553,6 @@ h4 {
         position: relative
     }
 
-    #logo {
-        font-size: 1.6em !important;
-        padding-top: 7% !important;
-        padding-bottom: 7% !important;
-    }
-
-    #menu {
-        font-size: 3em !important;
-    }
-
-    #menu li {
-        padding-top: 4.5% !important;
-    }
-
     h2 {
         font-size: 4em;
         padding-top: 15% !important;
@@ -695,20 +577,6 @@ h4 {
     
     body {
         position: relative
-    }
-
-    #logo {
-        font-size: 1.6em !important;
-        padding-top: 7% !important;
-        padding-bottom: 7% !important;
-    }
-
-    #menu {
-        font-size: 3em !important;
-    }
-
-    #menu li {
-        padding-top: 5% !important;
     }
 
     h2 {
@@ -758,19 +626,6 @@ h4 {
         position: relative
     }
 
-    #logo {
-        font-size: 3em !important;
-        padding-top: 7% !important;
-        padding-bottom: 7% !important;
-    }
-
-    #menu {
-        font-size: 4em !important;
-    }
-
-    #menu li {
-        padding-top: 5% !important;
-    }
 
     h2 {
         font-size: 4em;
@@ -819,19 +674,6 @@ h4 {
         position: relative
     }
 
-    #logo {
-        font-size: 3em !important;
-        padding-top: 7% !important;
-        padding-bottom: 7% !important;
-    }
-
-    #menu {
-        font-size: 4em !important;
-    }
-
-    #menu li {
-        padding-top: 5% !important;
-    }
 
     h2 {
         font-size: 4em;
@@ -880,19 +722,6 @@ h4 {
         position: relative
     }
 
-    #logo {
-        font-size: 3.5em !important;
-        padding-top: 7% !important;
-        padding-bottom: 7% !important;
-    }
-
-    #menu {
-        font-size: 5em !important;
-    }
-
-    #menu li {
-        padding-top: 5% !important;
-    }
 
     h2 {
         font-size: 6em;
