@@ -682,6 +682,14 @@ h4 {
     #home-logo-motu {
         margin-top: 0%;
     }
+
+    #vault-header-one h4{
+        font-size: 4em;
+    }
+
+    #vault-header-two h4{
+        font-size: 4em;
+    }
     
 }
 
@@ -704,6 +712,14 @@ h4 {
 
     #home-logo-motu {
         margin-top: 0%;
+    }
+
+    #vault-header-one h4{
+        font-size: 4em;
+    }
+
+    #vault-header-two h4{
+        font-size: 4em;
     }
 
     .social-networks {
@@ -733,6 +749,14 @@ h4 {
         margin-top: 0%;
     }
 
+    #vault-header-one h4{
+        font-size: 4em;
+    }
+
+    #vault-header-two h4{
+        font-size: 4em;
+    }
+
     .social-networks {
         padding-bottom: 7%;
     }
@@ -760,10 +784,74 @@ h4 {
         margin-top: 0%;
     }
 
+    #vault-header-one h4{
+        font-size: 4em;
+    }
+
+    #vault-header-two h4{
+        font-size: 4em;
+    }
+
+    .funko-boxed-header h4 {
+        font-size: 4em;
+    }
+
+    .funko-boxed p {
+        font-size: 1.5em;
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+
+    .motu-cat-number {
+        font-size: 2em;
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+    
+    .motu-value {
+        font-size: 2em;
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+    
+    .motu-rating {
+        font-size: 2em;
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+
+    .funko-boxed-header-two h4 {
+        font-size: 4em;
+    }
+
+    .funko-boxed-two p {
+        font-size: 1.5em;
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+
+    .bl-cat-number {
+        font-size: 2em;
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+    
+    .bl-value {
+        font-size: 2em;
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+    
+    .bl-rating {
+        font-size: 2em;
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+
     .social-networks {
         padding-bottom: 7%;
     }
-    
+
 }
 
 @media only screen
