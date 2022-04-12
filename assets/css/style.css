@@ -73,7 +73,7 @@ body {
 
 .hero {
     width: 100vw;
-    height: 56vh;
+    height: 38vh;
     display: flex;
     position: inherit;
 
@@ -481,7 +481,6 @@ h4 {
 
 .footer-placeholder {
     width: 100vw;
-    height: 13vh;
     padding-top: 15%;
     padding-bottom: 5%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -489,8 +488,8 @@ h4 {
 
 .footer-info {
     font-family: system-ui;
-    font-size: 0.8em;
-    line-height: 17px;
+    font-size: 0.7em;
+    line-height: 12px;
     letter-spacing: 0.2px;
     padding-left: 10%;
     color: #ffffff;
@@ -568,6 +567,28 @@ h4 {
     
     body {
         position: relative
+    }
+
+    #logo {
+        font-size: 0.8em;
+        padding-top: 6%;
+    }
+
+    #menu {
+        font-size: 0.6em;
+        letter-spacing: 1px;
+        padding-top: 6%;
+        padding-right: 0%;
+    }
+    
+    #menu li {
+        float: right;
+        list-style-type: none;
+    }
+
+    .hero {
+        width: 100vw;
+        height: 38vh;
     }
 
     h2 {
