@@ -85,14 +85,14 @@ body {
 
 .hero {
 
-    /* animates zoom on loading page banner */
+    /* animates zoom on home page hero banner */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-delay: 50ms;
     animation-fill-mode: forwards;
 }
 
-    /* creates zoom for hero image */
+    /* creates zoom for home page hero banner */
     @keyframes hero-zoom {
         from {
             transform: scale(1.1);
@@ -159,8 +159,8 @@ h4 {
     width: 100vw;
     display: flex;
 
-    /* animates zoom on image one */
-    animation-name: hero-zoom;
+    /* animates zoom on home image  */
+    animation-name: about-home-zoom;
     animation-duration: 5s;
     animation-delay: 50ms;
     animation-fill-mode: forwards;
@@ -219,11 +219,10 @@ h4 {
 }
 
 
-/* -----------  CSS for thevault.html page. --------------- */
-
-/* nav links */
+/* ---------- CSS for vault page ------------ */
 
 
+/* Hero Image 2 */
 
 .herotwo-image {
     width: 100vw;
@@ -257,6 +256,12 @@ h4 {
         }
 }
 
+/* Headers and Info */
+
+
+#vault-header-one h4{
+    color:  #ff00bf;
+}
 
 #vault-center-about-info {
 
@@ -269,21 +274,19 @@ h4 {
     color: #ffffff;
 }
 
-#vault-header-one h4{
-    color:  #ff00bf;
-}
+
 
 #vault-header-two h4{
     font-size: 2em;
     padding-bottom: 5%;
-    color: #fffcfe;
+    color: #ff00bf;
 }
 
 /* vault section logo motu */
 
 #vault-logo-motu {
     width: 50%;
-    padding-left: 5%;
+    padding: 5%;
 }
 
 /* vault section logo bl */
@@ -292,6 +295,8 @@ h4 {
     width: 30%;
     padding-top: 10%;
 }
+
+/* ---------- Terror Claws Skeletor section ------------ */
 
 
 .funko-boxed {
@@ -325,7 +330,7 @@ h4 {
 
 #motu-image {
     width: 80vw;
-    border: 10px solid #91ff00;
+    border: 10px solid #91ff00 !important;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -339,7 +344,7 @@ h4 {
     animation-fill-mode: forwards;
 }
 
-    /* creates zoom for hero image */
+    /* creates zoom for motu image */
     @keyframes motu-image-zoom {
         from {
             transform: scale(1.1);
@@ -349,7 +354,6 @@ h4 {
             transform: scale(1.0);
         }
 }
-
 
 .center {
     display: block;
@@ -416,21 +420,21 @@ h4 {
 
 #bl-image {
     width: 80vw;
-    border: 10px solid #ff00bf;
+    border: 10px solid #ff00bf !important;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
 #bl-image {
 
-    /* animates zoom on motu image */
+    /* animates zoom on bl image */
     animation-name: bl-image-zoom;
     animation-duration: 5s;
     animation-delay: 50ms;
     animation-fill-mode: forwards;
 }
 
-    /* creates zoom for hero image */
+    /* creates zoom for bl image */
     @keyframes bl-image-zoom {
         from {
             transform: scale(1.1);
@@ -440,7 +444,6 @@ h4 {
             transform: scale(1.0);
         }
 }
-
 
 .center {
     display: block;
@@ -473,7 +476,8 @@ h4 {
     color: #ffffff;
 }
 
-/* homepage footer */
+/* ---------- Footer across all pages ------------ */
+
 
 .footer-placeholder {
     width: 100vw;
@@ -491,7 +495,7 @@ h4 {
     color: #ffffff;
 }
 
-/* home page social networks */
+/* social networks */
 
 .social-networks {
     text-align: left;
@@ -539,6 +543,7 @@ h4 {
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
 }
+
 
 /* ++++++++++ Media Queries +++++++++++ */
 
@@ -758,6 +763,7 @@ h4 {
     .social-networks {
         padding-bottom: 7%;
     }
+    
 }
 
 @media only screen
@@ -803,7 +809,6 @@ h4 {
         font-size: 2em;
         line-height: 32px;
     }
-
 
 }
 
@@ -851,7 +856,6 @@ h4 {
         font-size: 2em;
         line-height: 32px;
     }
-
 
 }
 
@@ -914,7 +918,6 @@ h4 {
     body {
         position: relative
     }
-
 
     h2 {
         font-size: 6em;
