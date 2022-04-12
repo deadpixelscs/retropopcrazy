@@ -481,17 +481,18 @@ h4 {
 
 .footer-placeholder {
     width: 100vw;
-    padding-top: 10%;
+    height: 13vh;
+    padding-top: 15%;
+    padding-bottom: 5%;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 .footer-info {
     font-family: system-ui;
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 17px;
     letter-spacing: 0.2px;
-    padding: 12%;
-    margin-bottom: -9%;
+    padding-left: 10%;
     color: #ffffff;
 }
 
@@ -499,8 +500,9 @@ h4 {
 
 .social-networks {
     text-align: left;
-    margin-left: 12%;
-    padding-bottom: 5%;
+    margin-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 1%;
 }
 
 .social-networks li {
@@ -509,7 +511,7 @@ h4 {
 
 .social-networks i {
     font-size: 100%;
-    margin-right: 2%;
+    margin-right: 5%;
 }
 
 /* facebook */
@@ -544,6 +546,16 @@ h4 {
     color: rgba(255, 255, 255, 1);
 }
 
+.footer-copyright p2 {
+    font-family: system-ui;
+    font-size: 0.4em;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    color: #ffffff;
+
+}
 
 /* ++++++++++ Media Queries +++++++++++ */
 
@@ -638,10 +650,6 @@ h4 {
         margin-top: -5%;
     }
 
-    .social-networks {
-        padding-bottom: 6%;
-    }
-
 }
 
 @media only screen
@@ -683,6 +691,8 @@ h4 {
         margin-top: 0%;
     }
 
+    /* ++++++++++ Vault Page Media Queries - Start +++++++++++ */
+
     #vault-header-one h4{
         font-size: 4em;
     }
@@ -690,6 +700,8 @@ h4 {
     #vault-header-two h4{
         font-size: 4em;
     }
+
+    /* ++++++++++ Vault Page Media Queries - End +++++++++++ */
     
 }
 
@@ -714,6 +726,8 @@ h4 {
         margin-top: 0%;
     }
 
+    /* ++++++++++ Vault Page Media Queries - Start +++++++++++ */
+
     #vault-header-one h4{
         font-size: 4em;
     }
@@ -722,11 +736,11 @@ h4 {
         font-size: 4em;
     }
 
-    .social-networks {
-        padding-bottom: 6%;
-    }
+    /* ++++++++++ Vault Page Media Queries - End +++++++++++ */
     
 }
+
+
 
 @media only screen
     and (min-width: 829px)
@@ -749,6 +763,8 @@ h4 {
         margin-top: 0%;
     }
 
+    /* ++++++++++ Vault Page Media Queries - Start +++++++++++ */
+
     #vault-header-one h4{
         font-size: 4em;
     }
@@ -757,9 +773,7 @@ h4 {
         font-size: 4em;
     }
 
-    .social-networks {
-        padding-bottom: 7%;
-    }
+    /* ++++++++++ Vault Page Media Queries - End +++++++++++ */
     
 }
 
@@ -783,6 +797,8 @@ h4 {
     #home-logo-motu {
         margin-top: 0%;
     }
+
+    /* ++++++++++ Vault Page Media Queries - Start +++++++++++ */ 
 
     #vault-header-one h4{
         font-size: 4em;
@@ -848,9 +864,7 @@ h4 {
         padding-right: 9%;
     }
 
-    .social-networks {
-        padding-bottom: 7%;
-    }
+    /* ++++++++++ Vault Page Media Queries - End +++++++++++ */ 
 
 }
 
@@ -881,21 +895,6 @@ h4 {
 
     #home-logo-motu {
         margin-top: -5%;
-    }
-
-    .social-networks {
-        padding-bottom: 7%;
-    }
-
-    .social-networks i {
-        font-size: 3em;
-        margin-right: 2%;
-        letter-spacing: 1em;
-    }
-
-    .footer-info {
-        font-size: 2em;
-        line-height: 32px;
     }
 
 }
@@ -930,21 +929,6 @@ h4 {
         margin-top: -5%;
     }
 
-    .social-networks {
-        padding-bottom: 7%;
-    }
-
-    .social-networks i {
-        font-size: 3em;
-        margin-right: 2%;
-        letter-spacing: 1em;
-    }
-
-    .footer-info {
-        font-size: 2em;
-        line-height: 32px;
-    }
-
 }
 
 @media only screen
@@ -977,22 +961,6 @@ h4 {
         margin-top: -5%;
     }
 
-    .social-networks {
-        padding-bottom: 7%;
-    }
-
-    .social-networks i {
-        font-size: 3em;
-        margin-right: 2%;
-        letter-spacing: 1em;
-    }
-
-    .footer-info {
-        font-size: 2em;
-        line-height: 32px;
-    }
-
-
 }
 
 @media only screen
@@ -1023,22 +991,6 @@ h4 {
     #home-logo-motu {
         margin-top: -5%;
     }
-
-    .social-networks {
-        padding-bottom: 7%;
-    }
-
-    .social-networks i {
-        font-size: 3em;
-        margin-right: 2%;
-        letter-spacing: 1em;
-    }
-
-    .footer-info {
-        font-size: 2em;
-        line-height: 35px;
-    }
-
 
 }
 
@@ -1084,21 +1036,5 @@ h4 {
     #home-logo-motu {
         margin-top: -5%;
     }
-
-    .social-networks {
-        padding-bottom: 7%;
-    }
-
-    .social-networks i {
-        font-size: 3.5em;
-        margin-right: 2%;
-        letter-spacing: 1em;
-    }
-
-    .footer-info {
-        font-size: 2.5em;
-        line-height: 40px;
-    }
-
 
 }
