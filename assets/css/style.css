@@ -1413,33 +1413,124 @@ h4 {
 }
 
 @media only screen
-    and (min-width: 1601px)
-    and (max-width: 1792px) {
+and (min-width: 1601px)
+and (max-width: 1792px) {
 
-    html, body {
-        overflow-x: hidden;
-    }
+html, body {
+    overflow-x: hidden;
+}
     
-    body {
-        position: relative
-    }
+body {
+    position: relative
+}
 
-    h2 {
-        font-size: 6em;
-        padding-top: 15% !important;
-    }
+#logo {
+    font-size: 2.5em;
+}
 
-    #about-home-info {
-        font-size: 3em;
-    }
+#menu {
+    font-size: 2em;
+    letter-spacing: 1px;
+    padding-top: 5%;
+    padding-right: 0%;
+}
+    
+#menu li {
+    float: right;
+    list-style-type: none;
+}
 
-    #about-home-info-two {
-        font-size: 3em;
-    }
+.herotwo-image {
+    width: 100vw;
+    height: 40vh;
+}
 
-    #home-logo-motu {
-        margin-top: -5%;
-    }
+#about-home-info {
+    font-size: 2.5em;
+}
+
+#about-home-info-two {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 7em;
+    padding-top: 15% !important;
+}
+
+#home-logo-motu {
+    margin-top: 0%;
+}
+
+/* ++++++++++ Vault Page Media Queries - Start +++++++++++ */
+
+#vault-center-about-info {
+    font-size: 2.5em;
+}
+
+#vault-header-one h4 {
+    font-size: 7em;
+    padding-top: 15%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#vault-header-two h4 {
+    font-size: 5em;
+    padding-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.funko-boxed-header {
+    font-size: 3.5em;
+}
+
+.funko-boxed p {
+    font-size: 2em;
+    padding-left: 9%;
+}
+
+#funko-stats-001 {
+    font-family: 'Russo One', cursive;
+    font-size: 5em;
+    text-transform: uppercase;
+    padding: 0% 8% 15% 9%;
+    color: #ffffff;
+}
+
+.funko-boxed-header-two {
+    font-size: 3.5em;
+}
+
+.funko-boxed-two p {
+    font-size: 2em;
+    padding-left: 9%;
+}
+
+#funko-stats-002 {
+    font-family: 'Russo One', cursive;
+    font-size: 5em;
+    text-transform: uppercase;
+    padding: 0% 8% 15% 9%;
+    color: #ffffff;
+}
+
+/* ++++++++++ Vault Page Media Queries - End +++++++++++ */ 
+
+.footer-info {
+    font-size: 2.8em;
+    line-height: 42px;
+}
+
+.social-networks {
+    font-size: 300%;
+    margin-right: 5%;
+}
+
+.footer-copyright {
+    font-size: 3em;
+}
 
 }
 
@@ -1447,43 +1538,7 @@ h4 {
     and (min-width: 1793px)
     and (max-width: 2560px) {
 
-    html, body {
-        overflow-x: hidden;
-    }
-    
-    body {
-        position: relative
-    }
 
-    #logo {
-        font-size: 4em !important;
-        padding-top: 7% !important;
-        padding-bottom: 7% !important;
-    }
 
-    #menu {
-        font-size: 6em !important;
-    }
 
-    #menu li {
-        padding-top: 5% !important;
     }
-
-    h2 {
-        font-size: 6em;
-        padding-top: 15% !important;
-    }
-
-    #about-home-info {
-        font-size: 4em;
-    }
-
-    #about-home-info-two {
-        font-size: 4em;
-    }
-
-    #home-logo-motu {
-        margin-top: -5%;
-    }
-
-}
