@@ -226,7 +226,7 @@ h4 {
 
 .herotwo-image {
     width: 100vw;
-    height: 25vh;
+    height: 20vh;
     display: flex;
     position: inherit;
 
@@ -368,29 +368,15 @@ h4 {
     width: 80%;
 }
 
-.motu-cat-number {
+#funko-stats-001 {
     font-family: 'Russo One', cursive;
-    font-size: 1.5em;
+    font-size: 1em;
     text-transform: uppercase;
     padding: 0% 8% 2% 8%;
     color: #ffffff;
 }
 
-.motu-value {
-    font-family: 'Russo One', cursive;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    padding: 0% 8% 2% 8%;
-    color: #ffffff;
-}
 
-.motu-rating {
-    font-family: 'Russo One', cursive;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    padding: 0% 8% 2% 8%;
-    color: #ffffff;
-}
 
 /* ---------- Spiderman section ------------ */
 
@@ -458,27 +444,11 @@ h4 {
     width: 80%;
 }
 
-.bl-cat-number {
+#funko-stats-002 {
     font-family: 'Russo One', cursive;
-    font-size: 1.5em;
+    font-size: 1em;
     text-transform: uppercase;
     padding: 0% 8% 2% 8%;
-    color: #ffffff;
-}
-
-.bl-value {
-    font-family: 'Russo One', cursive;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    padding: 0% 8% 2% 8%;
-    color: #ffffff;
-}
-
-.bl-rating {
-    font-family: 'Russo One', cursive;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    padding: 0% 8% 20% 8%;
     color: #ffffff;
 }
 
@@ -596,6 +566,8 @@ h4 {
         width: 100vw;
         height: 38vh;
     }
+
+    
 
     h2 {
         font-size: 2.3em;
