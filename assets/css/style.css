@@ -226,7 +226,7 @@ h4 {
 
 .herotwo-image {
     width: 100vw;
-    height: 20vh;
+    height: 9vh;
     display: flex;
     position: inherit;
 
@@ -564,7 +564,12 @@ h4 {
 
     .hero {
         width: 100vw;
-        height: 38vh;
+        height: 17vh;
+    }
+
+    .herotwo-image {
+        width: 100vw;
+        height: 19vh;
     }
 
     
@@ -595,6 +600,8 @@ h4 {
         margin-left: 5%;
         margin-right: 5%;
     }
+
+
 
     .funko-boxed-header h4 {
         font-family: 'Russo One', cursive;
@@ -645,6 +652,12 @@ h4 {
         width: 100vw;
         height: 38vh;
     }
+
+    .herotwo-image {
+        width: 100vw;
+        height: 29vh;
+    }
+
 
     h2 {
         font-size: 2.5em !important;
@@ -707,7 +720,7 @@ h4 {
 
     .herotwo-image {
         width: 100vw;
-        height: 30vh;
+        height: 33vh;
     }
 
 
