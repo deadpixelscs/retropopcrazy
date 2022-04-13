@@ -1416,129 +1416,242 @@ h4 {
 and (min-width: 1601px)
 and (max-width: 1792px) {
 
-html, body {
-    overflow-x: hidden;
-}
-    
-body {
-    position: relative
-}
+    html, body {
+        overflow-x: hidden;
+    }
+        
+    body {
+        position: relative
+    }
 
-#logo {
-    font-size: 2.5em;
-}
+    #logo {
+        font-size: 2.5em;
+    }
 
-#menu {
-    font-size: 2em;
-    letter-spacing: 1px;
-    padding-top: 5%;
-    padding-right: 0%;
-}
-    
-#menu li {
-    float: right;
-    list-style-type: none;
-}
+    #menu {
+        font-size: 2em;
+        letter-spacing: 1px;
+        padding-top: 5%;
+        padding-right: 0%;
+    }
+        
+    #menu li {
+        float: right;
+        list-style-type: none;
+    }
 
-.herotwo-image {
-    width: 100vw;
-    height: 40vh;
-}
+    .herotwo-image {
+        width: 100vw;
+        height: 40vh;
+    }
 
-#about-home-info {
-    font-size: 2.5em;
-}
+    #about-home-info {
+        font-size: 2.5em;
+    }
 
-#about-home-info-two {
-    font-size: 2.5em;
-}
+    #about-home-info-two {
+        font-size: 2.5em;
+    }
 
-h2 {
-    font-size: 7em;
-    padding-top: 15% !important;
-}
+    h2 {
+        font-size: 7em;
+        padding-top: 15% !important;
+    }
 
-#home-logo-motu {
-    margin-top: 0%;
-}
+    #home-logo-motu {
+        margin-top: 0%;
+    }
 
 /* ++++++++++ Vault Page Media Queries - Start +++++++++++ */
 
-#vault-center-about-info {
-    font-size: 2.5em;
-}
+    #vault-center-about-info {
+        font-size: 2.5em;
+    }
 
-#vault-header-one h4 {
-    font-size: 7em;
-    padding-top: 15%;
-    margin-right: 5%;
-    margin-left: 5%;
-}
+    #vault-header-one h4 {
+        font-size: 7em;
+        padding-top: 15%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
 
-#vault-header-two h4 {
-    font-size: 5em;
-    padding-top: 5%;
-    margin-right: 5%;
-    margin-left: 5%;
-}
+    #vault-header-two h4 {
+        font-size: 5em;
+        padding-top: 5%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
 
-.funko-boxed-header {
-    font-size: 3.5em;
-}
+    .funko-boxed-header {
+        font-size: 3.5em;
+    }
 
-.funko-boxed p {
-    font-size: 2em;
-    padding-left: 9%;
-}
+    .funko-boxed p {
+        font-size: 2em;
+        padding-left: 9%;
+    }
 
-#funko-stats-001 {
-    font-family: 'Russo One', cursive;
-    font-size: 5em;
-    text-transform: uppercase;
-    padding: 0% 8% 15% 9%;
-    color: #ffffff;
-}
+    #funko-stats-001 {
+        font-family: 'Russo One', cursive;
+        font-size: 5em;
+        text-transform: uppercase;
+        padding: 0% 8% 15% 9%;
+        color: #ffffff;
+    }
 
-.funko-boxed-header-two {
-    font-size: 3.5em;
-}
+    .funko-boxed-header-two {
+        font-size: 3.5em;
+    }
 
-.funko-boxed-two p {
-    font-size: 2em;
-    padding-left: 9%;
-}
+    .funko-boxed-two p {
+        font-size: 2em;
+        padding-left: 9%;
+    }
 
-#funko-stats-002 {
-    font-family: 'Russo One', cursive;
-    font-size: 5em;
-    text-transform: uppercase;
-    padding: 0% 8% 15% 9%;
-    color: #ffffff;
-}
+    #funko-stats-002 {
+        font-family: 'Russo One', cursive;
+        font-size: 5em;
+        text-transform: uppercase;
+        padding: 0% 8% 15% 9%;
+        color: #ffffff;
+    }
 
-/* ++++++++++ Vault Page Media Queries - End +++++++++++ */ 
+    /* ++++++++++ Vault Page Media Queries - End +++++++++++ */ 
 
-.footer-info {
-    font-size: 2.8em;
-    line-height: 42px;
-}
+    .footer-info {
+        font-size: 2.8em;
+        line-height: 42px;
+    }
 
-.social-networks {
-    font-size: 300%;
-    margin-right: 5%;
-}
+    .social-networks {
+        font-size: 300%;
+        margin-right: 5%;
+    }
 
-.footer-copyright {
-    font-size: 3em;
-}
+    .footer-copyright {
+        font-size: 3em;
+    }
 
 }
 
 @media only screen
-    and (min-width: 1793px)
-    and (max-width: 2560px) {
+and (min-width: 1793px)
+and (max-width: 2560px) {
 
-
-
-
+    html, body {
+        overflow-x: hidden;
     }
+        
+    body {
+        position: relative
+    }
+
+    #logo {
+        font-size: 3em;
+    }
+
+    #menu {
+        font-size: 2.5em;
+        letter-spacing: 1px;
+        padding-top: 5%;
+        padding-right: 0%;
+    }
+        
+    #menu li {
+        float: right;
+        list-style-type: none;
+    }
+
+    .herotwo-image {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    #about-home-info {
+        font-size: 3em;
+    }
+
+    #about-home-info-two {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 8em;
+        padding-top: 15% !important;
+    }
+
+    #home-logo-motu {
+        margin-top: 0%;
+    }
+
+/* ++++++++++ Vault Page Media Queries - Start +++++++++++ */
+
+    #vault-center-about-info {
+        font-size: 3em;
+    }
+
+    #vault-header-one h4 {
+        font-size: 8em;
+        padding-top: 15%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    #vault-header-two h4 {
+        font-size: 6em;
+        padding-top: 5%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .funko-boxed-header {
+        font-size: 4em;
+    }
+
+    .funko-boxed p {
+        font-size: 2.5em;
+        padding-left: 9%;
+    }
+
+    #funko-stats-001 {
+        font-family: 'Russo One', cursive;
+        font-size: 6em;
+        text-transform: uppercase;
+        padding: 0% 8% 15% 9%;
+        color: #ffffff;
+    }
+
+    .funko-boxed-header-two {
+        font-size: 4em;
+    }
+
+    .funko-boxed-two p {
+        font-size: 2.5em;
+        padding-left: 9%;
+    }
+
+    #funko-stats-002 {
+        font-family: 'Russo One', cursive;
+        font-size: 6em;
+        text-transform: uppercase;
+        padding: 0% 8% 15% 9%;
+        color: #ffffff;
+    }
+
+    /* ++++++++++ Vault Page Media Queries - End +++++++++++ */ 
+
+    .footer-info {
+        font-size: 3.5em;
+        line-height: 55px;
+    }
+
+    .social-networks {
+        font-size: 350%;
+        margin-right: 5%;
+    }
+
+    .footer-copyright {
+        font-size: 3.5em;
+    }
+
+}
