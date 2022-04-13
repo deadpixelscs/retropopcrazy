@@ -52,7 +52,7 @@ body {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 5%;
+    padding-right: 5%;
 }
 
 #menu a {
@@ -551,9 +551,9 @@ h4 {
     }
 
     #menu {
-        font-size: 0.6em;
+        font-size: 0.5em;
         letter-spacing: 1px;
-        padding-top: 6%;
+        padding-top: 6.5%;
         padding-right: 0%;
     }
     
@@ -659,6 +659,13 @@ h4 {
 
     #about-home-info-two {
         font-size: 1.2em;
+    }
+
+    #vault-header-one h4 {
+        font-size: 3em;
+        padding-top: 15%;
+        margin-right: 5%;
+        margin-left: 5%;
     }
 
 }
