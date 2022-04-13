@@ -259,7 +259,7 @@ h4 {
 /* Headers and Info */
 
 
-#vault-header-one h4{
+#vault-header-one h4 {
     font-size: 2.3em;
     padding-top: 22%;
     margin-right: 5%;
@@ -280,7 +280,7 @@ h4 {
 
 
 
-#vault-header-two h4{
+#vault-header-two h4 {
     font-size: 2.3em;
     padding-top: 5%;
     margin-right: 5%;
@@ -521,7 +521,7 @@ h4 {
     color: rgba(255, 255, 255, 1);
 }
 
-.footer-copyright p2 {
+.footer-copyright {
     font-family: system-ui;
     font-size: 0.4em;
     line-height: 17px;
@@ -532,7 +532,7 @@ h4 {
 
 }
 
-/* ++++++++++ Media Queries +++++++++++ */
+/* +++++++++++++++++++++++++++++ Media Queries ++++++++++++++++++++++++++++++++ */
 
 @media only screen 
     and (max-width: 320px) {
@@ -572,8 +572,6 @@ h4 {
         height: 19vh;
     }
 
-    
-
     h2 {
         font-size: 2.3em;
         padding-top: 22%;
@@ -581,7 +579,6 @@ h4 {
         margin-left: 5%;
     }
     
-
     #about-home-info {
         font-size: 1.1em;
         padding-top: 10%;
@@ -601,8 +598,6 @@ h4 {
         margin-right: 5%;
     }
 
-
-
     .funko-boxed-header h4 {
         font-family: 'Russo One', cursive;
         font-size: 2em;
@@ -615,8 +610,6 @@ h4 {
         color: #ff00bf;
     }
 
-
-    
 }
 
 @media only screen
@@ -657,7 +650,6 @@ h4 {
         width: 100vw;
         height: 29vh;
     }
-
 
     h2 {
         font-size: 2.5em !important;
@@ -722,7 +714,6 @@ h4 {
         width: 100vw;
         height: 33vh;
     }
-
 
     #vault-header-one h4 {
         font-size: 3.5em;
@@ -810,8 +801,7 @@ h4 {
         text-transform: uppercase;
         padding: 0% 8% 15% 8%;
         color: #ffffff;
-    }
-    
+    } 
 }
 
 @media only screen
@@ -852,7 +842,6 @@ h4 {
         margin-top: 0%;
     }
     
-
     /* ++++++++++ Vault Page Media Queries - Start +++++++++++ */
 
     #vault-header-one h4 {
@@ -1298,7 +1287,7 @@ h4 {
     }
 
     .footer-copyright {
-        font-size: 1.5em;
+        font-size: 0.8em;
     }
     
 }
@@ -1331,9 +1320,14 @@ h4 {
         list-style-type: none;
     }
     
+    .hero {
+        width: 100vw;
+        height: 50vh;
+    }
+
     .herotwo-image {
         width: 100vw;
-        height: 40vh;
+        height: 50vh;
     }
 
     #about-home-info {
@@ -1420,7 +1414,7 @@ h4 {
     }
 
     .footer-copyright {
-        font-size: 1.5em;
+        font-size: 0.8em;
     }
     
 }
@@ -1453,9 +1447,14 @@ and (max-width: 1792px) {
         list-style-type: none;
     }
 
+    .hero {
+        width: 100vw;
+        height: 55vh;
+    }
+
     .herotwo-image {
         width: 100vw;
-        height: 40vh;
+        height: 55vh;
     }
 
     #about-home-info {
@@ -1542,7 +1541,7 @@ and (max-width: 1792px) {
     }
 
     .footer-copyright {
-        font-size: 3em;
+        font-size: 1.5em;
     }
 
 }
@@ -1575,9 +1574,14 @@ and (max-width: 2560px) {
         list-style-type: none;
     }
 
+    .hero {
+        width: 100vw;
+        height: 60vh;
+    }
+
     .herotwo-image {
         width: 100vw;
-        height: 40vh;
+        height: 60vh;
     }
 
     #about-home-info {
@@ -1664,7 +1668,7 @@ and (max-width: 2560px) {
     }
 
     .footer-copyright {
-        font-size: 3.5em;
+        font-size: 1.8em;
     }
 
 }
