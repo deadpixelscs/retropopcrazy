@@ -1164,6 +1164,16 @@ h4 {
 
     /* ++++++++++ Vault Page Media Queries - End +++++++++++ */ 
 
+    .footer-info {
+        font-size: 0.9em;
+        line-height: 15px;
+    }
+
+    .social-networks {
+        font-size: 130%;
+        margin-right: 5%;
+    }
+
 }
 
 @media only screen
