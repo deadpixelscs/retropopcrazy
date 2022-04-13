@@ -11,7 +11,7 @@ There will also be a Radar page added later to the site which is a news feature 
 
 I hope you enjoy the website and please sign up to our monthly newsletter for news, information, reviews and competitions.
 
-INSERT IMAGE MOCKUP HERE
+
 
 # IMPORTANT
 
@@ -24,7 +24,7 @@ Unable to complete in enough time due to personal reasons. Validated what I can 
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Vault and Sign Up page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-INSERT IMAGE MOCKUP HERE
+
 
 - __The Landing Page__
 
@@ -32,28 +32,28 @@ INSERT IMAGE MOCKUP HERE
   - This section introduces the user to Retro Pop Crazy with an eye catching zoom animation to grab their attention.
   - A floating NYCC 2021 Comic Con logo can be clicked on taking the user directly to the official Comic Con website.
 
-INSERT IMAGE MOCKUP HERE
+
 
 - __About Us section__
   
   - This section tells the user who we are and what the purpose of the site is for.
   - This section introduces the user to Retro Pop Crazy with an eye catching zoom animation to grab their attention on the image designed in Photoshop.
 
-INSERT IMAGE MOCKUP HERE
+
 
 - __Vault section on landing page__
   
   - This section shows the user the Vault header with some the iconic brand logos we will be showcasing on the site.
   - This section has clickable logos that will direct the user straight to the Vault Page on the website.
 
-INSERT IMAGE MOCKUP HERE
+
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Retro Pop Crazy. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-INSERT IMAGE MOCKUP HERE
+
 
 - __Vault Page__
 
@@ -63,13 +63,13 @@ INSERT IMAGE MOCKUP HERE
   - Once a user clicks on a brand logo the page will scroll down to that specific section and allow the user to go through each Pop! image and details.
   - This section will focus on Masters of the Universe, Marvel Black Light, Star Wars with Stranger Things and misc to be added later.
 
-INSERT IMAGE MOCKUP HERE
+
 
 - __Sign Up Page__
 
   - This page will allow the user to sign up to a monthly newsletter that will be sent to their email address. The user will be able specify if they would like to receive this or not every month, name their favourite franchise, name their favourite figure. The user will also be asked to submit their full name and email address. 
 
-INSERT IMAGE MOCKUP HERE
+
 
 - __Project Progression__
 
@@ -79,32 +79,23 @@ INSERT IMAGE MOCKUP HERE
 # Features Left to Implement
 
 
-
-
 ## Testing 
 
 Problems:
 
-Lots of issues with responsive editing when working in smaller resolutions. Dev tools unable to frequently find my media queries making it difficult to progress. Crashes galore on Chrome made for a frustrating task.
-
-
 Bugs:
-
-Logos disappearing in tablet and mobile responsive modes.
-
-
 
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator]
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
+  - No errors were found when passing through the official [(Jigsaw) validator]
+  - 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+Responsiveness on join page. 
 
 ## Deployment
 
@@ -132,8 +123,6 @@ You can break the credits section up into Content and Media, depending on what y
 - All images of the characters, is fan art designed by deadpixelscs.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-
-#
 
 
 
